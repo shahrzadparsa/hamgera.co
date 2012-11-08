@@ -68,7 +68,7 @@ header div.logo {
 /*..................menu...................*/
 
 header div.upmenu nav.menutop menu {
-	margin-top: 10px;
+	margin-top: 45px;
 	z-index: 5;
 }
 
@@ -90,6 +90,8 @@ nav.menutop li:first-child {
 
 nav.menutop li:hover {
 	text-shadow: 1px 0px 1px #78c8dc;
+	border-radius: 10px;
+	border: 1px solid white;
 }
 
 header nav.menutop a {
@@ -120,7 +122,6 @@ header div.upmenu nav.menutop menu li:hover div.menuline {
 }
 
 nav.menutop menu li {
-	min-width: 100%;
 	position : absolute;
 	right    : 0;
 	top      : 60%;
@@ -382,7 +383,7 @@ div.boxes ul li a {
 }
 
 div.boxes ul li p {
-	color          : white;
+	color          : blue;
 }
 
 div.boxes ul li a h2 {
@@ -398,20 +399,26 @@ div.boxes ul li a h2 {
 /*.............................textpanel........................*/
 
 div.content .textpanel h4 {
-	color      : white;
+	color      : orange;
 	font-family: 'nazanin', Arial, sans-serif;
 	font-size  : 20px;
 	text-align : center;
+	margin-bottom: 20px;
 }
 
 div.content .textpanel p {
 	font-family: 'nazanin', Arial, sans-serif;
 	font-size  : 18px;
-	text-align : right;
+	text-align : center;
+	color: darkblue;
+}
+
+div.rightpanel {
+	margin-right: 300px;
 }
 
 .picslide h4 {
-	color      : white;
+	color      : orange;
 	font-family: 'nazanin', Arial, sans-serif;
 	font-size  : 20px;
 	text-align : right;
@@ -442,6 +449,7 @@ footer {
 	border-top: 1px solid #EDEDED;
 	margin-bottom: 10px;
 }
+
 footer div.copyright h3 {
 	color          : blue;
 	font-size      : 18px;
