@@ -414,7 +414,7 @@ div.content .textpanel p {
 }
 
 div.rightpanel {
-	margin-right: 300px;
+	margin-right: 180px;
 }
 
 .picslide h4 {
@@ -432,8 +432,10 @@ p {
 
 .leftpanel p {
 	font-family: 'nazanin', Arial, sans-serif;
-	font-size  : 19px;
+	font-size  : 18px;
 	text-align : right;
+	color: darkblue;
+	margin-top: 90px;
 }
 
 .leftpanel h4 {
@@ -460,7 +462,7 @@ footer div.copyright h3 {
 	direction      :rtl;
 	text-align     : center;
 	font-family    : 'davat', Arial, sans-serif;
-	margin-right: 180px;
+	margin-right: 70px;
 }
 
 div.under p {
