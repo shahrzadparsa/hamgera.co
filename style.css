@@ -451,7 +451,7 @@ footer {
 }
 
 footer div.copyright h3 {
-	color          : blue;
+	color          : darkblue;
 	font-size      : 18px;
 	letter-spacing : 1px;
 	text-transform : capitalize;
@@ -460,6 +460,7 @@ footer div.copyright h3 {
 	direction      :rtl;
 	text-align     : center;
 	font-family    : 'davat', Arial, sans-serif;
+	margin-right: 180px;
 }
 
 div.under p {
