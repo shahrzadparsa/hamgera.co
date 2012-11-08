@@ -1,0 +1,459 @@
+/*.................language.................*/
+
+div.lan div {
+	background-color: white;
+	opacity: 0.9;
+	border: 1px solid white;
+	border-radius: 25px;
+	margin-left: 3px;
+}
+
+div.lan div a {
+	color          : blue;
+	display        : block;
+	padding        : 7px 5px 3px;
+	font-size      : 14px;
+	letter-spacing : -1px;
+	text-transform : capitalize;
+	text-decoration: none;
+	white-space    : nowrap;
+	direction      : rtl;
+}
+
+div.lan div :hover {
+	color          : darkorange;
+}
+
+/*...................font..............*/
+
+@font-face {
+	font-family: 'Nazanin';
+	src        : url('fonts/BNazanin.eot');
+	src        : url('fonts/BNazanin.eot?#iefix') format('embedded-opentype'),
+	url('fonts/BNazanin.woff') format('woff'),
+	url('fonts/BNazanin.ttf') format('truetype');
+	font-weight: normal;
+	font-style : normal;
+}
+
+@font-face {
+	font-family: 'davat';
+	src        : url('fonts/BDavat.eot');
+	src        : url('fonts/BDavat.eot?#iefix') format('embedded-opentype'),
+	url('fonts/BDavat.woff') format('woff'),
+	url('fonts/BDavat.ttf') format('truetype');
+	font-weight: normal;
+	font-style : normal;
+}
+
+body {
+	font-family: 'Nazanin', Arial, sans-serif;
+	-webkit-font-smoothing : antialiased;
+	-moz-font-smoothing : antialiased;
+	-o-font-smoothing : antialiased;
+	-ms-font-smoothing : antialiased;
+	background-image: url('images/image1.jpg');
+	background-repeat:repeat;
+}
+
+/*........................logo........................*/
+
+header div.logo {
+	background-image : url('images/logo20.png');
+	background-repeat: no-repeat;
+	width            : 198px;
+	height           : 153px;
+}
+
+/*..................menu...................*/
+
+header div.upmenu nav.menutop menu {
+	margin-top: 10px;
+	z-index: 5;
+}
+
+header div.upmenu nav.menutop li {
+	float             : right;
+	position          : relative;
+	margin-right      : 5px;
+	-webkit-transition: all 300ms;
+	-moz-transition   : top 200ms;
+	-ms-transition    : top 200ms;
+	-o-transition     : top 200ms;
+	transition        : top 200ms;
+	z-index: 5;
+}
+
+nav.menutop li:first-child {
+	margin-left : none;
+}
+
+nav.menutop li:hover {
+	text-shadow: 1px 0px 1px #78c8dc;
+}
+
+header nav.menutop a {
+	color          : white;
+	display        : block;
+	padding        : 5px 7px 5px;
+	font-size      : 20px;
+	letter-spacing : -1px;
+	text-transform : capitalize;
+	text-decoration: none;
+	white-space    : nowrap;
+	direction      : rtl;
+	-webkit-transition: all 150ms;
+	-moz-transition   : top 150ms;
+	-ms-transition    : top 150ms;
+	-o-transition     : top 150ms;
+}
+
+header nav.menutop a:hover{
+	color             : blue;
+	text-shadow: 1px 0px 1px darkcyan;
+}
+
+header div.upmenu nav.menutop menu li:hover div.menuline {
+	background-color: #5F9FCB;
+	opacity         : 0.7;
+	border          : 0px;
+}
+
+nav.menutop menu li {
+	min-width: 100%;
+	position : absolute;
+	right    : 0;
+	top      : 60%;
+	z-index  : +2;
+}
+
+nav.menutop li:hover menu {
+	display   : block;
+}
+
+nav.menutop li li {
+	float     : none;
+	background: #5F9FCB;
+	border    : none;
+	border-top: 1px dashed white;
+	min-width : 100px;
+	min-height: 30px;
+	opacity   : 0.8;
+}
+
+/*................slide show....................*/
+
+section.slideshow {
+	min-height: 550px;
+}
+
+section.slideshow ul.train {
+}
+
+section.slideshow ul.train > li {
+	height             : 550px;
+	position           : absolute;
+	z-index            : 1;
+	left               : 0;
+	top                : 0;
+	background-repeat  : no-repeat;
+	background-size    : cover;
+	background-position: center center;
+}
+
+/*.................. animation steps ....................*/
+
+section.slideshow .train > li {
+	opacity           :0;
+	-webkit-transform : scale(0.98);
+	-webkit-transition: all 800ms ease-out;
+	-moz-transform : scale(0.98);
+	-moz-transition: all 800ms ease-out;
+	-o-transform : scale(0.98);
+	-o-transition: all 800ms ease-out;
+	-ms-transform : scale(0.98);
+	-ms-transition: all 800ms ease-out;
+}
+
+.step1 section.slideshow .train > li.pic1 {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	opacity          :1;
+}
+
+.step2 section.slideshow .train > li.pic2 {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	opacity          :1;
+}
+
+.step3 section.slideshow .train > li.pic3 {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	opacity          :1;
+}
+
+.step4 section.slideshow .train > li.pic4 {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	opacity          :1;
+}
+
+.step5 section.slideshow .train > li.pic5 {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	opacity          :1;
+}
+
+/*.......................btn slide....................*/
+
+section.slideshow menu {
+	position       : absolute;
+	z-index        : 3;
+	left           : 100px;
+	list-style-type: none;
+	margin-top     : 40px;
+	z-index: 5;
+}
+
+section.slideshow menu li {
+	float        : right;
+	width        : 32px;
+	border-radius: 25px;
+	opacity      : 0.25;
+	cursor       : pointer;
+	height       : 33px;
+	margin-left  : 5px;
+}
+
+section.slideshow menu li:hover {
+	opacity: 1;
+}
+
+section.slideshow menu li.btn1 {
+	background-image   : url('images/icon.png');
+	background-position: 0px 0px;
+}
+
+section.slideshow menu li:hover {
+	background-position: 0px 31px;
+}
+
+section.slideshow menu li.btn2  {
+	background-image   : url('images/icon.png');
+	background-position: 32px 0px;
+}
+
+section.slideshow menu li.btn2:hover {
+	background-position: 32px 31px;
+}
+
+section.slideshow menu li.btn3 {
+	background-image   : url('images/icon.png');
+	background-position: 64px 0px;
+}
+
+section.slideshow menu li.btn3:hover {
+	background-position: 64px 31px;
+}
+
+section.slideshow menu li.btn4 {
+	background-image   : url('images/icon.png');
+	background-position: 95px 0px;
+}
+
+section.slideshow menu li.btn4:hover {
+	background-position: 95px 31px;
+
+}
+section.slideshow menu li.btn5 {
+	background-image   : url('images/icon.png');
+	background-position: 128px 0px;
+} 
+
+section.slideshow menu li.btn5:hover {
+	background-position: 128px 31px;
+
+}
+
+/*........................box.......................*/
+div.boxes {
+	margin-top: -90px;
+	background-image: url('images/fade-1.png');
+	background-repeat: repeat-x;
+} 
+
+div.boxes ul li {
+	opacity           : 0.94;
+	height        : 130px;
+	z-index           : +2;
+	position          : relative;
+	margin            : 0 6px;
+	-webkit-transition: top 250ms;
+	-moz-transition: top 250ms;
+	-o-transition: top 250ms;
+}
+
+div.boxes ul li:first-child {
+	margin-left: 0;
+}
+
+div.boxes li:hover {
+	opacity: 1;
+	top    : 3px;
+}
+
+/*.........................box......................*/
+
+div.boxes li.box1 {
+	background-image :url('images/box.png');
+	background-repeat: no-repeat;
+	width            : 232px;
+}
+
+div.boxes li.box1:hover {
+	background-image   :url('images/box.png');
+	background-repeat  : no-repeat;
+	background-position: 0 -132px;	
+}
+
+div.boxes li.box2 {
+	background-image   :url('images/box.png');
+	background-repeat  : no-repeat;
+	background-position: -250px 0;
+	width              : 232px;
+}
+
+div.boxes li.box2:hover {
+	background-image   :url('images/box.png');
+	background-repeat  : no-repeat;
+	background-position: -250px -132px;
+}
+
+div.boxes li.box3 {
+	background-image   :url('images/box.png');
+	background-repeat  : no-repeat;
+	background-position: -500px 0;
+	width              : 232px;
+}
+
+div.boxes li.box3:hover {
+	background-image   :url('images/box.png');
+	background-repeat  : no-repeat;
+	background-position: -500px -132px;
+}
+
+div.boxes li.box4 {
+	background-image   :url('images/box.png');
+	background-repeat  : no-repeat;
+	background-position: -746px 0;
+	width              : 218px;
+}
+
+div.boxes li.box4:hover {
+	background-image   :url('images/box.png');
+	background-repeat  : no-repeat;
+	background-position: -746px -132px;
+}
+
+div.boxes ul li a {
+	color          : white;
+	display        : block;
+	padding        : 5px 7px 5px;
+	font-size      : 17px;
+	letter-spacing : -1px;
+	text-transform : capitalize;
+	text-decoration: none;
+	white-space    : nowrap;
+	direction      :rtl;
+	text-align     : right;
+	margin-right   : 15px;
+}
+
+div.boxes ul li p {
+	color          : white;
+}
+
+div.boxes ul li a h2 {
+	color                 : orange;
+	font-size             : 23px;
+	font-family           : 'davat', Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing : antialiased;
+	-o-font-smoothing : antialiased;
+	-ms-font-smoothing : antialiased;
+}
+
+/*.............................textpanel........................*/
+
+div.content .textpanel h4 {
+	color      : white;
+	font-family: 'nazanin', Arial, sans-serif;
+	font-size  : 20px;
+	text-align : center;
+}
+
+div.content .textpanel p {
+	font-family: 'nazanin', Arial, sans-serif;
+	font-size  : 18px;
+	text-align : right;
+}
+
+.picslide h4 {
+	color      : white;
+	font-family: 'nazanin', Arial, sans-serif;
+	font-size  : 20px;
+	text-align : right;
+}
+
+p {
+	color      :#78c8dc;
+	text-align : right;
+	line-height: 25px;
+}
+
+.leftpanel p {
+	font-family: 'nazanin', Arial, sans-serif;
+	font-size  : 19px;
+	text-align : right;
+}
+
+.leftpanel h4 {
+	color      : white;
+	font-family: 'nazanin', Arial, sans-serif;
+	font-size  : 20px;
+	text-align : center;
+}
+
+/*....................copyright...................*/
+
+footer div.copyright h3 {
+	color          : blue;
+	font-size      : 18px;
+	letter-spacing : 1px;
+	text-transform : capitalize;
+	text-decoration: none;
+	white-space    : nowrap;
+	direction      :rtl;
+	text-align     : center;
+	font-family    : 'davat', Arial, sans-serif;
+}
+
+div.under p {
+	color: white;
+	opacity: .4;
+}
+
+ hr {
+	opacity: .4;
+}
