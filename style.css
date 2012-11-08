@@ -53,7 +53,7 @@ body {
 	-o-font-smoothing : antialiased;
 	-ms-font-smoothing : antialiased;
 	background-image: url('images/image1.jpg');
-	background-repeat:repeat;
+	background-repeat:no-repeat;
 }
 
 /*........................logo........................*/
@@ -108,7 +108,7 @@ header nav.menutop a {
 	-o-transition     : top 150ms;
 }
 
-header nav.menutop a:hover{
+header nav.menutop a:hover {
 	color             : blue;
 	text-shadow: 1px 0px 1px darkcyan;
 }
@@ -287,6 +287,7 @@ section.slideshow menu li.btn5:hover {
 }
 
 /*........................box.......................*/
+
 div.boxes {
 	margin-top: -90px;
 	background-image: url('images/fade-1.png');
@@ -437,6 +438,10 @@ p {
 
 /*....................copyright...................*/
 
+footer {
+	border-top: 1px solid #EDEDED;
+	margin-bottom: 10px;
+}
 footer div.copyright h3 {
 	color          : blue;
 	font-size      : 18px;
@@ -456,4 +461,16 @@ div.under p {
 
  hr {
 	opacity: .4;
+}
+
+.noise {
+	background-image   : url('images/noise.png');
+	background-repeat  : repeat;
+	background-position: left top;
+	bottom             : 0;
+	top                : 0;
+	right              : 0;
+	left               : 0;
+	position           : fixed;
+	z-index            :-1;
 }
