@@ -1,4 +1,7 @@
 /*.................language.................*/
+body.about div.language {
+	margin-left: 120px;
+}
 
 body.about div.lan div {
 	background-color: white;
@@ -26,7 +29,7 @@ body.about div.lan div :hover {
 
 /*...................font..............*/
 
-@font-face {
+body.about @font-face {
 	font-family: 'Nazanin';
 	src        : url('fonts/BNazanin.eot');
 	src        : url('fonts/BNazanin.eot?#iefix') format('embedded-opentype'),
@@ -36,7 +39,7 @@ body.about div.lan div :hover {
 	font-style : normal;
 }
 
-@font-face {
+body.about @font-face {
 	font-family: 'davat';
 	src        : url('fonts/BDavat.eot');
 	src        : url('fonts/BDavat.eot?#iefix') format('embedded-opentype'),
@@ -66,12 +69,12 @@ body.about header div.logo {
 
 /*..................menu...................*/
 
-body.about header div.upmenu nav.menutop menu {
+body.about header  nav menu {
 	margin-top: 45px;
 	z-index: 5;
 }
 
-body.about header div.upmenu nav.menutop li {
+body.about header nav li {
 	float             : right;
 	position          : relative;
 	-webkit-transition: all 300ms;
@@ -82,15 +85,15 @@ body.about header div.upmenu nav.menutop li {
 	z-index: 5;
 }
 
-body.about nav.menutop li:first-child {
+body.about nav li:first-child {
 	margin-left : none;
 }
 
-body.about nav.menutop li:hover {
+body.about nav li:hover {
 	text-shadow: 1px 0px 1px #78c8dc;
 }
 
-body.about header nav.menutop menu li a {
+body.about header nav menu li a {
 	display:block;
 	color:black;
 	font-size:18px;
@@ -109,28 +112,16 @@ body.about header nav.menutop menu li a {
 	-ms-transition:all 300ms;
 }
 
-body.about header nav.menutop menu li a:hover {
+body.about header nav menu li a:hover {
 	background-color:white;	
 }
 
-body.about header div.upmenu nav.menutop menu li:hover div.menuline {
-	background-color: #5F9FCB;
-	opacity         : 0.7;
-	border          : 0px;
-}
 
-body.about nav.menutop menu li {
-	position : absolute;
-	right    : 0;
-	top      : 60%;
-	z-index  : +2;
-}
-
-body.about nav.menutop li:hover menu {
+body.about nav li:hover menu {
 	display   : block;
 }
 
-body.about nav.menutop li li {
+body.about nav li li {
 	float     : none;
 	background: #5F9FCB;
 	border    : none;
@@ -139,22 +130,21 @@ body.about nav.menutop li li {
 	min-height: 30px;
 	opacity   : 0.8;
 }
-
 /*................content....................*/
 
 /*content..........................................................*/
 
-body.about div.content {
+body.about div.container-content {
 	min-height: 650px;
 }
 
-body.about div.content img {
+body.about div.container-content img {
 	border: 5px solid darkblue;
 	border-radius: 5px;
 	margin-left: 90px;
 }
 
-body.about div.content section.text {
+body.about div.container-content section.text {
 	float: left;
 	width: 550px;
 	height: 350px;
@@ -162,7 +152,7 @@ body.about div.content section.text {
 	margin-top: 20px;
 }
 
-body.about div.content section.text article h2 {
+body.about div.container-content section.text article h2 {
 	font-size: 22px;
 	font-family:  Arial, Helvetica, sans-serif;
 	color: red;
@@ -171,7 +161,7 @@ body.about div.content section.text article h2 {
 	text-align: center;
 }
 
-body.about div.content section.text article p {
+body.about div.container-content section.text article p {
 	font-size: 14px;
 	font-family: Arial, Helvetica, sans-serif;
 	color: blue;
@@ -186,7 +176,7 @@ body.about footer {
 	margin-bottom: 10px;
 }
 
-body.about footer div.copyright h3 {
+body.about footer p.copy {
 	color          : darkblue;
 	font-size      : 18px;
 	letter-spacing : 1px;
