@@ -1,0 +1,585 @@
+/*.................language.................*/
+
+div.lan div {
+	background-color: white;
+	opacity: 0.9;
+	border: 1px solid white;
+	border-radius: 25px;
+	margin-left: 30px;
+}
+
+div.lan div a {
+	color          : blue;
+	display        : block;
+	padding        : 7px 5px 3px;
+	font-size      : 14px;
+	letter-spacing : -1px;
+	text-transform : capitalize;
+	text-decoration: none;
+	white-space    : nowrap;
+	direction      : rtl;
+}
+
+div.lan div :hover {
+	color          : darkorange;
+}
+/*....................................*/
+@charset "utf-8";
+
+@font-face {
+	font-family:'Yekan';
+	src:url('../font/byekan.eot');
+	src:url('../font/byekan.eot?#iefix') format('embedded-opentype'),
+		url('../font/byekan.woff') format('woff'),
+		url('../font/byekan.ttf') format('truetype'),
+		url('../font/byekan.svg#byekan') format('svg');
+	font-style:normal;
+	font-weight:normal;
+}
+
+body {
+	/*background-size:cover;*/
+	background:url('../images/noise.png') repeat left top,url('../images/bg.jpg') repeat-x left top;	
+}
+
+div[class|=container] {
+	width:auto;
+	display:block;	
+}
+
+div[class|=container] > * {
+	width:980px;	
+	margin:0px auto;
+}
+
+div.container-top {
+	min-height:50px;	
+}
+
+div.container-slider {
+	border:1px solid brown;
+}
+
+div.container-box {
+	min-height:200px;
+	border:2px dotted red;
+	background:url('../images/fade-1.png') repeat-x;
+}
+
+div.container-content {
+	min-height:300px;	
+	background-color:white;
+	border:1px dashed blue;
+}
+
+div.container-bottom {
+	min-height:50px;	
+	background-color:white;
+}
+
+header {
+	min-height:50px;
+	border:1px dotted magenta;
+}
+
+header div.logo {
+	position: relative;
+	top:25px;
+	float:left;
+	width:0px;
+	height:50px;
+	padding-left: 250px;
+	overflow: hidden;
+	background-color: #FAE592;
+	z-index: 100;
+}
+/*...................menu...................*/
+header nav menu {
+	margin-top: 45px;
+	z-index: 5;
+}
+
+header  nav li {
+	float             : right;
+	position          : relative;
+	-webkit-transition: all 300ms;
+	-moz-transition   : top 200ms;
+	-ms-transition    : top 200ms;
+	-o-transition     : top 200ms;
+	transition        : top 200ms;
+	z-index: 5;
+}
+
+nav li:first-child {
+	margin-left : none;
+}
+
+nav li:hover {
+	text-shadow: 1px 0px 1px #78c8dc;
+}
+
+header nav menu li a {
+	display:block;
+	color:black;
+	font-size:18px;
+	padding:7px 10px;
+	border-radius:20px;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	-o-border-radius:20px;
+	-ms-border-radius:20px;
+	text-decoration:none;
+	font-family: Yekan, Arial, Helvetica, sans-serif;
+	transition:all 300ms;
+	-webkit-transition:all 300ms;	
+	-moz-transition:all 300ms;	
+	-o-transition:all 300ms;	
+	-ms-transition:all 300ms;
+}
+
+header nav menu li a:hover {
+	background-color:white;	
+}
+
+nav menu li {
+	position : absolute;
+	right    : 0;
+	top      : 60%;
+	z-index  : +2;
+}
+
+nav li:hover menu {
+	display   : block;
+}
+
+nav li li {
+	float     : none;
+	background: #5F9FCB;
+	border    : none;
+	border-top: 1px dashed white;
+	min-width : 100px;
+	min-height: 30px;
+	opacity   : 0.8;
+}
+
+header nav {
+	width:auto;
+	margin-top:10px;	
+	margin-left:270px;
+}
+
+header nav menu li {
+	float:right;
+	list-style-type:none;	
+}
+
+div.slider {
+	height:400px;
+	background-color:rgba(55,55,55,0.1);	
+}
+/*........................box.......................*/
+
+div.boxes {
+	min-height:175px;
+	background:url('images/fade-1.png') repeat-x;
+} 
+
+div.boxes ul li {
+	opacity           : 0.94;
+	height        : 130px;
+	z-index           : +2;
+	position          : relative;
+	margin            : 0 6px;
+	-webkit-transition: top 250ms;
+	-moz-transition: top 250ms;
+	-o-transition: top 250ms;
+}
+
+/*.........................box......................*/
+
+div.boxes li.box1 {
+	background-image :url('images/box.png');
+	background-repeat: no-repeat;
+	width            : 232px;
+}
+
+div.boxes li.box1:hover {
+	background-image   :url('images/box.png');
+	background-repeat  : no-repeat;
+	background-position: 0 -132px;	
+}
+
+div.boxes li.box2 {
+	background-image   :url('images/box.png');
+	background-repeat  : no-repeat;
+	background-position: -250px 0;
+	width              : 232px;
+}
+
+div.boxes li.box2:hover {
+	background-image   :url('images/box.png');
+	background-repeat  : no-repeat;
+	background-position: -250px -132px;
+}
+
+div.boxes li.box3 {
+	background-image   :url('images/box.png');
+	background-repeat  : no-repeat;
+	background-position: -500px 0;
+	width              : 232px;
+}
+
+div.boxes li.box3:hover {
+	background-image   :url('images/box.png');
+	background-repeat  : no-repeat;
+	background-position: -500px -132px;
+}
+
+div.boxes li.box4 {
+	background-image   :url('images/box.png');
+	background-repeat  : no-repeat;
+	background-position: -746px 0;
+	width              : 218px;
+}
+
+div.boxes li.box4:hover {
+	background-image   :url('images/box.png');
+	background-repeat  : no-repeat;
+	background-position: -746px -132px;
+}
+
+div.boxes ul li a {
+	color          : white;
+	display        : block;
+	padding        : 5px 7px 5px;
+	font-size      : 17px;
+	letter-spacing : -1px;
+	text-transform : capitalize;
+	text-decoration: none;
+	white-space    : nowrap;
+	direction      :rtl;
+	text-align     : right;
+	margin-right   : 15px;
+}
+
+div.boxes ul li p {
+	color          : blue;
+}
+
+div.boxes ul li a h2 {
+	color                 : orange;
+	font-size             : 23px;
+	font-family           : 'davat', Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing : antialiased;
+	-o-font-smoothing : antialiased;
+	-ms-font-smoothing : antialiased;
+}
+
+
+div.content {
+	min-height:300px;
+	background-color:rgba(0,185,185,0.2);
+}
+
+div.content div.txt {
+	min-height:300px;
+	background-color:white;
+}
+
+div.content div.txt div.left {
+	float:left;
+	width:250px;
+	min-height:300px;
+	border:1px dashed green;	
+}
+
+div.content div.txt div.center {
+	float:left;
+	width:250px;
+	min-height:300px;
+	margin-left:20px;
+	border:1px dotted silver;	
+}
+
+div.content div.txt div.right {
+	float:none;
+	width:auto;
+	min-height:300px;
+	margin-left:540px;	
+	border:1px solid black;
+}
+
+footer {
+	background-color:#E5E5E5;	
+}
+
+footer p.copy {
+	width:490px;
+	height:50px;
+	color: darkblue;
+	font-size: 18px;
+	text-align: center;
+}	
+
+footer div.follow {
+	margin-left:490px;	
+	width:auto;
+	height:50px;
+	border:1px dotted blue;
+}
+
+footer div.follow li {
+	float:right;	
+}
+
+/* Custom Page */
+
+div.container-box h3 {
+	font-size:20px;
+	margin-top:100px;
+	text-align:right;	
+	font-family:'Yekan';
+}
+
+div.container-contact form {
+	padding:1px;
+	width:750px;
+	margin:0px auto;	
+	font-family:'Yekan';
+}
+
+div.container-contact form input {
+	width:300px;
+	float:right;	
+}
+
+div.container-contact form input,
+div.container-contact div.bottom textarea {
+	background:url('../images/email.png') no-repeat;
+}
+
+div.container-contact div.right {
+	width:350px;
+	float:right;	
+	height:100px;
+	border:1px dotted blue;
+}
+
+div.container-contact div.left {
+	float:none;
+	width:auto;
+	height:100px;
+	margin-right:380px;	
+	border:1px dotted black;
+}
+
+div.container-contact div.bottom {
+	min-height:300px;
+}
+
+div.container-contact div.bottom textarea {
+	float:right;
+	width:340px;
+	resize:none;
+	height:200px;
+	border:1px solid #299691;	
+}
+
+div.container-contact div.bottom iframe {
+	width:auto;
+	margin-left:20px;
+	border:1px solid black;
+}
+
+div.container-contact div.right input:first-child,
+div.container-contact div.left input:first-child {
+	margin-bottom:30px;
+}
+
+div.container-contact div.right #name {
+	background-position:6px 0px;	
+}
+
+div.container-contact div.right #mail {
+	background-position:6px -93px;	
+}
+
+div.container-contact div.left #url {
+	background-position:6px -46px;	
+}
+
+div.container-contact div.left #subject {
+	background-position:6px -198px;	
+}
+
+div.container-contact div.bottom #txt {
+	background-position:6px -198px;	
+}
+
+
+/*------ Begin of Slider ----------------------------*/
+
+div.contain-slider{
+	/*min-height: 400px;*/
+	/*margin: 100px 0 0;*/
+	position:relative;
+	border:1px solid red;
+}
+
+div.contain-slider > div.slider{
+	width:980px;
+	margin:0px auto;
+	overflow:hidden;
+	position:relative;
+	border:1px solid blue;
+}
+
+div.contain-slider > div.slider > div.train{
+	height:400px;
+	position:relative;
+	border:1px solid orange;
+}
+
+div.contain-slider > div.slider > div.train > section{
+	top:0px;
+	left:0px;
+	z-index:0;
+	width:980px;
+	height:400px;
+	position:absolute;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+div.contain-slider > div.arrow{
+	width:41px; /*151px*/
+	z-index:1000;
+	height:400px; /*85px*/
+	cursor:pointer;
+	overflow:hidden;
+	position:absolute;
+}
+
+/*------pre arrow---------------------------------------------------------------*/
+div.contain-slider > div.pre{
+	top:0px;
+	left:0px;
+}
+
+div.contain-slider > div.pre div.contain-pre-nav{
+	width:110px;
+	height:85px;
+	float:right; /*for fix js function*/
+	padding-right:41px;
+	margin:155px 0px 0px;
+	border:1px solid #803300;
+	background:url('../images/next_pre_nav.png') no-repeat right -170px;
+}
+
+div.contain-slider > div.pre div.contain-pre-nav > ul.nav-pre,
+div.contain-slider > div.next div.contain-next-nav > ul.nav-next{
+	width:110px;
+	height:85px;
+	overflow:hidden;
+	position:relative;
+}
+
+div.contain-slider > div.pre div.contain-pre-nav > ul.nav-pre > li,
+div.contain-slider > div.next div.contain-next-nav > ul.nav-next > li{
+	top:0px;
+	left:0px;
+	position:absolute;
+}
+
+div.contain-slider > div.pre div.contain-pre-nav > ul.nav-pre > li > a,
+div.contain-slider > div.next div.contain-next-nav > ul.nav-next > li > a{
+	width:110px;
+	height:85px;
+	display:block;
+	background-size:cover;
+}
+
+/*------next arrow---------------------------------------------------------------*/
+div.contain-slider > div.next{
+	top:0px;
+	right:0px;
+}
+	
+div.contain-slider > div.next div.contain-next-nav{
+	float:left;
+	width:110px;
+	height:85px;
+	padding-left:41px;
+	margin:155px 0px 0px;
+	border:1px solid #803300;
+	background:url('../images/next_pre_nav.png') no-repeat left top;
+}
+
+/*------ul.nav-slider------------------------------------------------------------*/
+div.contain-slider > div.slider > ul.nav-slider{
+	left:0px;
+	bottom:0px;
+	z-index:100;
+	position:absolute;
+	list-style-type:none;
+}
+
+div.contain-slider > div.slider > ul.nav-slider > li{
+	float:left;
+}
+
+div.contain-slider > div.slider > ul.nav-slider > li > a{
+	width:100px;
+	display:block; 
+	border:1px solid red;
+}
+/*------ End of Slider ----------------------------------------*/
+/*.............................textpanel........................*/
+
+div.content .textpanel h4 {
+	color      : orange;
+	font-family: 'nazanin', Arial, sans-serif;
+	font-size  : 20px;
+	text-align : center;
+	margin-bottom: 20px;
+}
+
+div.content .textpanel p {
+	font-family: 'nazanin', Arial, sans-serif;
+	font-size  : 18px;
+	text-align : center;
+	color: darkblue;
+}
+
+div.rightpanel {
+	margin-right: 180px;
+}
+
+.picslide h4 {
+	color      : orange;
+	font-family: 'nazanin', Arial, sans-serif;
+	font-size  : 20px;
+	text-align : right;
+}
+
+.picslide p {
+	color      :#78c8dc;
+	text-align : right;
+	line-height: 25px;
+}
+
+.leftpanel p {
+	font-family: 'nazanin', Arial, sans-serif;
+	font-size  : 18px;
+	text-align : right;
+	color: darkblue;
+	margin-top: 90px;
+}
+
+.leftpanel h4 {
+	color      : white;
+	font-family: 'nazanin', Arial, sans-serif;
+	font-size  : 20px;
+	text-align : center;
+}
