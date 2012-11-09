@@ -153,7 +153,6 @@ div.contain-slider{
 	/*min-height: 400px;*/
 	/*margin: 100px 0 0;*/
 	position:relative;
-	border:1px solid red;
 }
 
 div.contain-slider > div.slider{
@@ -161,13 +160,11 @@ div.contain-slider > div.slider{
 	margin:0px auto;
 	overflow:hidden;
 	position:relative;
-	border:1px solid blue;
 }
 
 div.contain-slider > div.slider > div.train{
 	height:400px;
 	position:relative;
-	border:1px solid orange;
 }
 
 div.contain-slider > div.slider > div.train > section{
