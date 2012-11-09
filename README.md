@@ -26,7 +26,7 @@ This website is for hamgera company who produce different software and work arou
 * [Ali Mihandoost](http://github.com/alimd) Teacher / Technical Manager
 * [Ali Aghasizadeh](http://github.com/aligh) Technical Advisor
 * [Shahrzad Parsa](https://github.com/SharzadParsa) Project Manager / Graphic Designer / Developer
-* [Shima Pichaghsaz](https://github.com/shpichaghsaz) Designer / Developer
+* [omid gharib](https://github.com/omidgharib) Designer / Developer
 * [Maede Kafiyan Safari](https://github.com/m-kafiyan) Designer / Developer
 
 
