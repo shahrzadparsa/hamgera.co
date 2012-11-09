@@ -52,8 +52,7 @@ body {
 	-moz-font-smoothing : antialiased;
 	-o-font-smoothing : antialiased;
 	-ms-font-smoothing : antialiased;
-	background-image: url('images/image1.jpg');
-	background-repeat:no-repeat;
+	background:url('images/noise.png') repeat left top,url('images/bg.jpg') repeat-x left top;
 }
 
 /*........................logo........................*/
@@ -75,7 +74,6 @@ header div.upmenu nav.menutop menu {
 header div.upmenu nav.menutop li {
 	float             : right;
 	position          : relative;
-	margin-right      : 5px;
 	-webkit-transition: all 300ms;
 	-moz-transition   : top 200ms;
 	-ms-transition    : top 200ms;
@@ -90,29 +88,29 @@ nav.menutop li:first-child {
 
 nav.menutop li:hover {
 	text-shadow: 1px 0px 1px #78c8dc;
-	border-radius: 10px;
-	border: 1px solid white;
 }
 
-header nav.menutop a {
-	color          : white;
-	display        : block;
-	padding        : 5px 7px 5px;
-	font-size      : 20px;
-	letter-spacing : -1px;
-	text-transform : capitalize;
-	text-decoration: none;
-	white-space    : nowrap;
-	direction      : rtl;
-	-webkit-transition: all 150ms;
-	-moz-transition   : top 150ms;
-	-ms-transition    : top 150ms;
-	-o-transition     : top 150ms;
+header nav.menutop menu li a {
+	display:block;
+	color:black;
+	font-size:18px;
+	padding:7px 10px;
+	border-radius:20px;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	-o-border-radius:20px;
+	-ms-border-radius:20px;
+	text-decoration:none;
+	font-family: Yekan, Arial, Helvetica, sans-serif;
+	transition:all 300ms;
+	-webkit-transition:all 300ms;	
+	-moz-transition:all 300ms;	
+	-o-transition:all 300ms;	
+	-ms-transition:all 300ms;
 }
 
-header nav.menutop a:hover {
-	color             : blue;
-	text-shadow: 1px 0px 1px darkcyan;
+header nav.menutop menu li a:hover {
+	background-color:white;	
 }
 
 header div.upmenu nav.menutop menu li:hover div.menuline {
@@ -144,155 +142,137 @@ nav.menutop li li {
 
 /*................slide show....................*/
 
-section.slideshow {
-	min-height: 550px;
-}
-
-section.slideshow ul.train {
-}
-
-section.slideshow ul.train > li {
-	height             : 550px;
-	position           : absolute;
-	z-index            : 1;
-	left               : 0;
-	top                : 0;
-	background-repeat  : no-repeat;
-	background-size    : cover;
-	background-position: center center;
-}
 
 /*.................. animation steps ....................*/
-
-section.slideshow .train > li {
-	opacity           :0;
-	-webkit-transform : scale(0.98);
-	-webkit-transition: all 800ms ease-out;
-	-moz-transform : scale(0.98);
-	-moz-transition: all 800ms ease-out;
-	-o-transform : scale(0.98);
-	-o-transition: all 800ms ease-out;
-	-ms-transform : scale(0.98);
-	-ms-transition: all 800ms ease-out;
+div.slider {
+	height:400px;
+	background-color:rgba(55,55,55,0.1);	
 }
 
-.step1 section.slideshow .train > li.pic1 {
-	-webkit-transform: scale(1);
-	-moz-transform: scale(1);
-	-o-transform: scale(1);
-	-ms-transform: scale(1);
-	opacity          :1;
+div.contain-slider{
+	/*min-height: 400px;*/
+	/*margin: 100px 0 0;*/
+	position:relative;
+	border:1px solid red;
 }
 
-.step2 section.slideshow .train > li.pic2 {
-	-webkit-transform: scale(1);
-	-moz-transform: scale(1);
-	-o-transform: scale(1);
-	-ms-transform: scale(1);
-	opacity          :1;
+div.contain-slider > div.slider{
+	width:980px;
+	margin:0px auto;
+	overflow:hidden;
+	position:relative;
+	border:1px solid blue;
 }
 
-.step3 section.slideshow .train > li.pic3 {
-	-webkit-transform: scale(1);
-	-moz-transform: scale(1);
-	-o-transform: scale(1);
-	-ms-transform: scale(1);
-	opacity          :1;
+div.contain-slider > div.slider > div.train{
+	height:400px;
+	position:relative;
+	border:1px solid orange;
 }
 
-.step4 section.slideshow .train > li.pic4 {
-	-webkit-transform: scale(1);
-	-moz-transform: scale(1);
-	-o-transform: scale(1);
-	-ms-transform: scale(1);
-	opacity          :1;
+div.contain-slider > div.slider > div.train > section{
+	top:0px;
+	left:0px;
+	z-index:0;
+	width:980px;
+	height:400px;
+	position:absolute;
+	background-size:cover;
+	background-repeat:no-repeat;
 }
 
-.step5 section.slideshow .train > li.pic5 {
-	-webkit-transform: scale(1);
-	-moz-transform: scale(1);
-	-o-transform: scale(1);
-	-ms-transform: scale(1);
-	opacity          :1;
+div.contain-slider > div.arrow{
+	width:41px; /*151px*/
+	z-index:1000;
+	height:400px; /*85px*/
+	cursor:pointer;
+	overflow:hidden;
+	position:absolute;
 }
 
-/*.......................btn slide....................*/
-
-section.slideshow menu {
-	position       : absolute;
-	z-index        : 3;
-	left           : 100px;
-	list-style-type: none;
-	margin-top     : 40px;
-	z-index: 5;
+/*-------------------------------------------------------------------------------*/
+/*------pre arrow---------------------------------------------------------------*/
+div.contain-slider > div.pre{
+	top:0px;
+	left:0px;
 }
 
-section.slideshow menu li {
-	float        : right;
-	width        : 32px;
-	border-radius: 25px;
-	opacity      : 0.25;
-	cursor       : pointer;
-	height       : 33px;
-	margin-left  : 5px;
+div.contain-slider > div.pre div.contain-pre-nav{
+	width:110px;
+	height:85px;
+	float:right; /*for fix js function*/
+	padding-right:41px;
+	margin:155px 0px 0px;
+	border:1px solid #803300;
+	background:url('images/next_pre_nav.png') no-repeat right -170px;
 }
 
-section.slideshow menu li:hover {
-	opacity: 1;
+div.contain-slider > div.pre div.contain-pre-nav > ul.nav-pre,
+div.contain-slider > div.next div.contain-next-nav > ul.nav-next{
+	width:110px;
+	height:85px;
+	overflow:hidden;
+	position:relative;
 }
 
-section.slideshow menu li.btn1 {
-	background-image   : url('images/icon.png');
-	background-position: 0px 0px;
+div.contain-slider > div.pre div.contain-pre-nav > ul.nav-pre > li,
+div.contain-slider > div.next div.contain-next-nav > ul.nav-next > li{
+	top:0px;
+	left:0px;
+	position:absolute;
 }
 
-section.slideshow menu li:hover {
-	background-position: 0px 31px;
+div.contain-slider > div.pre div.contain-pre-nav > ul.nav-pre > li > a,
+div.contain-slider > div.next div.contain-next-nav > ul.nav-next > li > a{
+	width:110px;
+	height:85px;
+	display:block;
+	background-size:cover;
 }
 
-section.slideshow menu li.btn2  {
-	background-image   : url('images/icon.png');
-	background-position: 32px 0px;
+/*-------------------------------------------------------------------------------*/
+/*------next arrow---------------------------------------------------------------*/
+div.contain-slider > div.next{
+	top:0px;
+	right:0px;
+}
+	
+div.contain-slider > div.next div.contain-next-nav{
+	float:left;
+	width:110px;
+	height:85px;
+	padding-left:41px;
+	margin:155px 0px 0px;
+	border:1px solid #803300;
+	background:url('images/next_pre_nav.png') no-repeat left top;
 }
 
-section.slideshow menu li.btn2:hover {
-	background-position: 32px 31px;
+/*-------------------------------------------------------------------------------*/
+/*------ul.nav-slider------------------------------------------------------------*/
+div.contain-slider > div.slider > ul.nav-slider{
+	left:0px;
+	bottom:0px;
+	z-index:100;
+	position:absolute;
+	list-style-type:none;
 }
 
-section.slideshow menu li.btn3 {
-	background-image   : url('images/icon.png');
-	background-position: 64px 0px;
+div.contain-slider > div.slider > ul.nav-slider > li{
+	float:left;
 }
 
-section.slideshow menu li.btn3:hover {
-	background-position: 64px 31px;
+div.contain-slider > div.slider > ul.nav-slider > li > a{
+	width:100px;
+	display:block; 
+	border:1px solid red;
 }
 
-section.slideshow menu li.btn4 {
-	background-image   : url('images/icon.png');
-	background-position: 95px 0px;
-}
-
-section.slideshow menu li.btn4:hover {
-	background-position: 95px 31px;
-
-}
-section.slideshow menu li.btn5 {
-	background-image   : url('images/icon.png');
-	background-position: 128px 0px;
-} 
-
-section.slideshow menu li.btn5:hover {
-	background-position: 128px 31px;
-
-}
 
 /*........................box.......................*/
 
 div.boxes {
-	margin-top: -90px;
-	background-image: url('images/fade-1.png');
-	background-repeat: repeat-x;
+	min-height:100px;
+	background:url('images/fade-1.png') repeat-x;
 } 
 
 div.boxes ul li {
@@ -463,6 +443,12 @@ footer div.copyright h3 {
 	text-align     : center;
 	font-family    : 'davat', Arial, sans-serif;
 	margin-right: 70px;
+}
+
+footer div.follow {
+	margin-left:490px;	
+	width:auto;
+	height:50px;
 }
 
 div.under p {
