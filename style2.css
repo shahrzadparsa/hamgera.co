@@ -379,37 +379,22 @@ div.boxes ul li a h2 {
 
 /*.............................textpanel........................*/
 
-div.content .textpanel h4 {
+div.content .textpanel {
 	color      : orange;
-	font-family: 'nazanin', Arial, sans-serif;
-	font-size  : 20px;
-	text-align : center;
-	margin-bottom: 20px;
+	
 }
 
-div.content .textpanel p {
-	font-family: 'nazanin', Arial, sans-serif;
-	font-size  : 18px;
+div.content .textpanel {
+
 	text-align : center;
 	color: darkblue;
 }
 
 div.rightpanel {
-	margin-right: 180px;
+	width: 974px;
+	margin: 0 auto
 }
 
-.picslide h4 {
-	color      : orange;
-	font-family: 'nazanin', Arial, sans-serif;
-	font-size  : 20px;
-	text-align : right;
-}
-
-.picslide p {
-	color      :#78c8dc;
-	text-align : right;
-	line-height: 25px;
-}
 
 .leftpanel p {
 	font-family: 'nazanin', Arial, sans-serif;
