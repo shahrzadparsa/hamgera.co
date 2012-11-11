@@ -447,6 +447,36 @@ footer div.follow {
 	margin-left:490px;	
 	width:auto;
 	height:50px;
+	position:absolute;   
+	right:0;
+}
+
+div.follow ul.list { 
+	float: left;
+	list-style: none;
+	padding: 0; 
+	width: 200px;
+} 
+
+div.follow ul.list li { 
+	float: left;
+	padding: 0 1px 0 0; 
+} 
+
+div.follow ul.list li a {
+	display: block;
+	width: 37px;
+	height: 37px;
+	overflow: hidden;
+	background: url(images/social-btns.png) 
+} 
+
+div.follow ul.list li.facebook a { 
+	background-position: -38px 0;
+} 
+
+div.follow ul.list li.twitter a {
+	background-position: -77px 0;
 }
 
 div.under p {
