@@ -430,7 +430,7 @@ footer {
 	margin-bottom: 10px;
 }
 
-footer div.copy h3 {
+footer p.copy {
 	color          : darkblue;
 	font-size      : 18px;
 	letter-spacing : 1px;
