@@ -490,11 +490,19 @@ div.under p {
 
 /************ About-page ************/
 body.about div.container-content section.text {
-	text-align: right;
+	text-align  : right;
+	padding 	: 0 20px;
+	color 		: #111;
 }
 
 body.about div.container-content section.text h2 {
-	font-size: 20px;
-	margin-bottom: 10px;
-	line-height: 20px;
+	font-size 		: 25px;
+	margin-bottom 	: 10px;
+	line-height		: 30px;
+	font-weight		: bold;  
+}
+
+body.about div.container-content section.text p {
+	font-size 	: 17px;
+	padding-left: 5px; 
 }
