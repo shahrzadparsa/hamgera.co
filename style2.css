@@ -444,7 +444,7 @@ footer p.copy {
 }
 
 footer div.follow {
-	margin-left:490px;	
+	float:right
 	width:auto;
 	height:50px;
 	position:absolute;   
