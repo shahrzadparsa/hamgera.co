@@ -418,17 +418,18 @@ footer {
 	margin-bottom: 10px;
 }
 
-footer p.copy {
+footer div.copy p {
 	color          : darkblue;
 	font-size      : 18px;
 	letter-spacing : 1px;
 	text-transform : capitalize;
 	text-decoration: none;
 	white-space    : nowrap;
-	direction      :rtl;
-	text-align     : center;
+	direction      : rtl;
+	text-align     : right;
 	font-family    : 'davat', Arial, sans-serif;
-	margin-right: 70px;
+	line-height	   : 30px; 
+	padding-top	   : 5px;
 }
 
 footer div.follow {
@@ -456,7 +457,7 @@ div.follow ul.list li a {
 	width: 37px;
 	height: 37px;
 	overflow: hidden;
-	background: url(images/social-btns.png) 
+	background: url(images/social-btns.png); 
 } 
 
 div.follow ul.list li.facebook a { 
