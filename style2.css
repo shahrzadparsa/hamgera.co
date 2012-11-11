@@ -461,19 +461,19 @@ div.follow ul.list li a {
 } 
 
 div.follow ul.list li.facebook a { 
-	background-position: -38px 0;
+	background-position: -37px 0;
 } 
 
 div.follow ul.list li.twitter a {
-	background-position: -78px 0px;
+	background-position: -77px 0px;
 }
 
 div.follow ul.list li.facebook a:hover { 
-	background-position: -38px -38px;
+	background-position: -37px -37px;
 } 
 
 div.follow ul.list li.twitter a:hover {
-	background-position: -78px -38px;
+	background-position: -77px -37px;
 }
 
 div.under p {
