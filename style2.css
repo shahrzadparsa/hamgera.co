@@ -457,7 +457,7 @@ div.follow ul.list li a {
 	width: 37px;
 	height: 37px;
 	overflow: hidden;
-	background: url(images/social-btns.png); 
+	background: url('images/social-btns.png'); 
 } 
 
 div.follow ul.list li.facebook a { 
@@ -465,7 +465,15 @@ div.follow ul.list li.facebook a {
 } 
 
 div.follow ul.list li.twitter a {
-	background-position: -77px 0;
+	background-position: -78px 0px;
+}
+
+div.follow ul.list li.facebook a:hover { 
+	background-position: -38px -38px;
+} 
+
+div.follow ul.list li.twitter a:hover {
+	background-position: -78px -38px;
 }
 
 div.under p {
