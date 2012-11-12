@@ -364,7 +364,7 @@ div.boxes ul li a {
 }
 
 div.boxes ul li p {
-	color          : blue;
+	color          : #ccc;
 }
 
 div.boxes ul li a h2 {
@@ -536,17 +536,18 @@ footer {
 	margin-bottom: 10px;
 }
 
-footer p.copy {
+footer div.copy p {
 	color          : darkblue;
 	font-size      : 18px;
 	letter-spacing : 1px;
 	text-transform : capitalize;
 	text-decoration: none;
 	white-space    : nowrap;
-	direction      :rtl;
-	text-align     : center;
+	direction      : rtl;
+	text-align     : right;
 	font-family    : 'davat', Arial, sans-serif;
-	margin-right: 70px;
+	line-height	   : 30px; 
+	padding-top	   : 5px;
 }
 
 footer div.follow {
@@ -574,15 +575,23 @@ div.follow ul.list li a {
 	width: 37px;
 	height: 37px;
 	overflow: hidden;
-	background: url(images/social-btns.png) 
+	background: url('images/social-btns.png'); 
 } 
 
 div.follow ul.list li.facebook a { 
-	background-position: -38px 0;
+	background-position: -37px 0;
 } 
 
 div.follow ul.list li.twitter a {
-	background-position: -77px 0;
+	background-position: -77px 0px;
+}
+
+div.follow ul.list li.facebook a:hover { 
+	background-position: -37px -37px;
+} 
+
+div.follow ul.list li.twitter a:hover {
+	background-position: -77px -37px;
 }
 
 div.under p {
@@ -604,4 +613,23 @@ div.under p {
 	left               : 0;
 	position           : fixed;
 	z-index            :-1;
+}
+
+/************ About-page ************/
+body.about div.container-content section.text {
+	text-align  : right;
+	padding 	: 0 20px;
+	color 		: #111;
+}
+
+body.about div.container-content section.text h2 {
+	font-size 		: 25px;
+	margin-bottom 	: 10px;
+	line-height		: 30px;
+	font-weight		: bold;  
+}
+
+body.about div.container-content section.text p {
+	font-size 	: 17px;
+	padding-left: 5px; 
 }
