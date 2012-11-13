@@ -1,0 +1,206 @@
+
+/*.................gallery.................*/
+/*.................language.................*/
+body.gallery div.language {
+	margin-left: 120px;
+}
+
+body.gallery div.lan div {
+	background-color: white;
+	opacity: 0.9;
+	border: 1px solid white;
+	border-radius: 25px;
+	margin-left: 3px;
+}
+
+body.gallery div.lan div a {
+	color          : blue;
+	display        : block;
+	padding        : 7px 5px 3px;
+	font-size      : 14px;
+	letter-spacing : -1px;
+	text-transform : capitalize;
+	text-decoration: none;
+	white-space    : nowrap;
+	direction      : rtl;
+}
+
+body.gallery div.lan div :hover {
+	color          : darkorange;
+}
+
+/*...................font..............*/
+
+body.gallery @font-face {
+	font-family: 'Nazanin';
+	src        : url('fonts/BNazanin.eot');
+	src        : url('fonts/BNazanin.eot?#iefix') format('embedded-opentype'),
+	url('fonts/BNazanin.woff') format('woff'),
+	url('fonts/BNazanin.ttf') format('truetype');
+	font-weight: normal;
+	font-style : normal;
+}
+
+body.gallery @font-face {
+	font-family: 'davat';
+	src        : url('fonts/BDavat.eot');
+	src        : url('fonts/BDavat.eot?#iefix') format('embedded-opentype'),
+	url('fonts/BDavat.woff') format('woff'),
+	url('fonts/BDavat.ttf') format('truetype');
+	font-weight: normal;
+	font-style : normal;
+}
+
+body.gallery {
+	font-family: 'Nazanin', Arial, sans-serif;
+	-webkit-font-smoothing : antialiased;
+	-moz-font-smoothing : antialiased;
+	-o-font-smoothing : antialiased;
+	-ms-font-smoothing : antialiased;
+	background:url('images/noise.png') repeat left top,url('images/bg.jpg') repeat-x left top;
+}
+
+/*........................logo........................*/
+
+body.gallery header div.logo {
+	background-image : url('images/logo20.png');
+	background-repeat: no-repeat;
+	width            : 198px;
+	height           : 153px;
+}
+
+/*..................menu...................*/
+
+body.gallery header  nav menu {
+	margin-top: 45px;
+	z-index: 5;
+}
+
+body.gallery header nav li {
+	float             : right;
+	position          : relative;
+	-webkit-transition: all 300ms;
+	-moz-transition   : top 200ms;
+	-ms-transition    : top 200ms;
+	-o-transition     : top 200ms;
+	transition        : top 200ms;
+	z-index: 5;
+}
+
+body.gallery nav li:first-child {
+	margin-left : none;
+}
+
+body.gallery nav li:hover {
+	text-shadow: 1px 0px 1px #78c8dc;
+}
+
+body.gallery header nav menu li a {
+	display:block;
+	color:black;
+	font-size:18px;
+	padding:7px 10px;
+	border-radius:20px;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	-o-border-radius:20px;
+	-ms-border-radius:20px;
+	text-decoration:none;
+	font-family: Yekan, Arial, Helvetica, sans-serif;
+	transition:all 300ms;
+	-webkit-transition:all 300ms;	
+	-moz-transition:all 300ms;	
+	-o-transition:all 300ms;	
+	-ms-transition:all 300ms;
+}
+
+body.gallery header nav menu li a:hover {
+	background-color:white;	
+}
+
+
+body.gallery nav li:hover menu {
+	display   : block;
+}
+
+body.gallery nav li li {
+	float     : none;
+	background: #5F9FCB;
+	border    : none;
+	border-top: 1px dashed white;
+	min-width : 100px;
+	min-height: 30px;
+	opacity   : 0.8;
+}
+/*................content....................*/
+
+/*content..........................................................*/
+
+body.gallery div.container-content {
+	min-height: 650px;
+}
+
+
+body.gallery .gallery {
+	width: 550px;
+}
+
+body.gallery .gallery li {
+	float: left;
+	margin-right: 15px;
+}
+
+body.gallery .gallery li a {
+	display: block;
+	border: 8px solid #FAFAFA;
+	border-bottom-width: 30px;
+	border-radius: 2px;
+}
+
+/*....................copyright...................*/
+
+body.gallery footer {
+	border-top: 1px solid #EDEDED;
+	margin-bottom: 10px;
+}
+
+body.gallery footer p.copy {
+	color          : darkblue;
+	font-size      : 18px;
+	letter-spacing : 1px;
+	text-transform : capitalize;
+	text-decoration: none;
+	white-space    : nowrap;
+	direction      :rtl;
+	text-align     : center;
+	font-family    : 'davat', Arial, sans-serif;
+	margin-right: 70px;
+}
+
+body.gallery footer div.follow {
+	margin-left:490px;	
+	width:auto;
+	height:50px;
+}
+
+body.gallery div.under p {
+	color: white;
+	opacity: .4;
+}
+
+body.gallery  hr {
+	opacity: .4;
+}
+
+body.gallery .noise {
+	background-image   : url('images/noise.png');
+	background-repeat  : repeat;
+	background-position: left top;
+	bottom             : 0;
+	top                : 0;
+	right              : 0;
+	left               : 0;
+	position           : fixed;
+	z-index            :-1;
+}
+/*.................gallery.................*/

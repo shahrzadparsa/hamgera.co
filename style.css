@@ -268,7 +268,7 @@ div.contain-slider > div.slider > ul.nav-slider > li > a{
 /*........................box.......................*/
 
 div.boxes {
-	min-height:100px;
+	min-height:175px;
 	background:url('images/fade-1.png') repeat-x;
 } 
 
@@ -401,7 +401,7 @@ div.rightpanel {
 	text-align : right;
 }
 
-p {
+.picslide p {
 	color      :#78c8dc;
 	text-align : right;
 	line-height: 25px;
