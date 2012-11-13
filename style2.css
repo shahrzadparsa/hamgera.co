@@ -277,10 +277,10 @@ div.boxes {
 
 div.boxes ul li {
 	opacity           : 0.94;
-	height        : 130px;
+	height        	  : 136px;
 	z-index           : +2;
 	position          : relative;
-	margin            : 0 6px;
+	margin            : 0 0;
 	-webkit-transition: top 250ms;
 	-moz-transition: top 250ms;
 	-o-transition: top 250ms;
@@ -300,52 +300,53 @@ div.boxes li:hover {
 div.boxes li.box1 {
 	background-image :url('images/box.png');
 	background-repeat: no-repeat;
-	width            : 232px;
+	width            : 236px;
+	background-position: -10px;
 }
 
 div.boxes li.box1:hover {
 	background-image   :url('images/box.png');
 	background-repeat  : no-repeat;
-	background-position: 0 -132px;	
+	background-position: -10px -136px;	
 }
 
 div.boxes li.box2 {
 	background-image   :url('images/box.png');
 	background-repeat  : no-repeat;
-	background-position: -250px 0;
-	width              : 232px;
+	background-position: -247px 0;
+	width              : 245px;
 }
 
 div.boxes li.box2:hover {
 	background-image   :url('images/box.png');
 	background-repeat  : no-repeat;
-	background-position: -250px -132px;
+	background-position: -247px -136px;
 }
 
 div.boxes li.box3 {
 	background-image   :url('images/box.png');
 	background-repeat  : no-repeat;
-	background-position: -500px 0;
-	width              : 232px;
+	background-position: -494px 0;
+	width              : 243px;
 }
 
 div.boxes li.box3:hover {
 	background-image   :url('images/box.png');
 	background-repeat  : no-repeat;
-	background-position: -500px -132px;
+	background-position: -493px -136px;
 }
 
 div.boxes li.box4 {
 	background-image   :url('images/box.png');
 	background-repeat  : no-repeat;
-	background-position: -746px 0;
-	width              : 218px;
+	background-position: -738px 0;
+	width              : 219px;
 }
 
 div.boxes li.box4:hover {
 	background-image   :url('images/box.png');
 	background-repeat  : no-repeat;
-	background-position: -746px -132px;
+	background-position: -738px -136px;
 }
 
 div.boxes ul li a {
