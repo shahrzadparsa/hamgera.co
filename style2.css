@@ -301,7 +301,7 @@ div.boxes li.box1 {
 	background-image :url('images/box.png');
 	background-repeat: no-repeat;
 	width            : 236px;
-	background-position: -10px;
+	background-position: -10px 0;
 }
 
 div.boxes li.box1:hover {
