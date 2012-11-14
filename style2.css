@@ -467,6 +467,7 @@ div.content div.infotext section.rightpanel div.news h1 {
 	text-transform: uppercase;
 	margin-bottom: 5px;
 	float: left;
+<<<<<<< HEAD
 }
 
 div.content div.infotext section.rightpanel div.news h1 p.pre {
@@ -571,6 +572,112 @@ div.content div.infotext section.rightpanel div.news section article.news1 div d
 	line-height: 1.38;	
 }
 
+=======
+}
+
+div.content div.infotext section.rightpanel div.news h1 p.pre {
+	margin: 2px 0 0 0;	
+	float: left;
+	overflow: hidden;
+	width: 13px;
+	height: 13px;
+	background: url(../images/sprites-set-2.png) 0 -50px no-repeat;
+	text-indent: -10001px;
+	cursor: pointer;
+}
+
+div.content div.infotext section.rightpanel div.news h1 p #navi {
+	margin-left: 16px;
+}
+
+div.content div.infotext section.rightpanel div.news ul {
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 2px 6px 0 6px;
+}
+
+div.content div.infotext section.rightpanel div.news ul li {
+	float: left;
+}
+
+div.content div.infotext section.rightpanel div.news ul li a {
+	display: block;
+	overflow: hidden;
+	width: 13px;
+	height: 13px;
+	background: url(images/sprites-set-2.png) -63px -47px no-repeat;
+	text-indent: -10001px
+}
+
+div.content div.infotext section.rightpanel div.news p.next {
+	margin: 2px 0 0 0;
+	float: left;
+	overflow: hidden;
+	width: 13px;
+	height: 13px;
+	background: url(../images/sprites-set-2.png) 0 -50px no-repeat;
+	text-indent: -10001px;
+	cursor: pointer;
+}
+
+div.content div.infotext section.rightpanel div.news p #nav {
+	background-position: -13px -50px;
+}
+
+div.content div.infotext section.rightpanel div.news section {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 168px;
+}
+
+div.content div.infotext section.rightpanel div.news section article.news1 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+	opacity: 1;
+	display: block;
+	overflow: hidden;
+	width: 450px;
+	padding-bottom: 14px;
+	background: url(images/news-box-bottom.png) 0 100% no-repeat;
+}
+
+div.content div.infotext section.rightpanel div.news section article.news1 div {
+	overflow: hidden;
+	height: 139px;
+	padding: 15px 0 0 20px;
+	background: url(images/news-box-top.png) 0 0 no-repeat;		
+}
+
+div.content div.infotext section.rightpanel div.news section article.news1 div p {
+	float: left;
+	margin-bottom: 0;
+	padding-top: 5px;
+	text-align: center;
+}
+
+div.content div.infotext section.rightpanel div.news section article.news1 div p img {
+	border-width: 0;
+}
+
+div.content div.infotext section.rightpanel div.news section article.news1 div div {
+	margin-left: 110px;
+}
+
+div.content div.infotext section.rightpanel div.news section article.news1 div div h2 {
+	margin-bottom: 1px;
+	color: #172934;
+	font: normal 1.3em
+}
+
+div.content div.infotext section.rightpanel div.news section article.news1 div div p {
+	line-height: 1.38;	
+}
+
+>>>>>>> Master/master
 div.content div.infotext section.rightpanel div.news section article.news2 {
 	top: 0px;
 	left: 0px;
@@ -639,11 +746,7 @@ footer div.copy p {
 }
 
 footer div.follow {
-	float:right
-	width:auto;
 	height:50px;
-	position:absolute;   
-	right:0;
 }
 
 div.follow ul.list { 
@@ -892,22 +995,33 @@ body.gallery footer {
 	margin-bottom: 10px;
 }
 
+<<<<<<< HEAD
+body.gallery footer div.copy p {
+=======
 body.gallery footer p.copy {
+>>>>>>> Master/master
 	color          : darkblue;
 	font-size      : 18px;
 	letter-spacing : 1px;
 	text-transform : capitalize;
 	text-decoration: none;
 	white-space    : nowrap;
+<<<<<<< HEAD
+	direction      : rtl;
+=======
 	direction      :rtl;
+>>>>>>> Master/master
 	text-align     : center;
 	font-family    : 'davat', Arial, sans-serif;
 	margin-right: 70px;
 }
 
 body.gallery footer div.follow {
+<<<<<<< HEAD
+=======
 	margin-left:490px;	
 	width:auto;
+>>>>>>> Master/master
 	height:50px;
 }
 
