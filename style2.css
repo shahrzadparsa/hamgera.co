@@ -67,7 +67,6 @@ header div.logo {
 	width            : 198px;
 	height           : 153px;
 	margin-top       : 20px;
-	margin-left      : 60px;
 }
 
 /*..................menu...................*/
@@ -278,10 +277,10 @@ div.boxes {
 
 div.boxes ul li {
 	opacity           : 0.94;
-	height        : 130px;
+	height        	  : 136px;
 	z-index           : +2;
 	position          : relative;
-	margin            : 0 6px;
+	margin            : 0 0;
 	-webkit-transition: top 250ms;
 	-moz-transition: top 250ms;
 	-o-transition: top 250ms;
@@ -301,52 +300,53 @@ div.boxes li:hover {
 div.boxes li.box1 {
 	background-image :url('images/box.png');
 	background-repeat: no-repeat;
-	width            : 232px;
+	width            : 236px;
+	background-position: -10px 0;
 }
 
 div.boxes li.box1:hover {
 	background-image   :url('images/box.png');
 	background-repeat  : no-repeat;
-	background-position: 0 -132px;	
+	background-position: -10px -136px;	
 }
 
 div.boxes li.box2 {
 	background-image   :url('images/box.png');
 	background-repeat  : no-repeat;
-	background-position: -250px 0;
-	width              : 232px;
+	background-position: -247px 0;
+	width              : 245px;
 }
 
 div.boxes li.box2:hover {
 	background-image   :url('images/box.png');
 	background-repeat  : no-repeat;
-	background-position: -250px -132px;
+	background-position: -247px -136px;
 }
 
 div.boxes li.box3 {
 	background-image   :url('images/box.png');
 	background-repeat  : no-repeat;
-	background-position: -500px 0;
-	width              : 232px;
+	background-position: -494px 0;
+	width              : 243px;
 }
 
 div.boxes li.box3:hover {
 	background-image   :url('images/box.png');
 	background-repeat  : no-repeat;
-	background-position: -500px -132px;
+	background-position: -493px -136px;
 }
 
 div.boxes li.box4 {
 	background-image   :url('images/box.png');
 	background-repeat  : no-repeat;
-	background-position: -746px 0;
-	width              : 218px;
+	background-position: -738px 0;
+	width              : 219px;
 }
 
 div.boxes li.box4:hover {
 	background-image   :url('images/box.png');
 	background-repeat  : no-repeat;
-	background-position: -746px -132px;
+	background-position: -738px -136px;
 }
 
 div.boxes ul li a {
@@ -379,37 +379,243 @@ div.boxes ul li a h2 {
 
 /*.............................textpanel........................*/
 
-div.content .textpanel {
-	color      : orange;
-	
-}
-
-div.content .textpanel {
-
-	text-align : center;
-	color: darkblue;
-}
-
-div.rightpanel {
+div.content .infotext {
 	width: 974px;
-	margin: 0 auto
+	margin: 0 auto;
+}
+
+div.content div.infotext section.leftpanel {
+	float: left;
+	width: 493px;
+	min-height: 200px;
+}
+
+div.content div.infotext section.leftpanel div {
+	overflow: hidden;
+	`width: 100%;
+}
+
+div.content div.infotext section.leftpanel div h1 {
+	margin-bottom: 20px;
+	color: #172934;
+	letter-spacing: -0.02em;
+	text-transform: uppercase;
+}
+
+div.content div.infotext section.leftpanel ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+div.content div.infotext section.leftpanel ul li {
+	position: relative;
+	float: left;
+	width: 226px;
+	padding: 0 20px 0 0;
+}
+
+div.content div.infotext section.leftpanel ul li a {
+	position: relative;
+	z-index: 10;
+	display: block;
+	width: 140px;
+	padding: 0 0 0 86px;
+}
+
+div.content div.infotext section.leftpanel ul li a article {
+	margin: 0;
+	padding: 0;
+}
+
+div.content div.infotext section.leftpanel ul li.a a article h3 {
+	color: #155B91;
+	margin-bottom :5px;
+}
+
+div.content div.infotext section.leftpanel ul li.a a article p {
+	color: #55656F;
+	line-height: 1.34;
+}
+
+div.content div.infotext section.leftpanel ul li.b a article h3 {
+	color: #C3601B;
+	margin-bottom :5px;
+}
+
+div.content div.infotext section.leftpanel ul li.b a article p {
+	color: #55656F;
+	line-height: 1.34;
 }
 
 
-.leftpanel p {
-	font-family: 'nazanin', Arial, sans-serif;
-	font-size  : 18px;
-	text-align : right;
-	color: darkblue;
-	margin-top: 90px;
+div.content div.infotext section.rightpanel  {
+	float: left;
+	width: 462px;
+	min-height: 200px;
 }
 
-.leftpanel h4 {
-	color      : white;
-	font-family: 'nazanin', Arial, sans-serif;
-	font-size  : 20px;
-	text-align : center;
+div.content div.infotext section.rightpanel div.news {
+	overflow: hidden;
+	width: 100%;
 }
+
+div.content div.infotext section.rightpanel div.news h1 {
+	margin-bottom: 20px;
+	color: #172934;
+	letter-spacing: -0.02em;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+	float: left;
+}
+
+div.content div.infotext section.rightpanel div.news h1 p.pre {
+	margin: 2px 0 0 0;	
+	float: left;
+	overflow: hidden;
+	width: 13px;
+	height: 13px;
+	background: url(../images/sprites-set-2.png) 0 -50px no-repeat;
+	text-indent: -10001px;
+	cursor: pointer;
+}
+
+div.content div.infotext section.rightpanel div.news h1 p #navi {
+	margin-left: 16px;
+}
+
+div.content div.infotext section.rightpanel div.news ul {
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 2px 6px 0 6px;
+}
+
+div.content div.infotext section.rightpanel div.news ul li {
+	float: left;
+}
+
+div.content div.infotext section.rightpanel div.news ul li a {
+	display: block;
+	overflow: hidden;
+	width: 13px;
+	height: 13px;
+	background: url(images/sprites-set-2.png) -63px -47px no-repeat;
+	text-indent: -10001px
+}
+
+div.content div.infotext section.rightpanel div.news p.next {
+	margin: 2px 0 0 0;
+	float: left;
+	overflow: hidden;
+	width: 13px;
+	height: 13px;
+	background: url(../images/sprites-set-2.png) 0 -50px no-repeat;
+	text-indent: -10001px;
+	cursor: pointer;
+}
+
+div.content div.infotext section.rightpanel div.news p #nav {
+	background-position: -13px -50px;
+}
+
+div.content div.infotext section.rightpanel div.news section {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 168px;
+}
+
+div.content div.infotext section.rightpanel div.news section article.news1 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+	opacity: 1;
+	display: block;
+	overflow: hidden;
+	width: 450px;
+	padding-bottom: 14px;
+	background: url(images/news-box-bottom.png) 0 100% no-repeat;
+}
+
+div.content div.infotext section.rightpanel div.news section article.news1 div {
+	overflow: hidden;
+	height: 139px;
+	padding: 15px 0 0 20px;
+	background: url(images/news-box-top.png) 0 0 no-repeat;		
+}
+
+div.content div.infotext section.rightpanel div.news section article.news1 div p {
+	float: left;
+	margin-bottom: 0;
+	padding-top: 5px;
+	text-align: center;
+}
+
+div.content div.infotext section.rightpanel div.news section article.news1 div p img {
+	border-width: 0;
+}
+
+div.content div.infotext section.rightpanel div.news section article.news1 div div {
+	margin-left: 110px;
+}
+
+div.content div.infotext section.rightpanel div.news section article.news1 div div h2 {
+	margin-bottom: 1px;
+	color: #172934;
+	font: normal 1.3em
+}
+
+div.content div.infotext section.rightpanel div.news section article.news1 div div p {
+	line-height: 1.38;	
+}
+
+div.content div.infotext section.rightpanel div.news section article.news2 {
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+	position: absolute;
+	display: none;
+	opacity: 0;
+	overflow: hidden;
+	width: 450px;
+	padding-bottom: 14px;
+	background: url(images/news-box-bottom.png) 0 100% no-repeat;
+}
+
+div.content div.infotext section.rightpanel div.news section article.news2 div {
+	overflow: hidden;
+	height: 139px;
+	padding: 15px 0 0 20px;
+	background: url(images/news-box-top.png) 0 0 no-repeat;
+}
+
+div.content div.infotext section.rightpanel div.news section article.news2 div p {
+	float: left;
+	margin-bottom: 0;
+	padding-top: 5px;
+	text-align: center;
+}
+
+div.content div.infotext section.rightpanel div.news section article.news2 div p img {
+	border-width: 0;
+}
+
+div.content div.infotext section.rightpanel div.news section article.news2 div div {
+	margin-left: 110px;
+}
+
+div.content div.infotext section.rightpanel div.news section article.news2 div div h2 {
+	margin-bottom: 1px;
+	color: #172934;
+	font: normal 1.3em;
+}
+
+div.content div.infotext section.rightpanel div.news section article.news2 div div p{
+	line-height: 1.38;
+}
+
 
 /*....................copyright...................*/
 
@@ -433,11 +639,7 @@ footer div.copy p {
 }
 
 footer div.follow {
-	float:right
-	width:auto;
 	height:50px;
-	position:absolute;   
-	right:0;
 }
 
 div.follow ul.list { 
@@ -515,3 +717,212 @@ body.about div.container-content section.text p {
 	font-size 	: 17px;
 	padding-left: 5px; 
 }
+
+/*.................about.................*/
+
+
+/*.................gallery.................*/
+/*.................language.................*/
+body.gallery div.language {
+	margin-left: 120px;
+}
+
+body.gallery div.lan div {
+	background-color: white;
+	opacity: 0.9;
+	border: 1px solid white;
+	border-radius: 25px;
+	margin-left: 3px;
+}
+
+body.gallery div.lan div a {
+	color          : blue;
+	display        : block;
+	padding        : 7px 5px 3px;
+	font-size      : 14px;
+	letter-spacing : -1px;
+	text-transform : capitalize;
+	text-decoration: none;
+	white-space    : nowrap;
+	direction      : rtl;
+}
+
+body.gallery div.lan div :hover {
+	color          : darkorange;
+}
+
+/*...................font..............*/
+
+body.gallery @font-face {
+	font-family: 'Nazanin';
+	src        : url('fonts/BNazanin.eot');
+	src        : url('fonts/BNazanin.eot?#iefix') format('embedded-opentype'),
+	url('fonts/BNazanin.woff') format('woff'),
+	url('fonts/BNazanin.ttf') format('truetype');
+	font-weight: normal;
+	font-style : normal;
+}
+
+body.gallery @font-face {
+	font-family: 'davat';
+	src        : url('fonts/BDavat.eot');
+	src        : url('fonts/BDavat.eot?#iefix') format('embedded-opentype'),
+	url('fonts/BDavat.woff') format('woff'),
+	url('fonts/BDavat.ttf') format('truetype');
+	font-weight: normal;
+	font-style : normal;
+}
+
+body.gallery {
+	font-family: 'Nazanin', Arial, sans-serif;
+	-webkit-font-smoothing : antialiased;
+	-moz-font-smoothing : antialiased;
+	-o-font-smoothing : antialiased;
+	-ms-font-smoothing : antialiased;
+	background:url('images/noise.png') repeat left top,url('images/bg.jpg') repeat-x left top;
+}
+
+/*........................logo........................*/
+
+body.gallery header div.logo {
+	background-image : url('images/logo20.png');
+	background-repeat: no-repeat;
+	width            : 198px;
+	height           : 153px;
+}
+
+/*..................menu...................*/
+
+body.gallery header  nav menu {
+	margin-top: 45px;
+	z-index: 5;
+}
+
+body.gallery header nav li {
+	float             : right;
+	position          : relative;
+	-webkit-transition: all 300ms;
+	-moz-transition   : top 200ms;
+	-ms-transition    : top 200ms;
+	-o-transition     : top 200ms;
+	transition        : top 200ms;
+	z-index: 5;
+}
+
+body.gallery nav li:first-child {
+	margin-left : none;
+}
+
+body.gallery nav li:hover {
+	text-shadow: 1px 0px 1px #78c8dc;
+}
+
+body.gallery header nav menu li a {
+	display:block;
+	color:black;
+	font-size:18px;
+	padding:7px 10px;
+	border-radius:20px;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	-o-border-radius:20px;
+	-ms-border-radius:20px;
+	text-decoration:none;
+	font-family: Yekan, Arial, Helvetica, sans-serif;
+	transition:all 300ms;
+	-webkit-transition:all 300ms;	
+	-moz-transition:all 300ms;	
+	-o-transition:all 300ms;	
+	-ms-transition:all 300ms;
+}
+
+body.gallery header nav menu li a:hover {
+	background-color:white;	
+}
+
+
+body.gallery nav li:hover menu {
+	display   : block;
+}
+
+body.gallery nav li li {
+	float     : none;
+	background: #5F9FCB;
+	border    : none;
+	border-top: 1px dashed white;
+	min-width : 100px;
+	min-height: 30px;
+	opacity   : 0.8;
+}
+/*................content....................*/
+
+/*content..........................................................*/
+
+body.gallery div.container-content {
+	min-height: auto;
+}
+
+
+body.gallery .gallery {
+	width: 860px;
+}
+
+body.gallery .gallery li {
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 10px;
+	margin-left: 130px;
+}
+
+body.gallery .gallery li a {
+	display: block;
+	border: 8px solid #FAFAFA;
+	border-bottom-width: 30px;
+	border-radius: 2px;
+}
+
+/*....................copyright...................*/
+
+body.gallery footer {
+	border-top: 1px solid #EDEDED;
+	margin-bottom: 10px;
+}
+
+body.gallery footer div.copy p {
+	color          : darkblue;
+	font-size      : 18px;
+	letter-spacing : 1px;
+	text-transform : capitalize;
+	text-decoration: none;
+	white-space    : nowrap;
+	direction      : rtl;
+	text-align     : center;
+	font-family    : 'davat', Arial, sans-serif;
+	margin-right: 70px;
+}
+
+body.gallery footer div.follow {
+	height:50px;
+}
+
+body.gallery div.under p {
+	color: white;
+	opacity: .4;
+}
+
+body.gallery  hr {
+	opacity: .4;
+}
+
+body.gallery .noise {
+	background-image   : url('images/noise.png');
+	background-repeat  : repeat;
+	background-position: left top;
+	bottom             : 0;
+	top                : 0;
+	right              : 0;
+	left               : 0;
+	position           : fixed;
+	z-index            :-1;
+}
+/*.................gallery.................*/
