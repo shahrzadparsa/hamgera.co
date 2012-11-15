@@ -1278,13 +1278,15 @@ body.executive .step5 section.slideshow .train > li.pic5 {
 }
 
 body.executive div.container-content div.project {
-	min-height: 400px;
-	width: 400px;
+	min-height: 600px;
+	width: 600px;
 	float: right;
 }
 
 body.executive div.container-content div.project h2 {
 	margin-bottom: 20px;
+	color: black;
+	float: right;
 }
 
 body.executive div.container-content div.project ul {
@@ -1294,11 +1296,11 @@ body.executive div.container-content div.project ul {
 }
 
 body.executive div.container-content div.project ul li {
-	display:block;
 	color:black;
 	font-size:18px;
 	color: darkblue;
 	float: right;
+	margin-right: 143px;
 }
 
 /*......................executive....................*/
