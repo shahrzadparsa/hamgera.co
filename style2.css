@@ -580,7 +580,7 @@ div.content div.infotext section.rightpanel div.news ul li a {
 	overflow: hidden;
 	width: 13px;
 	height: 13px;
-	background: url(images/sprites-set-2.png) -63px -47px no-repeat;
+	background: url('images/sprites-set-2.png') -63px -47px no-repeat;
 	text-indent: -10001px
 }
 
@@ -590,7 +590,7 @@ div.content div.infotext section.rightpanel div.news p.next {
 	overflow: hidden;
 	width: 13px;
 	height: 13px;
-	background: url(../images/sprites-set-2.png) 0 -50px no-repeat;
+	background: url('images/sprites-set-2.png') 0 -50px no-repeat;
 	text-indent: -10001px;
 	cursor: pointer;
 }
@@ -616,14 +616,14 @@ div.content div.infotext section.rightpanel div.news section article.news1 {
 	overflow: hidden;
 	width: 450px;
 	padding-bottom: 14px;
-	background: url(images/news-box-bottom.png) 0 100% no-repeat;
+	background: url('images/news-box-bottom.png') 0 100% no-repeat;
 }
 
 div.content div.infotext section.rightpanel div.news section article.news1 div {
 	overflow: hidden;
 	height: 139px;
 	padding: 15px 0 0 20px;
-	background: url(images/news-box-top.png) 0 0 no-repeat;		
+	background: url('images/news-box-top.png') 0 0 no-repeat;		
 }
 
 div.content div.infotext section.rightpanel div.news section article.news1 div p {
@@ -662,14 +662,14 @@ div.content div.infotext section.rightpanel div.news section article.news2 {
 	overflow: hidden;
 	width: 450px;
 	padding-bottom: 14px;
-	background: url(images/news-box-bottom.png) 0 100% no-repeat;
+	background: url('images/news-box-bottom.png') 0 100% no-repeat;
 }
 
 div.content div.infotext section.rightpanel div.news section article.news2 div {
 	overflow: hidden;
 	height: 139px;
 	padding: 15px 0 0 20px;
-	background: url(images/news-box-top.png) 0 0 no-repeat;
+	background: url('images/news-box-top.png') 0 0 no-repeat;
 }
 
 div.content div.infotext section.rightpanel div.news section article.news2 div p {
@@ -677,14 +677,6 @@ div.content div.infotext section.rightpanel div.news section article.news2 div p
 	margin-bottom: 0;
 	padding-top: 5px;
 	text-align: center;
-}
-
-div.content div.infotext section.rightpanel div.news section article.news2 div p img {
-	border-width: 0;
-}
-
-div.content div.infotext section.rightpanel div.news section article.news2 div div {
-	margin-left: 110px;
 }
 
 div.content div.infotext section.rightpanel div.news section article.news2 div div h2 {
@@ -1160,7 +1152,7 @@ body.executive nav li li {
 /*content..........................................................*/
 
 body.executive div.container-content {
-	min-height: 650px;
+	min-height: 850px;
 }
 
 /*....................copyright...................*/
@@ -1284,4 +1276,29 @@ body.executive .step5 section.slideshow .train > li.pic5 {
 	-webkit-transform: scale(1);
 	opacity:1;
 }
+
+body.executive div.container-content div.project {
+	min-height: 400px;
+	width: 400px;
+	float: right;
+}
+
+body.executive div.container-content div.project h2 {
+	margin-bottom: 20px;
+}
+
+body.executive div.container-content div.project ul {
+	padding:7px 10px;
+	margin-top: 45px;
+	float: right;
+}
+
+body.executive div.container-content div.project ul li {
+	display:block;
+	color:black;
+	font-size:18px;
+	color: darkblue;
+	float: right;
+}
+
 /*......................executive....................*/
