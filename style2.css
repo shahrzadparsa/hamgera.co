@@ -501,7 +501,7 @@ div.content div.infotext section.rightpanel div.news ul li a {
 	overflow: hidden;
 	width: 13px;
 	height: 13px;
-	background: url(images/sprites-set-2.png) -63px -47px no-repeat;
+	background: url('images/sprites-set-2.png') -63px -47px no-repeat;
 	text-indent: -10001px
 }
 
@@ -511,7 +511,7 @@ div.content div.infotext section.rightpanel div.news p.next {
 	overflow: hidden;
 	width: 13px;
 	height: 13px;
-	background: url(../images/sprites-set-2.png) 0 -50px no-repeat;
+	background: url('images/sprites-set-2.png') 0 -50px no-repeat;
 	text-indent: -10001px;
 	cursor: pointer;
 }
@@ -537,42 +537,16 @@ div.content div.infotext section.rightpanel div.news section article.news1 {
 	overflow: hidden;
 	width: 450px;
 	padding-bottom: 14px;
-	background: url(images/news-box-bottom.png) 0 100% no-repeat;
+	background: url('images/news-box-bottom.png') 0 100% no-repeat;
 }
 
-div.content div.infotext section.rightpanel div.news section article.news1 div {
+div.content div.infotext section.rightpanel div.news section p.news1  {
 	overflow: hidden;
-	height: 139px;
+	height: 400px;
 	padding: 15px 0 0 20px;
-	background: url(images/news-box-top.png) 0 0 no-repeat;		
-}
-
-div.content div.infotext section.rightpanel div.news section article.news1 div p {
 	float: left;
-	margin-bottom: 0;
-	padding-top: 5px;
-	text-align: center;
-}
-
-div.content div.infotext section.rightpanel div.news section article.news1 div p img {
-	border-width: 0;
-}
-
-div.content div.infotext section.rightpanel div.news section article.news1 div div {
-	margin-left: 110px;
-}
-
-div.content div.infotext section.rightpanel div.news section article.news1 div div h2 {
-	margin-bottom: 1px;
-	color: #172934;
-	font: normal 1.3em
-}
-
-div.content div.infotext section.rightpanel div.news section article.news1 div div p {
-	line-height: 1.38;	
-}
-
-=======
+	font-size: 12px;
+	color: darkblue;		
 }
 
 div.content div.infotext section.rightpanel div.news h1 p.pre {
@@ -581,7 +555,7 @@ div.content div.infotext section.rightpanel div.news h1 p.pre {
 	overflow: hidden;
 	width: 13px;
 	height: 13px;
-	background: url(../images/sprites-set-2.png) 0 -50px no-repeat;
+	background: url('images/sprites-set-2.png') 0 -50px no-repeat;
 	text-indent: -10001px;
 	cursor: pointer;
 }
@@ -1046,3 +1020,268 @@ body.gallery .noise {
 	z-index            :-1;
 }
 /*.................gallery.................*/
+
+/*.................executive.................*/
+
+/*.................language.................*/
+body.executive div.language {
+	margin-left: 120px;
+}
+
+body.executive div.lan div {
+	background-color: white;
+	opacity: 0.9;
+	border: 1px solid white;
+	border-radius: 25px;
+	margin-left: 3px;
+}
+
+body.executive div.lan div a {
+	color          : blue;
+	display        : block;
+	padding        : 7px 5px 3px;
+	font-size      : 14px;
+	letter-spacing : -1px;
+	text-transform : capitalize;
+	text-decoration: none;
+	white-space    : nowrap;
+	direction      : rtl;
+}
+
+body.executive div.lan div :hover {
+	color          : darkorange;
+}
+
+/*...................font..............*/
+
+body.executive @font-face {
+	font-family: 'Nazanin';
+	src        : url('fonts/BNazanin.eot');
+	src        : url('fonts/BNazanin.eot?#iefix') format('embedded-opentype'),
+	url('fonts/BNazanin.woff') format('woff'),
+	url('fonts/BNazanin.ttf') format('truetype');
+	font-weight: normal;
+	font-style : normal;
+}
+
+body.executive @font-face {
+	font-family: 'davat';
+	src        : url('fonts/BDavat.eot');
+	src        : url('fonts/BDavat.eot?#iefix') format('embedded-opentype'),
+	url('fonts/BDavat.woff') format('woff'),
+	url('fonts/BDavat.ttf') format('truetype');
+	font-weight: normal;
+	font-style : normal;
+}
+
+body.executive  {
+	font-family: 'Nazanin', Arial, sans-serif;
+	-webkit-font-smoothing : antialiased;
+	-moz-font-smoothing : antialiased;
+	-o-font-smoothing : antialiased;
+	-ms-font-smoothing : antialiased;
+	background:url('images/noise.png') repeat left top,url('images/bg.jpg') repeat-x left top;
+}
+
+/*........................logo........................*/
+
+body.executive header div.logo {
+	background-image : url('images/logo20.png');
+	background-repeat: no-repeat;
+	width            : 198px;
+	height           : 153px;
+}
+
+/*..................menu...................*/
+
+body.executive header  nav menu {
+	margin-top: 45px;
+	z-index: 5;
+}
+
+body.executive header nav li {
+	float             : right;
+	position          : relative;
+	-webkit-transition: all 300ms;
+	-moz-transition   : top 200ms;
+	-ms-transition    : top 200ms;
+	-o-transition     : top 200ms;
+	transition        : top 200ms;
+	z-index: 5;
+}
+
+body.executive nav li:first-child {
+	margin-left : none;
+}
+
+body.executive nav li:hover {
+	text-shadow: 1px 0px 1px #78c8dc;
+}
+
+body.executive header nav menu li a {
+	display:block;
+	color:black;
+	font-size:18px;
+	padding:7px 10px;
+	border-radius:20px;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	-o-border-radius:20px;
+	-ms-border-radius:20px;
+	text-decoration:none;
+	font-family: Yekan, Arial, Helvetica, sans-serif;
+	transition:all 300ms;
+	-webkit-transition:all 300ms;	
+	-moz-transition:all 300ms;	
+	-o-transition:all 300ms;	
+	-ms-transition:all 300ms;
+}
+
+body.executive header nav menu li a:hover {
+	background-color:white;	
+}
+
+
+body.executive nav li:hover menu {
+	display   : block;
+}
+
+body.executive nav li li {
+	float     : none;
+	background: #5F9FCB;
+	border    : none;
+	border-top: 1px dashed white;
+	min-width : 100px;
+	min-height: 30px;
+	opacity   : 0.8;
+}
+/*................content....................*/
+
+/*content..........................................................*/
+
+body.executive div.container-content {
+	min-height: 650px;
+}
+
+/*....................copyright...................*/
+
+body.executive footer {
+	border-top: 1px solid #EDEDED;
+	margin-bottom: 10px;
+}
+
+body.executive footer p.copy {
+	color          : darkblue;
+	font-size      : 18px;
+	letter-spacing : 1px;
+	text-transform : capitalize;
+	text-decoration: none;
+	white-space    : nowrap;
+	direction      :rtl;
+	text-align     : center;
+	font-family    : 'davat', Arial, sans-serif;
+	margin-right: 70px;
+}
+
+body.executive footer div.follow {
+	margin-left:490px;	
+	width:auto;
+	height:50px;
+}
+
+body.executive div.under p {
+	color: white;
+	opacity: .4;
+}
+
+body.executive  hr {
+	opacity: .4;
+}
+
+body.executive .noise {
+	background-image   : url('images/noise.png');
+	background-repeat  : repeat;
+	background-position: left top;
+	bottom             : 0;
+	top                : 0;
+	right              : 0;
+	left               : 0;
+	position           : fixed;
+	z-index            :-1;
+}
+
+/*.......................................... slideshow...........................*/
+
+body.executive section.slideshow {
+	width: 450px;
+}
+
+body.executive section.slideshow ul.train > li {
+	width: 450px;
+	height: 300px;
+	position:absolute;
+	z-index: 1;
+	left:0;
+	top:0;
+	border-radius: 5px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+body.executive section.slideshow menu {
+	position:absolute;
+	left: 8px;
+	bottom: 8px;
+	z-index: 3;
+}
+
+body.executive section.slideshow menu li {
+	float:left;
+	width:12px;
+	height:12px;
+	border-radius: 6px;
+	background-color: #333;
+	opacity: 0.7;
+	margin-right: 3px;
+	cursor: pointer;
+	-webkit-transition: all 500ms;
+}
+
+body.executive section.slideshow menu li:hover {
+	background-color: #CCE;
+	opacity: 1;
+}
+
+body.executive section.slideshow .train > li {
+	opacity:0;
+	-webkit-transform: scale(0.95);
+	-webkit-transition: all 800ms ease-out;
+}
+
+
+body.executive .step1 section.slideshow .train > li.pic1 {
+	-webkit-transform: scale(1);
+	opacity:1;
+}
+
+body.executive .step2 section.slideshow .train > li.pic2 {
+	-webkit-transform: scale(1);
+	opacity:1;
+}
+
+body.executive .step3 section.slideshow .train > li.pic3 {
+	-webkit-transform: scale(1);
+	opacity:1;
+}
+
+body.executive .step4 section.slideshow .train > li.pic4 {
+	-webkit-transform: scale(1);
+	opacity:1;
+}
+
+body.executive .step5 section.slideshow .train > li.pic5 {
+	-webkit-transform: scale(1);
+	opacity:1;
+}
+/*......................executive....................*/
