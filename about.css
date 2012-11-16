@@ -55,7 +55,7 @@ body.about  {
 	-moz-font-smoothing : antialiased;
 	-o-font-smoothing : antialiased;
 	-ms-font-smoothing : antialiased;
-	background:url('images/noise.png') repeat left top,url('images/bg.jpg') repeat-x left top;
+	background:url('images/noise.png') repeat left top,url('images/bg1.jpg') repeat-x left top;
 }
 
 /*........................logo........................*/
@@ -214,4 +214,12 @@ body.about .noise {
 	left               : 0;
 	position           : fixed;
 	z-index            :-1;
+}
+
+body.about div.fade {
+	background:url('images/fade-1.png') repeat-x;
+}
+
+body.about div.container-content img {
+	background:url('images/fade-1.png') repeat-x;
 }

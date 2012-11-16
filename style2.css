@@ -476,7 +476,7 @@ div.content div.infotext section.rightpanel div.news h1 p.pre {
 	overflow: hidden;
 	width: 13px;
 	height: 13px;
-	background: url(../images/sprites-set-2.png) 0 -50px no-repeat;
+	background: url('images/sprites-set-2.png') 0 -50px no-repeat;
 	text-indent: -10001px;
 	cursor: pointer;
 }
@@ -790,6 +790,22 @@ body.about div.container-content section.text p {
 	font-size 	: 17px;
 	padding-left: 5px; 
 }
+
+body.about div.container-content div.fade {
+	background:url('images/fade-1.png') repeat-x;
+}
+
+
+body.about  {
+	font-family: 'Nazanin', Arial, sans-serif;
+	-webkit-font-smoothing : antialiased;
+	-moz-font-smoothing : antialiased;
+	-o-font-smoothing : antialiased;
+	-ms-font-smoothing : antialiased;
+	background:url('images/noise.png') repeat left top,url('images/bg1.jpg') no-repeat;
+}
+
+
 
 /*.................about.................*/
 
