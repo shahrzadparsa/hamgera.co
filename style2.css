@@ -56,7 +56,7 @@ body {
 	-moz-font-smoothing : antialiased;
 	-o-font-smoothing : antialiased;
 	-ms-font-smoothing : antialiased;
-	background:url('images/noise.png') repeat left top,url('images/bg.jpg') repeat-x left top;
+	background:url('images/noise.png') repeat left top,url('images/backimg.png') repeat-y,url('images/bg.jpg') repeat-x left top;
 }
 
 /*........................logo........................*/
@@ -773,6 +773,7 @@ div.under p {
 }
 
 /************ About-page ************/
+
 body.about div.container-content section.text {
 	text-align  : right;
 	padding 	: 0 20px;
@@ -802,13 +803,46 @@ body.about  {
 	-moz-font-smoothing : antialiased;
 	-o-font-smoothing : antialiased;
 	-ms-font-smoothing : antialiased;
-	background:url('images/noise.png') repeat left top,url('images/bg1.jpg') no-repeat;
+	background:url('images/noise.png') repeat left top,url('images/backimg.png') repeat-y,url('images/bg1.jpg') no-repeat;
 }
 
 
-
 /*.................about.................*/
+/*.................services.............*/
 
+body.services div.container-content section.text {
+	text-align  : right;
+	padding 	: 0 20px;
+	color 		: #111;
+}
+
+body.srvices div.container-content section.text h2 {
+	font-size 		: 25px;
+	margin-bottom 	: 10px;
+	line-height		: 30px;
+	font-weight		: bold;  
+}
+
+body.srvices div.container-content section.text p {
+	font-size 	: 17px;
+	padding-left: 5px; 
+}
+
+body.services div.container-content div.fade {
+	background:url('images/fade-1.png') repeat-x;
+}
+
+
+body.services {
+	font-family: 'Nazanin', Arial, sans-serif;
+	-webkit-font-smoothing : antialiased;
+	-moz-font-smoothing : antialiased;
+	-o-font-smoothing : antialiased;
+	-ms-font-smoothing : antialiased;
+	background:url('images/noise.png') repeat left top,url('images/backimg.png') repeat-y,url('images/bg4.jpg') no-repeat;
+}
+
+/*................services................*/
 
 /*.................gallery.................*/
 /*.................language.................*/
@@ -868,7 +902,7 @@ body.gallery {
 	-moz-font-smoothing : antialiased;
 	-o-font-smoothing : antialiased;
 	-ms-font-smoothing : antialiased;
-	background:url('images/noise.png') repeat left top,url('images/bg2.jpg') repeat-x left top;
+	background:url('images/noise.png') repeat left top,url('images/backimg.png') repeat-y,url('images/bg2.jpg') repeat-x left top;
 }
 body.gallery div.container-content div.fade {
 	background:url('images/fade-1.png') repeat-x;
@@ -1095,7 +1129,7 @@ body.executive  {
 	-moz-font-smoothing : antialiased;
 	-o-font-smoothing : antialiased;
 	-ms-font-smoothing : antialiased;
-	background:url('images/noise.png') repeat left top,url('images/bg.jpg') repeat-x left top;
+	background:url('images/noise.png') repeat left top,url('images/backimg.png') repeat-y,url('images/bg3.jpg') repeat-x left top;
 }
 
 /*........................logo........................*/
