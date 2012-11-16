@@ -238,6 +238,76 @@ div.contain-slider > div.next div.contain-next-nav{
 }
 
 /*-------------------------------------------------------------------------------*/
+
+/*--------------btn slideshow-------------------*/
+div.contain-slider menu.nav-slider {
+	position       : absolute;
+	z-index        : 3;
+	left           : 100px;
+	list-style-type: none;
+	margin-top     : 40px;
+	z-index: 5;
+}
+
+div.contain-slider menu.nav-slider li {
+	float        : right;
+	width        : 32px;
+	border-radius: 25px;
+	opacity      : 0.25;
+	cursor       : pointer;
+	height       : 33px;
+	margin-left  : 50px;
+}
+
+div.contain-slider menu.nav-slider li:hover {
+	opacity: 1;
+}
+
+div.contain-slider menu.nav-slider li.btn1 {
+	background-image   : url('images/icons.png');
+	background-position: 0px 0px;
+}
+
+div.contain-slider menu.nav-slider li:hover {
+	background-position: 0px 31px;
+}
+
+div.contain-slider menu.nav-slider li.btn2 {
+	background-image   : url('images/icons.png');
+	background-position: 32px 0px;
+}
+
+div.contain-slider menu.nav-slider li.btn2:hover {
+	background-position: 32px 31px;
+}
+
+div.contain-slider menu.nav-slider li.btn3 {
+	background-image   : url('images/icons.png');
+	background-position: 64px 0px;
+}
+
+div.contain-slider menu.nav-slider li.btn3:hover {
+	background-position: 64px 31px;
+}
+
+div.contain-slider menu.nav-slider li.btn4 {
+	background-image   : url('images/icons.png');
+	background-position: 95px 0px;
+}
+
+div.contain-slider menu.nav-slider li.btn4:hover {
+	background-position: 95px 31px;
+}
+
+div.contain-slider menu.nav-slider li.btn5 {
+	background-image   : url('images/icons.png');
+	background-position: 128px 0px;
+}
+
+div.contain-slider menu.nav-slider li.btn5:hover {
+	background-position: 128px 31px;
+}
+
 /*------ul.nav-slider------------------------------------------------------------*/
 div.contain-slider > div.slider > ul.nav-slider{
 	left:0px;
@@ -254,7 +324,6 @@ div.contain-slider > div.slider > ul.nav-slider > li{
 div.contain-slider > div.slider > ul.nav-slider > li > a{
 	width:100px;
 	display:block; 
-	border:1px solid red;
 }
 /*........................fade.......................*/
 div.fade {
@@ -814,6 +883,7 @@ body.services div.container-content section.text {
 	text-align  : right;
 	padding 	: 0 20px;
 	color 		: #111;
+	margin-top: 20px;
 }
 
 body.srvices div.container-content section.text h2 {
