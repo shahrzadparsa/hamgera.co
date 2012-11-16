@@ -618,8 +618,6 @@ div.content div.infotext section.rightpanel div.news section p.news1  {
 	color: darkblue;
 }
 
-
-
 div.content div.infotext section.rightpanel div.news p.next {
 	margin: 2px 0 0 0;
 	float: left;
@@ -832,7 +830,6 @@ body.about div.container-content div.fade {
 	background:url('images/fade-1.png') repeat-x;
 }
 
-
 body.about  {
 	font-family: 'Nazanin', Arial, sans-serif;
 	-webkit-font-smoothing : antialiased;
@@ -840,6 +837,30 @@ body.about  {
 	-o-font-smoothing : antialiased;
 	-ms-font-smoothing : antialiased;
 	background:url('images/noise.png') repeat left top,url('images/backimg.png') repeat-y,url('images/bg1.jpg') no-repeat;
+}
+
+body.about div.container-title {
+	min-height: 100px;
+}
+
+body.about div.container-title section.title {
+	width: 972px;
+	border-radius: 5px;
+	margin: 10px auto 0px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-moz-border-radius: 5px;
+	background-color: #0F2431;
+	-webkit-border-radius: 5px;
+}
+
+body.about div.container-title section.title h1 {
+	color: white;
+	height: 55px;
+	text-align: right;
+	line-height: 55px;
+	padding: 0px 680px 0px 0px;
+	background: url('images/contact.jpg') no-repeat,url('images/contact1.png') no-repeat;
 }
 
 
@@ -853,14 +874,14 @@ body.services div.container-content section.text {
 	margin-top: 20px;
 }
 
-body.srvices div.container-content section.text h2 {
+body.services div.container-content section.text h2 {
 	font-size 		: 25px;
 	margin-bottom 	: 10px;
 	line-height		: 30px;
 	font-weight		: bold;  
 }
 
-body.srvices div.container-content section.text p {
+body.services div.container-content section.text p {
 	font-size 	: 17px;
 	padding-left: 5px; 
 }
