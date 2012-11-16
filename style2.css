@@ -615,43 +615,10 @@ div.content div.infotext section.rightpanel div.news section p.news1  {
 	padding: 15px 0 0 20px;
 	float: left;
 	font-size: 12px;
-	color: darkblue;		
+	color: darkblue;
 }
 
-div.content div.infotext section.rightpanel div.news h1 p.pre {
-	margin: 2px 0 0 0;	
-	float: left;
-	overflow: hidden;
-	width: 13px;
-	height: 13px;
-	background: url('images/sprites-set-2.png') 0 -50px no-repeat;
-	text-indent: -10001px;
-	cursor: pointer;
-}
 
-div.content div.infotext section.rightpanel div.news h1 p #navi {
-	margin-left: 16px;
-}
-
-div.content div.infotext section.rightpanel div.news ul {
-	float: left;
-	list-style: none;
-	margin: 0;
-	padding: 2px 6px 0 6px;
-}
-
-div.content div.infotext section.rightpanel div.news ul li {
-	float: left;
-}
-
-div.content div.infotext section.rightpanel div.news ul li a {
-	display: block;
-	overflow: hidden;
-	width: 13px;
-	height: 13px;
-	background: url('images/sprites-set-2.png') -63px -47px no-repeat;
-	text-indent: -10001px
-}
 
 div.content div.infotext section.rightpanel div.news p.next {
 	margin: 2px 0 0 0;
