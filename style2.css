@@ -868,7 +868,14 @@ body.gallery {
 	-moz-font-smoothing : antialiased;
 	-o-font-smoothing : antialiased;
 	-ms-font-smoothing : antialiased;
-	background:url('images/noise.png') repeat left top,url('images/bg.jpg') repeat-x left top;
+	background:url('images/noise.png') repeat left top,url('images/bg2.jpg') repeat-x left top;
+}
+body.gallery div.container-content div.fade {
+	background:url('images/fade-1.png') repeat-x;
+}
+
+body.galleery div.fade {
+	background:url('images/fade-1.png') repeat-x;
 }
 
 /*........................logo........................*/
