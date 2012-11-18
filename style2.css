@@ -253,10 +253,10 @@ div.contain-slider menu.nav-slider li {
 	float        : right;
 	width        : 32px;
 	border-radius: 25px;
-	opacity      : 0.25;
+	opacity      : 0.75;
 	cursor       : pointer;
 	height       : 33px;
-	margin-left  : 50px;
+	margin-left  : 15px;
 }
 
 div.contain-slider menu.nav-slider li:hover {
