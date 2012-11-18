@@ -1,0 +1,402 @@
+/*.................language.................*/
+body.product div.language {
+	margin-left: 120px;
+}
+
+body.product div.lan div {
+	background-color: white;
+	opacity: 0.9;
+	border: 1px solid white;
+	border-radius: 25px;
+	margin-left: 3px;
+}
+
+body.product div.lan div a {
+	color          : blue;
+	display        : block;
+	padding        : 7px 5px 3px;
+	font-size      : 14px;
+	letter-spacing : -1px;
+	text-transform : capitalize;
+	text-decoration: none;
+	white-space    : nowrap;
+	direction      : rtl;
+}
+
+body.product div.lan div :hover {
+	color          : darkorange;
+}
+
+/*...................font..............*/
+
+body.product @font-face {
+	font-family: 'Nazanin';
+	src        : url('fonts/BNazanin.eot');
+	src        : url('fonts/BNazanin.eot?#iefix') format('embedded-opentype'),
+	url('fonts/BNazanin.woff') format('woff'),
+	url('fonts/BNazanin.ttf') format('truetype');
+	font-weight: normal;
+	font-style : normal;
+}
+
+body.product @font-face {
+	font-family: 'davat';
+	src        : url('fonts/BDavat.eot');
+	src        : url('fonts/BDavat.eot?#iefix') format('embedded-opentype'),
+	url('fonts/BDavat.woff') format('woff'),
+	url('fonts/BDavat.ttf') format('truetype');
+	font-weight: normal;
+	font-style : normal;
+}
+
+body.product  {
+	font-family: 'Nazanin', Arial, sans-serif;
+	-webkit-font-smoothing : antialiased;
+	-moz-font-smoothing : antialiased;
+	-o-font-smoothing : antialiased;
+	-ms-font-smoothing : antialiased;
+	background:url('images/noise.png') repeat left top,url('images/bg6.jpg') repeat-x left top;
+}
+
+/*........................logo........................*/
+
+body.about header div.logo {
+	background-image : url('images/logo20.png');
+	background-repeat: no-repeat;
+	width            : 198px;
+	height           : 153px;
+}
+
+/*..................menu...................*/
+
+body.product header  nav menu {
+	margin-top: 45px;
+	z-index: 5;
+}
+
+body.product header nav li {
+	float             : right;
+	position          : relative;
+	-webkit-transition: all 300ms;
+	-moz-transition   : top 200ms;
+	-ms-transition    : top 200ms;
+	-o-transition     : top 200ms;
+	transition        : top 200ms;
+	z-index: 5;
+}
+
+body.product nav li:first-child {
+	margin-left : none;
+}
+
+body.product nav li:hover {
+	text-shadow: 1px 0px 1px #78c8dc;
+}
+
+body.product header nav menu li a {
+	display:block;
+	color:black;
+	font-size:18px;
+	padding:7px 10px;
+	border-radius:20px;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	-o-border-radius:20px;
+	-ms-border-radius:20px;
+	text-decoration:none;
+	font-family: Yekan, Arial, Helvetica, sans-serif;
+	transition:all 300ms;
+	-webkit-transition:all 300ms;	
+	-moz-transition:all 300ms;	
+	-o-transition:all 300ms;	
+	-ms-transition:all 300ms;
+}
+
+body.product header nav menu li a:hover {
+	background-color:white;	
+}
+
+body.product nav li:hover menu {
+	display   : block;
+}
+
+body.product nav li li {
+	float     : none;
+	background: #5F9FCB;
+	border    : none;
+	border-top: 1px dashed white;
+	min-width : 100px;
+	min-height: 30px;
+	opacity   : 0.8;
+}
+/*................content....................*/
+
+/*content..........................................................*/
+
+body.product div.container-content {
+	min-height: 650px;
+}
+
+body.product div.container-content div.pro {
+	width: 700px;
+}
+
+body.product div.container-content div.pro li {
+	float: left;
+	margin-right: 15px;
+}
+
+body.product div.container-content div.pro li a {
+	display: block;
+	border: 8px solid #FAFAFA;
+	border-bottom-width: 30px;
+	border-radius: 2px;
+}
+
+body.product div.container-content #1,#2,#3,#4,#5 {
+	width: 200px;
+	margin-bottom: 30px;
+	margin-right: 30px;
+	float: left;
+}
+
+body.product div.container-content #1 figure {
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	position: relative;
+}
+
+body.product div.container-content figure figcaption {
+	position: absolute;
+	display: block;
+	width: 160px;
+	height: 50px;
+	left: 20px;
+	bottom: -50px;
+	text-align: center;
+	color: white;
+	background-color: rgba(0, 0, 0, .5);
+	line-height: 50px;
+	border-radius: 10px 10px 0 0;
+	-moz-transition: bottom .5s;
+	-webkit-transition: bottom .5s;
+	-o-transition: bottom .5s;
+	-ms-transition: bottom .5s;
+	transition: bottom .5s;
+}
+
+body.product div.container-content figure:hover figcaption {
+	bottom: 0px;
+}
+
+body.product div.container-content #2 figure {
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	position: relative;
+}
+
+body.product div.container-content figure figcaption {
+	position: absolute;
+	display: block;
+	width: 350px;
+	height: 50px;
+	left: 110px;
+	bottom: -110px;
+	text-align: center;
+	color: white;
+	background-color: rgba(26, 54, 59, 0.8);
+	border: 3px solid rgba(62, 116, 126, 0.6);
+	line-height: 50px;
+	-moz-box-shadow: rgba(0,0,0,.5) 0 2px 8px;
+	-webkit-box-shadow: rgba(0, 0, 0, .5) 0 2px 8px;
+	box-shadow: rgba(0, 0, 0, .5) 0 2px 8px;
+	-moz-transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	-moz-transition: bottom .5s ease-out, left .5s ease-out;
+	-webkit-transition: bottom .5s ease-out, left .5s ease-out;
+	-o-transition: bottom .5s ease-out, left .5s ease-out;
+	-ms-transition: bottom .5s ease-out, left .5s ease-out;
+	transition: bottom .5s ease-out, left .5s ease-out;
+}
+
+body.product div.container-content figure:hover figcaption {
+	bottom: 20px;
+	left: -20px;
+}
+
+body.product div.container-content #3 figure {
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	position: relative;
+}
+
+body.product div.container-content figure figcaption {
+	position: absolute;
+	display: block;
+	width: 150px;
+	left: 25px;
+	top: -158px;
+	text-align: center;
+	color: white;
+	background-color: rgba(142, 2, 49, 0.8);
+	line-height: 150px;
+	-moz-transform: rotate(60deg);
+	-webkit-transform: rotate(60deg);
+	-o-transform: rotate(60deg);
+	-ms-transform: rotate(60deg);
+	transform: rotate(60deg);
+	-moz-border-radius: 75px;
+	-webkit-border-radius: 75px;
+	-o-border-radius: 75px;
+	-ms-border-radius: 75px;
+	border-radius: 75px;
+	-moz-box-shadow: #000 0 4px 8px;
+	-webkit-box-shadow: black 0 4px 8px;
+	-o-box-shadow: black 0 4px 8px;
+	-ms-box-shadow: black 0 4px 8px;
+	box-shadow: black 0 4px 8px;
+	-moz-transition: top .5s ease-out, -moz-transform .5s ease-in;
+	-webkit-transition: top .5s ease-out, -webkit-transform .5s ease-in;
+	-o-transition: top .5s ease-out, -o-transform .5s ease-in;
+	-ms-transition: top .5s ease-out, -o-transform .5s ease-in;
+	transition: top .5s ease-out, transform .5s ease-in;
+	font-size: 20px;
+}
+
+body.product div.container-content figure:hover figcaption {
+	
+}
+
+body.product div.container-content #4 figure {
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	position: relative;
+}
+
+body.product div.container-content figure figcaption {
+	position: absolute;
+	text-align: center;
+	color: rgba(255, 255, 255, 1);
+	background-color: rgba(50, 27, 3, 0.8);
+	border: 4px solid rgba(122, 92, 37, 0.8);
+	display: block;
+	width: 700px;
+	line-height: 50px;
+	position: absolute;
+	top: 75px;
+	left: 50px;
+	white-space: nowrap;
+	font-size: 20px;
+	opacity: 0;
+	-webkit-box-shadow: #FFF8CF 0 0 15px;
+	-moz-box-shadow: #FFF8CF 0 0 15px;
+	-o-box-shadow: #FFF8CF 0 0 15px;
+	-ms-box-shadow: #FFF8CF 0 0 15px;
+	box-shadow: #FFF8CF 0 0 15px;
+	-moz-transform: scale(4,1);
+	-webkit-transform: scale(4,1);
+	-o-transform: scale(4,1);
+	-ms-transform: scale(4,1);
+	-transform: scale(4,1);
+	-moz-transition: all .5s;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	-ms-transition: all .5s;
+	transition: all .5s;
+}
+}
+
+body.product div.container-content figure:hover figcaption {
+	
+}
+
+body.product div.container-content #5 figure {
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	position: relative;
+}
+
+body.product div.container-content figure figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 200px;
+	line-height: 200px;
+	text-align: center;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.75);
+	font-size: 20px;
+	opacity: 0;
+	-moz-transform: rotate(60deg) scale(0,0);
+	-webkit-transform: rotate(60deg) scale(0,0);
+	-o-transform: rotate(60deg) scale(0,0);
+	-ms-transform: rotate(60deg) scale(0,0);
+	transform: rotate(60deg) scale(0,0);
+	-moz-transition: opacity .5s, -moz-transform .5s;
+	-webkit-transition: opacity .5s, -webkit-transform .5s;
+	-o-transition: opacity .5s, -o-transform .5s;
+	-ms-transition: opacity .5s, -o-transform .5s;
+	transition: opacity .5s, transform .5s;
+}
+
+body.product div.container-content figure:hover figcaption {
+	
+}
+/*....................copyright...................*/
+
+body.product footer {
+	border-top: 1px solid #EDEDED;
+	margin-bottom: 10px;
+}
+
+body.product footer p.copy {
+	color          : darkblue;
+	font-size      : 18px;
+	letter-spacing : 1px;
+	text-transform : capitalize;
+	text-decoration: none;
+	white-space    : nowrap;
+	direction      :rtl;
+	text-align     : center;
+	font-family    : 'davat', Arial, sans-serif;
+	margin-right: 70px;
+}
+
+body.product footer div.follow {
+	margin-left:490px;	
+	width:auto;
+	height:50px;
+}
+
+body.product div.under p {
+	color: white;
+	opacity: .4;
+}
+
+body.product  hr {
+	opacity: .4;
+}
+
+body.product .noise {
+	background-image   : url('images/noise.png');
+	background-repeat  : repeat;
+	background-position: left top;
+	bottom             : 0;
+	top                : 0;
+	right              : 0;
+	left               : 0;
+	position           : fixed;
+	z-index            :-1;
+}
+
+body.product div.fade {
+	background:url('images/fade-1.png') repeat-x;
+}
