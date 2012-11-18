@@ -23,7 +23,7 @@ body.question div.lan div a {
 	direction      : rtl;
 }
 
-body.contact div.lan div :hover {
+body.question div.lan div :hover {
 	color          : darkorange;
 }
 
@@ -181,6 +181,14 @@ body.question div.container-title section.title div.tab div.tab-inner p.s1 {
 	width: 243px;
 	height: 71px;
 	background: url('images/slider-1.png') 0 0 no-repeat;
+}
+
+body.question div.container-title section.title div.tab div.tab-inner ul li.que a:hover {
+	margin-bottom: 0;
+	width: 243px;
+	height: 71px;
+	background: url('images/slider-1.png') 0 0 no-repeat;
+	position: absolute;
 }
 
 body.question div.container-title section.title div.tab div.tab-inner p.p1 {

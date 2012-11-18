@@ -55,7 +55,7 @@ body.contact  {
 	-moz-font-smoothing : antialiased;
 	-o-font-smoothing : antialiased;
 	-ms-font-smoothing : antialiased;
-	background:url('images/noise.png') repeat left top,url('images/backimg.png') repeat-y,url('images/bg5.jpg') repeat-x left top;
+	background:url('images/noise.png') repeat left top,url('images/backimg.png') repeat-y,url('images/bg5.jpg') repeat-x left top,url('images/fade-1.png') repeat-x;;
 }
 
 /*........................logo........................*/

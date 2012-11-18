@@ -301,12 +301,6 @@ body.hi .noise {
 
 /*..............................content...........................*/
 
-body.hi div.container-content form div.left {
-	margin-left: 200px;
-	width: auto;
-	margin-top: 40px;
-}
-
 body.hi div.container-content form div.right {
 	width:auto;
 	margin-left:200px;	
@@ -322,18 +316,6 @@ body.hi div.container-content form div.right input.textnameicon {
 body.hi div.container-content form div.right input.textmailicon {
 	width: 260px;
 	min-height: 20px;
-}
-
-body.hi div.container-content form div.left input.texturlicon {
-	width: 260px;
-	min-height: 20px;
-	margin-left: 100px;
-}
-
-body.hi div.container-content form div.left input.texttexticon {
-	width: 260px;
-	min-height: 20px;
-	margin-left: 39px;
 }
 
 body.hi form {
