@@ -1,9 +1,9 @@
 /*.................language.................*/
-body.contact div.language {
+body.question div.language {
 	margin-left: 120px;
 }
 
-body.contact div.lan div {
+body.question div.lan div {
 	background-color: white;
 	opacity: 0.9;
 	border: 1px solid white;
@@ -11,7 +11,7 @@ body.contact div.lan div {
 	margin-left: 3px;
 }
 
-body.contact div.lan div a {
+body.question div.lan div a {
 	color          : blue;
 	display        : block;
 	padding        : 7px 5px 3px;
@@ -29,7 +29,7 @@ body.contact div.lan div :hover {
 
 /*...................font..............*/
 
-body.contact @font-face {
+body.question @font-face {
 	font-family: 'Nazanin';
 	src        : url('fonts/BNazanin.eot');
 	src        : url('fonts/BNazanin.eot?#iefix') format('embedded-opentype'),
@@ -39,7 +39,7 @@ body.contact @font-face {
 	font-style : normal;
 }
 
-body.contact @font-face {
+body.question @font-face {
 	font-family: 'davat';
 	src        : url('fonts/BDavat.eot');
 	src        : url('fonts/BDavat.eot?#iefix') format('embedded-opentype'),
@@ -49,7 +49,7 @@ body.contact @font-face {
 	font-style : normal;
 }
 
-body.contact  {
+body.question  {
 	font-family: 'Nazanin', Arial, sans-serif;
 	-webkit-font-smoothing : antialiased;
 	-moz-font-smoothing : antialiased;
@@ -60,7 +60,7 @@ body.contact  {
 
 /*........................logo........................*/
 
-body.contact header div.logo {
+body.question header div.logo {
 	background-image : url('images/logo20.png');
 	background-repeat: no-repeat;
 	width            : 198px;
@@ -69,12 +69,12 @@ body.contact header div.logo {
 
 /*..................menu...................*/
 
-body.contact header  nav menu {
+body.question header nav menu {
 	margin-top: 45px;
 	z-index: 5;
 }
 
-body.contact header nav li {
+body.question header nav li {
 	float             : right;
 	position          : relative;
 	-webkit-transition: all 300ms;
@@ -85,15 +85,15 @@ body.contact header nav li {
 	z-index: 5;
 }
 
-body.contact nav li:first-child {
+body.question nav li:first-child {
 	margin-left : none;
 }
 
-body.contact nav li:hover {
+body.question nav li:hover {
 	text-shadow: 1px 0px 1px #78c8dc;
 }
 
-body.contact header nav menu li a {
+body.question header nav menu li a {
 	display:block;
 	color:black;
 	font-size:18px;
@@ -112,16 +112,16 @@ body.contact header nav menu li a {
 	-ms-transition:all 300ms;
 }
 
-body.contact header nav menu li a:hover {
+body.question header nav menu li a:hover {
 	background-color:white;	
 }
 
 
-body.contact nav li:hover menu {
+body.question nav li:hover menu {
 	display   : block;
 }
 
-body.contact nav li li {
+body.question nav li li {
 	float     : none;
 	background: #5F9FCB;
 	border    : none;
@@ -131,11 +131,11 @@ body.contact nav li li {
 	opacity   : 0.8;
 }
 /*................content....................*/
-body.contact div.container-title {
+body.question div.container-title {
 	min-height: 100px;
 }
 
-body.contact div.container-title section.title {
+body.question div.container-title section.title {
 	width: 972px;
 	border-radius: 5px;
 	margin: 10px auto 0px;
@@ -146,7 +146,7 @@ body.contact div.container-title section.title {
 	-webkit-border-radius: 5px;
 }
 
-body.contact div.container-title section.title h1 {
+body.question div.container-title section.title h1 {
 	color: white;
 	height: 55px;
 	text-align: right;
@@ -155,7 +155,7 @@ body.contact div.container-title section.title h1 {
 	background: url('images/contact.jpg') no-repeat,url('images/contact1.png') no-repeat;
 }
 
-body.contact div.container-title section.title div.tab {
+body.question div.container-title section.title div.tab {
 	overflow: hidden;
 	float: left;
 	position: absolute;
@@ -163,7 +163,7 @@ body.contact div.container-title section.title div.tab {
 	top: 160px;
 }
 
-body.contact div.container-title section.title div.tab div.tab-inner {
+body.question div.container-title section.title div.tab div.tab-inner {
 	overflow: hidden;
 	float: left;
 	position: relative;
@@ -171,7 +171,7 @@ body.contact div.container-title section.title div.tab div.tab-inner {
 	padding: 4px 0 0 13px;
 }
 
-body.contact div.container-title section.title div.tab div.tab-inner p.s1 {
+body.question div.container-title section.title div.tab div.tab-inner p.s1 {
 	position: absolute;
 	z-index: 10;
 	top: 0;
@@ -181,22 +181,13 @@ body.contact div.container-title section.title div.tab div.tab-inner p.s1 {
 	width: 243px;
 	height: 71px;
 	background: url('images/slider-1.png') 0 0 no-repeat;
-	position: absolute;
 }
 
-body.contact div.container-title section.title div.tab div.tab-inner ul li.con a:hover {
-	margin-bottom: 0;
-	width: 243px;
-	height: 71px;
-	background: url('images/slider-1.png') 0 0 no-repeat;
-	position: absolute;
-}
-
-body.contact div.container-title section.title div.tab div.tab-inner p.p1 {
+body.question div.container-title section.title div.tab div.tab-inner p.p1 {
 	cursor: url('images/cursor-drag-1.png'), w-resize;
 }
 
-body.contact div.container-title section.title div.tab div.tab-inner p.s2 {
+body.question div.container-title section.title div.tab div.tab-inner p.s2 {
 	display: block;
 	top: 0;
 	left: -1px;
@@ -209,18 +200,18 @@ body.contact div.container-title section.title div.tab div.tab-inner p.s2 {
 	background: url('images/empty.png');
 }
 
-body.contact div.container-title section.title div.tab div.tab-inner p.p2 {
+body.question div.container-title section.title div.tab div.tab-inner p.p2 {
 	cursor: url('images/cursor-drag-1.png'), w-resize;
 }
 
-body.contact div.container-title section.title div.tab div.tab-inner ul {
+body.question div.container-title section.title div.tab div.tab-inner ul {
 	float: right;
 	list-style: none;
 	margin: 0;
 	padding: 0;
 }
 
-body.contact div.container-title section.title div.tab div.tab-inner ul li {
+body.question div.container-title section.title div.tab div.tab-inner ul li {
 	float: left;
 	width: 215px;
 	height: 54px;
@@ -229,7 +220,7 @@ body.contact div.container-title section.title div.tab div.tab-inner ul li {
 	outline: none;
 }
 
-body.contact div.container-title section.title div.tab div.tab-inner ul li a {
+body.question div.container-title section.title div.tab div.tab-inner ul li a {
 	background-position: 16px -89px;
 	padding-left: 40px;
 	position: relative;
@@ -242,33 +233,33 @@ body.contact div.container-title section.title div.tab div.tab-inner ul li a {
 	outline: none;
 }
 
-body.contact div.container-title section.title div.tab div.tab-inner ul li a strong {
+body.question div.container-title section.title div.tab div.tab-inner ul li a strong {
 	display: block;
 	font: normal 1em;
 	text-transform: uppercase;
 	padding-left: 30px;
 }
 
-body.contact div.container-title section.title div.tab div.tab-inner ul li a span {
+body.question div.container-title section.title div.tab div.tab-inner ul li a span {
 	display: block;
 	color: #9DB0BB;
 	margin-top: 5px;
 }
 
 /*content..........................................................*/
-body.contact div.container-content {
+body.question div.container-content {
 	min-height: 650px;
 }
 
 
 /*....................copyright...................*/
 
-body.contact footer {
+body.question footer {
 	border-top: 1px solid #EDEDED;
 	margin-bottom: 10px;
 }
 
-body.contact footer p.copy {
+body.question footer p.copy {
 	color          : darkblue;
 	font-size      : 18px;
 	letter-spacing : 1px;
@@ -281,22 +272,22 @@ body.contact footer p.copy {
 	margin-right: 70px;
 }
 
-body.contact footer div.follow {
+body.question footer div.follow {
 	margin-left:490px;	
 	width:auto;
 	height:50px;
 }
 
-body.contact div.under p {
+body.question div.under p {
 	color: white;
 	opacity: .4;
 }
 
-body.contact hr {
+body.question hr {
 	opacity: .4;
 }
 
-body.contact .noise {
+body.question .noise {
 	background-image   : url('images/noise.png');
 	background-repeat  : repeat;
 	background-position: left top;
@@ -310,62 +301,62 @@ body.contact .noise {
 
 /*..............................content...........................*/
 
-body.contact div.container-content form div.left {
+body.question div.container-content form div.left {
 	margin-left: 200px;
 	width: auto;
 	margin-top: 40px;
 }
 
-body.contact div.container-content form div.right {
+body.question div.container-content form div.right {
 	width:auto;
 	margin-left:200px;	
 }
 
-body.contact div.container-content form div.right input.textnameicon {
+body.question div.container-content form div.right input.textnameicon {
 	width: 260px;
 	margin-right: 80px;
 	margin-left: 100px;
 	min-height: 20px;
 }
 
-body.contact div.container-content form div.right input.textmailicon {
+body.question div.container-content form div.right input.textmailicon {
 	width: 260px;
 	min-height: 20px;
 }
 
-body.contact div.container-content form div.left input.texturlicon {
+body.question div.container-content form div.left input.texturlicon {
 	width: 260px;
 	min-height: 20px;
 	margin-left: 100px;
 }
 
-body.contact div.container-content form div.left input.texttexticon {
+body.question div.container-content form div.left input.texttexticon {
 	width: 260px;
 	min-height: 20px;
 	margin-left: 39px;
 }
 
-body.contact form {
+body.question form {
 	display					: block;
 }
 
-body.contact input::-webkit-input-placeholder {
+body.question input::-webkit-input-placeholder {
     color					: #54301A;
 }
 
-body.contact input:-moz-placeholder {
+body.question input:-moz-placeholder {
     color					: #54301A;
 }
 
-body.contact input:-o-placeholder {
+body.question input:-o-placeholder {
 	 color					: #54301A;
 }
 
-body.contact input:-ms-placeholder {
+body.question input:-ms-placeholder {
 	 color					: #54301A;
 }
 
-body.contact form textarea {
+body.question form textarea {
 	color					: black;
 	font-size				: 18px;
 	border 					: 1px solid black;
@@ -375,7 +366,7 @@ body.contact form textarea {
 	margin-left: 290px;
 }
 
-body.contact div.info-con {
+body.question div.info-con {
 	overflow: hidden;
 	width: 100%;
 	margin-bottom: 40px;
@@ -383,7 +374,7 @@ body.contact div.info-con {
 	border-bottom: 1px solid #E2E2E2;
 }
 
-body.contact div.info-con h2.header-a {
+body.question div.info-con h2.header-a {
 	margin-bottom: 10px;
 	color: #172934;
 	font-size: 26px;
