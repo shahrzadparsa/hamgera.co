@@ -1,9 +1,9 @@
 /*.................language.................*/
-body.about div.language {
+body.executive div.language {
 	margin-left: 120px;
 }
 
-body.about div.lan div {
+body.executive div.lan div {
 	background-color: white;
 	opacity: 0.9;
 	border: 1px solid white;
@@ -11,7 +11,7 @@ body.about div.lan div {
 	margin-left: 3px;
 }
 
-body.about div.lan div a {
+body.executive div.lan div a {
 	color          : blue;
 	display        : block;
 	padding        : 7px 5px 3px;
@@ -23,13 +23,13 @@ body.about div.lan div a {
 	direction      : rtl;
 }
 
-body.about div.lan div :hover {
+body.executive div.lan div :hover {
 	color          : darkorange;
 }
 
 /*...................font..............*/
 
-body.about @font-face {
+body.executive @font-face {
 	font-family: 'Nazanin';
 	src        : url('fonts/BNazanin.eot');
 	src        : url('fonts/BNazanin.eot?#iefix') format('embedded-opentype'),
@@ -39,7 +39,7 @@ body.about @font-face {
 	font-style : normal;
 }
 
-body.about @font-face {
+body.executive @font-face {
 	font-family: 'davat';
 	src        : url('fonts/BDavat.eot');
 	src        : url('fonts/BDavat.eot?#iefix') format('embedded-opentype'),
@@ -49,18 +49,18 @@ body.about @font-face {
 	font-style : normal;
 }
 
-body.about  {
+body.executive  {
 	font-family: 'Nazanin', Arial, sans-serif;
 	-webkit-font-smoothing : antialiased;
 	-moz-font-smoothing : antialiased;
 	-o-font-smoothing : antialiased;
 	-ms-font-smoothing : antialiased;
-	background:url('images/noise.png') repeat left top,url('images/bg1.jpg') repeat-x left top;
+	background:url('images/noise.png') repeat left top,url('images/bg.jpg') repeat-x left top;
 }
 
 /*........................logo........................*/
 
-body.about header div.logo {
+body.executive header div.logo {
 	background-image : url('images/logo20.png');
 	background-repeat: no-repeat;
 	width            : 198px;
@@ -69,12 +69,12 @@ body.about header div.logo {
 
 /*..................menu...................*/
 
-body.about header  nav menu {
+body.executive header  nav menu {
 	margin-top: 45px;
 	z-index: 5;
 }
 
-body.about header nav li {
+body.executive header nav li {
 	float             : right;
 	position          : relative;
 	-webkit-transition: all 300ms;
@@ -85,15 +85,15 @@ body.about header nav li {
 	z-index: 5;
 }
 
-body.about nav li:first-child {
+body.executive nav li:first-child {
 	margin-left : none;
 }
 
-body.about nav li:hover {
+body.executive nav li:hover {
 	text-shadow: 1px 0px 1px #78c8dc;
 }
 
-body.about header nav menu li a {
+body.executive header nav menu li a {
 	display:block;
 	color:black;
 	font-size:18px;
@@ -112,16 +112,16 @@ body.about header nav menu li a {
 	-ms-transition:all 300ms;
 }
 
-body.about header nav menu li a:hover {
+body.executive header nav menu li a:hover {
 	background-color:white;	
 }
 
 
-body.about nav li:hover menu {
+body.executive nav li:hover menu {
 	display   : block;
 }
 
-body.about nav li li {
+body.executive nav li li {
 	float     : none;
 	background: #5F9FCB;
 	border    : none;
@@ -134,49 +134,19 @@ body.about nav li li {
 
 /*content..........................................................*/
 
-body.about div.container-content {
+body.executive div.container-content {
 	min-height: 650px;
 }
 
-body.about div.container-content img {
-	border: 5px solid darkblue;
-	border-radius: 5px;
-	margin-left: 90px;
-}
-
-body.about div.container-content section.text {
-	float: left;
-	width: 550px;
-	height: 350px;
-	margin-left: 100px;
-	margin-top: 20px;
-}
-
-body.about div.container-content section.text article h2 {
-	font-size: 22px;
-	font-family:  Arial, Helvetica, sans-serif;
-	color: red;
-	margin-bottom: 20px;
-	margin-top: 50px;
-	text-align: center;
-}
-
-body.about div.container-content section.text article p {
-	font-size: 14px;
-	font-family: Arial, Helvetica, sans-serif;
-	color: blue;
-	margin-bottom: 5px;
-	margin-top: 20px;
-}
 
 /*....................copyright...................*/
 
-body.about footer {
+body.executive footer {
 	border-top: 1px solid #EDEDED;
 	margin-bottom: 10px;
 }
 
-body.about footer p.copy {
+body.executive footer p.copy {
 	color          : darkblue;
 	font-size      : 18px;
 	letter-spacing : 1px;
@@ -189,22 +159,22 @@ body.about footer p.copy {
 	margin-right: 70px;
 }
 
-body.about footer div.follow {
+body.executive footer div.follow {
 	margin-left:490px;	
 	width:auto;
 	height:50px;
 }
 
-body.about div.under p {
+body.executive div.under p {
 	color: white;
 	opacity: .4;
 }
 
-body.about  hr {
+body.executive  hr {
 	opacity: .4;
 }
 
-body.about .noise {
+body.executive .noise {
 	background-image   : url('images/noise.png');
 	background-repeat  : repeat;
 	background-position: left top;
@@ -216,10 +186,102 @@ body.about .noise {
 	z-index            :-1;
 }
 
-body.about div.fade {
-	background:url('images/fade-1.png') repeat-x;
+/*.......................................... slideshow...........................*/
+
+body.executive section.slideshow {
+	width: 450px;
 }
 
-body.about div.container-content img {
-	background:url('images/fade-1.png') repeat-x;
+body.executive section.slideshow ul.train > li {
+	width: 450px;
+	height: 300px;
+	position:absolute;
+	z-index: 1;
+	left:0;
+	top:0;
+	border-radius: 5px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+body.executive section.slideshow menu {
+	position:absolute;
+	left: 8px;
+	bottom: 8px;
+	z-index: 3;
+}
+
+body.executive section.slideshow menu li {
+	float:left;
+	width:12px;
+	height:12px;
+	border-radius: 6px;
+	background-color: #333;
+	opacity: 0.7;
+	margin-right: 3px;
+	cursor: pointer;
+	-webkit-transition: all 500ms;
+}
+
+body.executive section.slideshow menu li:hover {
+	background-color: #CCE;
+	opacity: 1;
+}
+
+body.executive section.slideshow .train > li {
+	opacity:0;
+	-webkit-transform: scale(0.95);
+	-webkit-transition: all 800ms ease-out;
+}
+
+
+body.executive .step1 section.slideshow .train > li.pic1 {
+	-webkit-transform: scale(1);
+	opacity:1;
+}
+
+body.executive .step2 section.slideshow .train > li.pic2 {
+	-webkit-transform: scale(1);
+	opacity:1;
+}
+
+body.executive .step3 section.slideshow .train > li.pic3 {
+	-webkit-transform: scale(1);
+	opacity:1;
+}
+
+body.executive .step4 section.slideshow .train > li.pic4 {
+	-webkit-transform: scale(1);
+	opacity:1;
+}
+
+body.executive .step5 section.slideshow .train > li.pic5 {
+	-webkit-transform: scale(1);
+	opacity:1;
+}
+body.executive div.container-content div.project {
+	min-height: 600px;
+	width: 600px;
+	float: right;
+}
+
+body.executive div.container-content div.project h2 {
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+body.executive div.container-content div.project ul {
+	padding:7px 10px;
+	margin-top: 45px;
+	float: right;
+}
+
+body.executive div.container-content div.project ul li {
+	display:block;
+	color:black;
+	font-size:18px;
+	color: darkblue;
+	float: right;
+	margin-right: 143px;
 }

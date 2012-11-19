@@ -1,0 +1,366 @@
+/*.................language.................*/
+body.hi div.language {
+	margin-left: 120px;
+}
+
+body.hi div.lan div {
+	background-color: white;
+	opacity: 0.9;
+	border: 1px solid white;
+	border-radius: 25px;
+	margin-left: 3px;
+}
+
+body.hi div.lan div a {
+	color          : blue;
+	display        : block;
+	padding        : 7px 5px 3px;
+	font-size      : 14px;
+	letter-spacing : -1px;
+	text-transform : capitalize;
+	text-decoration: none;
+	white-space    : nowrap;
+	direction      : rtl;
+}
+
+body.hi div.lan div :hover {
+	color          : darkorange;
+}
+
+/*...................font..............*/
+
+body.hi @font-face {
+	font-family: 'Nazanin';
+	src        : url('fonts/BNazanin.eot');
+	src        : url('fonts/BNazanin.eot?#iefix') format('embedded-opentype'),
+	url('fonts/BNazanin.woff') format('woff'),
+	url('fonts/BNazanin.ttf') format('truetype');
+	font-weight: normal;
+	font-style : normal;
+}
+
+body.hi @font-face {
+	font-family: 'davat';
+	src        : url('fonts/BDavat.eot');
+	src        : url('fonts/BDavat.eot?#iefix') format('embedded-opentype'),
+	url('fonts/BDavat.woff') format('woff'),
+	url('fonts/BDavat.ttf') format('truetype');
+	font-weight: normal;
+	font-style : normal;
+}
+
+body.hi {
+	font-family: 'Nazanin', Arial, sans-serif;
+	-webkit-font-smoothing : antialiased;
+	-moz-font-smoothing : antialiased;
+	-o-font-smoothing : antialiased;
+	-ms-font-smoothing : antialiased;
+	background:url('images/noise.png') repeat left top,url('images/backimg.png') repeat-y,url('images/bg5.jpg') repeat-x left top;
+}
+
+/*........................logo........................*/
+
+body.hi header div.logo {
+	background-image : url('images/logo20.png');
+	background-repeat: no-repeat;
+	width            : 198px;
+	height           : 153px;
+}
+
+/*..................menu...................*/
+
+body.hi header  nav menu {
+	margin-top: 45px;
+	z-index: 5;
+}
+
+body.hi header nav li {
+	float             : right;
+	position          : relative;
+	-webkit-transition: all 300ms;
+	-moz-transition   : top 200ms;
+	-ms-transition    : top 200ms;
+	-o-transition     : top 200ms;
+	transition        : top 200ms;
+	z-index: 5;
+}
+
+body.hi nav li:first-child {
+	margin-left : none;
+}
+
+body.hi nav li:hover {
+	text-shadow: 1px 0px 1px #78c8dc;
+}
+
+body.hi header nav menu li a {
+	display:block;
+	color:black;
+	font-size:18px;
+	padding:7px 10px;
+	border-radius:20px;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	-o-border-radius:20px;
+	-ms-border-radius:20px;
+	text-decoration:none;
+	font-family: Yekan, Arial, Helvetica, sans-serif;
+	transition:all 300ms;
+	-webkit-transition:all 300ms;	
+	-moz-transition:all 300ms;	
+	-o-transition:all 300ms;	
+	-ms-transition:all 300ms;
+}
+
+body.hi header nav menu li a:hover {
+	background-color:white;	
+}
+
+
+body.hi nav li:hover menu {
+	display   : block;
+}
+
+body.hi nav li li {
+	float     : none;
+	background: #5F9FCB;
+	border    : none;
+	border-top: 1px dashed white;
+	min-width : 100px;
+	min-height: 30px;
+	opacity   : 0.8;
+}
+/*................content....................*/
+body.hi div.container-title {
+	min-height: 100px;
+}
+
+body.hi div.container-title section.title {
+	width: 972px;
+	border-radius: 5px;
+	margin: 10px auto 0px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-moz-border-radius: 5px;
+	background-color: #0F2431;
+	-webkit-border-radius: 5px;
+}
+
+body.hi div.container-title section.title h1 {
+	color: white;
+	height: 55px;
+	text-align: right;
+	line-height: 55px;
+	padding: 0px 680px 0px 0px;
+	background: url('images/contact.jpg') no-repeat,url('images/contact1.png') no-repeat;
+}
+
+body.hi div.container-title section.title div.tab {
+	overflow: hidden;
+	float: left;
+	position: absolute;
+	height: 71px;
+	top: 160px;
+}
+
+body.hi div.container-title section.title div.tab div.tab-inner {
+	overflow: hidden;
+	float: left;
+	position: relative;
+	height: 67px;
+	padding: 4px 0 0 13px;
+}
+
+body.hi div.container-title section.title div.tab div.tab-inner p.s1 {
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	left: -1px;
+	overflow: hidden;
+	margin-bottom: 0;
+	width: 243px;
+	height: 71px;
+	background: url('images/slider-1.png') 0 0 no-repeat;
+}
+
+body.hi div.container-title section.title div.tab div.tab-inner p.p1 {
+	cursor: url('images/cursor-drag-1.png'), w-resize;
+}
+
+body.hi div.container-title section.title div.tab div.tab-inner p.s2 {
+	display: block;
+	top: 0;
+	left: -1px;
+	position: absolute;
+	z-index: 25;
+	overflow: hidden;
+	margin-bottom: 0;
+	width: 243px;
+	height: 71px;
+	background: url('images/empty.png');
+}
+
+body.hi div.container-title section.title div.tab div.tab-inner p.p2 {
+	cursor: url('images/cursor-drag-1.png'), w-resize;
+}
+
+body.hi div.container-title section.title div.tab div.tab-inner ul {
+	float: right;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+body.hi div.container-title section.title div.tab div.tab-inner ul li {
+	float: left;
+	width: 215px;
+	height: 54px;
+	border-left: 1px solid #334956;
+	font-size: 1.2em;
+	outline: none;
+}
+
+body.hi div.container-title section.title div.tab div.tab-inner ul li a {
+	background-position: 16px -89px;
+	padding-left: 40px;
+	position: relative;
+	z-index: 10;
+	display: block;
+	height: 54px;
+	color: white;
+	text-decoration: none;
+	background: url('images/bullet-5.png') 0 0 no-repeat;
+	outline: none;
+}
+
+body.hi div.container-title section.title div.tab div.tab-inner ul li a strong {
+	display: block;
+	font: normal 1em;
+	text-transform: uppercase;
+	padding-left: 30px;
+}
+
+body.hi div.container-title section.title div.tab div.tab-inner ul li a span {
+	display: block;
+	color: #9DB0BB;
+	margin-top: 5px;
+}
+
+/*content..........................................................*/
+body.hi div.container-content {
+	min-height: 650px;
+}
+
+
+/*....................copyright...................*/
+
+body.hi footer {
+	border-top: 1px solid #EDEDED;
+	margin-bottom: 10px;
+}
+
+body.hi footer p.copy {
+	color          : darkblue;
+	font-size      : 18px;
+	letter-spacing : 1px;
+	text-transform : capitalize;
+	text-decoration: none;
+	white-space    : nowrap;
+	direction      :rtl;
+	text-align     : center;
+	font-family    : 'davat', Arial, sans-serif;
+	margin-right: 70px;
+}
+
+body.hi footer div.follow {
+	margin-left:490px;	
+	width:auto;
+	height:50px;
+}
+
+body.hi div.under p {
+	color: white;
+	opacity: .4;
+}
+
+body.hi hr {
+	opacity: .4;
+}
+
+body.hi .noise {
+	background-image   : url('images/noise.png');
+	background-repeat  : repeat;
+	background-position: left top;
+	bottom             : 0;
+	top                : 0;
+	right              : 0;
+	left               : 0;
+	position           : fixed;
+	z-index            :-1;
+}
+
+/*..............................content...........................*/
+
+body.hi div.container-content form div.right {
+	width:auto;
+	margin-left:200px;	
+}
+
+body.hi div.container-content form div.right input.textnameicon {
+	width: 260px;
+	margin-right: 80px;
+	margin-left: 100px;
+	min-height: 20px;
+}
+
+body.hi div.container-content form div.right input.textmailicon {
+	width: 260px;
+	min-height: 20px;
+}
+
+body.hi form {
+	display					: block;
+}
+
+body.hi input::-webkit-input-placeholder {
+    color					: #54301A;
+}
+
+body.hi input:-moz-placeholder {
+    color					: #54301A;
+}
+
+body.hi input:-o-placeholder {
+	 color					: #54301A;
+}
+
+body.hi input:-ms-placeholder {
+	 color					: #54301A;
+}
+
+body.hi form textarea {
+	color					: black;
+	font-size				: 18px;
+	border 					: 1px solid black;
+	width					: 500px;
+	min-height				: 250px;
+	margin-top: 70px;
+	margin-left: 290px;
+}
+
+body.hi div.info-con {
+	overflow: hidden;
+	width: 100%;
+	margin-bottom: 40px;
+	padding-bottom: 1px;
+	border-bottom: 1px solid #E2E2E2;
+}
+
+body.hi div.info-con h2.header-a {
+	margin-bottom: 10px;
+	color: #172934;
+	font-size: 26px;
+	float: left;
+	text-transform: uppercase;
+	margin-left: 180px;
+}

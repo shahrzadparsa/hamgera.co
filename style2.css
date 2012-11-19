@@ -56,7 +56,7 @@ body {
 	-moz-font-smoothing : antialiased;
 	-o-font-smoothing : antialiased;
 	-ms-font-smoothing : antialiased;
-	background:url('images/noise.png') repeat left top,url('images/bg.jpg') repeat-x left top;
+	background:url('images/noise.png') repeat left top,url('images/backimg.png') repeat-y,url('images/bg.jpg') repeat-x left top;
 }
 
 /*........................logo........................*/
@@ -142,25 +142,25 @@ div.slider {
 	background-color:rgba(55,55,55,0.1);	
 }
 
-div.contain-slider{
+div.contain-slider {
 	/*min-height: 400px;*/
 	/*margin: 100px 0 0;*/
 	position:relative;
 }
 
-div.contain-slider > div.slider{
+div.contain-slider > div.slider {
 	width:945px;
 	margin:0px auto;
 	overflow:hidden;
 	position:relative;
 }
 
-div.contain-slider > div.slider > div.train{
+div.contain-slider > div.slider > div.train {
 	height:400px;
 	position:relative;
 }
 
-div.contain-slider > div.slider > div.train > section{
+div.contain-slider > div.slider > div.train > section {
 	top:0px;
 	left:0px;
 	z-index:0;
@@ -171,7 +171,7 @@ div.contain-slider > div.slider > div.train > section{
 	background-repeat:no-repeat;
 }
 
-div.contain-slider > div.arrow{
+div.contain-slider > div.arrow {
 	width:41px; /*151px*/
 	z-index:1000;
 	height:400px; /*85px*/
@@ -182,12 +182,12 @@ div.contain-slider > div.arrow{
 
 /*-------------------------------------------------------------------------------*/
 /*------pre arrow---------------------------------------------------------------*/
-div.contain-slider > div.pre{
+div.contain-slider > div.pre {
 	top:0px;
 	left:0px;
 }
 
-div.contain-slider > div.pre div.contain-pre-nav{
+div.contain-slider > div.pre div.contain-pre-nav {
 	width:110px;
 	height:85px;
 	float:right; /*for fix js function*/
@@ -198,7 +198,7 @@ div.contain-slider > div.pre div.contain-pre-nav{
 }
 
 div.contain-slider > div.pre div.contain-pre-nav > ul.nav-pre,
-div.contain-slider > div.next div.contain-next-nav > ul.nav-next{
+div.contain-slider > div.next div.contain-next-nav > ul.nav-next {
 	width:110px;
 	height:85px;
 	overflow:hidden;
@@ -206,14 +206,14 @@ div.contain-slider > div.next div.contain-next-nav > ul.nav-next{
 }
 
 div.contain-slider > div.pre div.contain-pre-nav > ul.nav-pre > li,
-div.contain-slider > div.next div.contain-next-nav > ul.nav-next > li{
+div.contain-slider > div.next div.contain-next-nav > ul.nav-next > li {
 	top:0px;
 	left:0px;
 	position:absolute;
 }
 
 div.contain-slider > div.pre div.contain-pre-nav > ul.nav-pre > li > a,
-div.contain-slider > div.next div.contain-next-nav > ul.nav-next > li > a{
+div.contain-slider > div.next div.contain-next-nav > ul.nav-next > li > a {
 	width:110px;
 	height:85px;
 	display:block;
@@ -222,12 +222,12 @@ div.contain-slider > div.next div.contain-next-nav > ul.nav-next > li > a{
 
 /*-------------------------------------------------------------------------------*/
 /*------next arrow---------------------------------------------------------------*/
-div.contain-slider > div.next{
+div.contain-slider > div.next {
 	top:0px;
 	right:0px;
 }
 	
-div.contain-slider > div.next div.contain-next-nav{
+div.contain-slider > div.next div.contain-next-nav {
 	float:left;
 	width:110px;
 	height:85px;
@@ -238,6 +238,76 @@ div.contain-slider > div.next div.contain-next-nav{
 }
 
 /*-------------------------------------------------------------------------------*/
+
+/*--------------btn slideshow-------------------*/
+div.contain-slider menu.nav-slider {
+	position       : absolute;
+	z-index        : 3;
+	left           : 100px;
+	list-style-type: none;
+	margin-top     : 40px;
+	z-index: 5;
+}
+
+div.contain-slider menu.nav-slider li {
+	float        : right;
+	width        : 32px;
+	border-radius: 25px;
+	opacity      : 0.75;
+	cursor       : pointer;
+	height       : 33px;
+	margin-left  : 15px;
+}
+
+div.contain-slider menu.nav-slider li:hover {
+	opacity: 1;
+}
+
+div.contain-slider menu.nav-slider li.btn1 {
+	background-image   : url('images/icon.png');
+	background-position: 0px 0px;
+}
+
+div.contain-slider menu.nav-slider li:hover {
+	background-position: 0px 31px;
+}
+
+div.contain-slider menu.nav-slider li.btn2 {
+	background-image   : url('images/icon.png');
+	background-position: 32px 0px;
+}
+
+div.contain-slider menu.nav-slider li.btn2:hover {
+	background-position: 32px 31px;
+}
+
+div.contain-slider menu.nav-slider li.btn3 {
+	background-image   : url('images/icon.png');
+	background-position: 64px 0px;
+}
+
+div.contain-slider menu.nav-slider li.btn3:hover {
+	background-position: 64px 31px;
+}
+
+div.contain-slider menu.nav-slider li.btn4 {
+	background-image   : url('images/icon.png');
+	background-position: 95px 0px;
+}
+
+div.contain-slider menu.nav-slider li.btn4:hover {
+	background-position: 95px 31px;
+}
+
+div.contain-slider menu.nav-slider li.btn5 {
+	background-image   : url('images/icon.png');
+	background-position: 128px 0px;
+}
+
+div.contain-slider menu.nav-slider li.btn5:hover {
+	background-position: 128px 31px;
+}
+
 /*------ul.nav-slider------------------------------------------------------------*/
 div.contain-slider > div.slider > ul.nav-slider{
 	left:0px;
@@ -254,7 +324,6 @@ div.contain-slider > div.slider > ul.nav-slider > li{
 div.contain-slider > div.slider > ul.nav-slider > li > a{
 	width:100px;
 	display:block; 
-	border:1px solid red;
 }
 /*........................fade.......................*/
 div.fade {
@@ -476,7 +545,7 @@ div.content div.infotext section.rightpanel div.news h1 p.pre {
 	overflow: hidden;
 	width: 13px;
 	height: 13px;
-	background: url(../images/sprites-set-2.png) 0 -50px no-repeat;
+	background: url('images/sprites-set-2.png') 0 -50px no-repeat;
 	text-indent: -10001px;
 	cursor: pointer;
 }
@@ -501,7 +570,7 @@ div.content div.infotext section.rightpanel div.news ul li a {
 	overflow: hidden;
 	width: 13px;
 	height: 13px;
-	background: url(images/sprites-set-2.png) -63px -47px no-repeat;
+	background: url('images/sprites-set-2.png') -63px -47px no-repeat;
 	text-indent: -10001px
 }
 
@@ -511,7 +580,7 @@ div.content div.infotext section.rightpanel div.news p.next {
 	overflow: hidden;
 	width: 13px;
 	height: 13px;
-	background: url(../images/sprites-set-2.png) 0 -50px no-repeat;
+	background: url('images/sprites-set-2.png') 0 -50px no-repeat;
 	text-indent: -10001px;
 	cursor: pointer;
 }
@@ -537,77 +606,16 @@ div.content div.infotext section.rightpanel div.news section article.news1 {
 	overflow: hidden;
 	width: 450px;
 	padding-bottom: 14px;
-	background: url(images/news-box-bottom.png) 0 100% no-repeat;
+	background: url('images/news-box-bottom.png') 0 100% no-repeat;
 }
 
-div.content div.infotext section.rightpanel div.news section article.news1 div {
+div.content div.infotext section.rightpanel div.news section p.news1  {
 	overflow: hidden;
-	height: 139px;
+	height: 400px;
 	padding: 15px 0 0 20px;
-	background: url(images/news-box-top.png) 0 0 no-repeat;		
-}
-
-div.content div.infotext section.rightpanel div.news section article.news1 div p {
 	float: left;
-	margin-bottom: 0;
-	padding-top: 5px;
-	text-align: center;
-}
-
-div.content div.infotext section.rightpanel div.news section article.news1 div p img {
-	border-width: 0;
-}
-
-div.content div.infotext section.rightpanel div.news section article.news1 div div {
-	margin-left: 110px;
-}
-
-div.content div.infotext section.rightpanel div.news section article.news1 div div h2 {
-	margin-bottom: 1px;
-	color: #172934;
-	font: normal 1.3em
-}
-
-div.content div.infotext section.rightpanel div.news section article.news1 div div p {
-	line-height: 1.38;	
-}
-
-=======
-}
-
-div.content div.infotext section.rightpanel div.news h1 p.pre {
-	margin: 2px 0 0 0;	
-	float: left;
-	overflow: hidden;
-	width: 13px;
-	height: 13px;
-	background: url(../images/sprites-set-2.png) 0 -50px no-repeat;
-	text-indent: -10001px;
-	cursor: pointer;
-}
-
-div.content div.infotext section.rightpanel div.news h1 p #navi {
-	margin-left: 16px;
-}
-
-div.content div.infotext section.rightpanel div.news ul {
-	float: left;
-	list-style: none;
-	margin: 0;
-	padding: 2px 6px 0 6px;
-}
-
-div.content div.infotext section.rightpanel div.news ul li {
-	float: left;
-}
-
-div.content div.infotext section.rightpanel div.news ul li a {
-	display: block;
-	overflow: hidden;
-	width: 13px;
-	height: 13px;
-	background: url(images/sprites-set-2.png) -63px -47px no-repeat;
-	text-indent: -10001px
+	font-size: 12px;
+	color: darkblue;
 }
 
 div.content div.infotext section.rightpanel div.news p.next {
@@ -616,7 +624,7 @@ div.content div.infotext section.rightpanel div.news p.next {
 	overflow: hidden;
 	width: 13px;
 	height: 13px;
-	background: url(../images/sprites-set-2.png) 0 -50px no-repeat;
+	background: url('images/sprites-set-2.png') 0 -50px no-repeat;
 	text-indent: -10001px;
 	cursor: pointer;
 }
@@ -642,14 +650,14 @@ div.content div.infotext section.rightpanel div.news section article.news1 {
 	overflow: hidden;
 	width: 450px;
 	padding-bottom: 14px;
-	background: url(images/news-box-bottom.png) 0 100% no-repeat;
+	background: url('images/news-box-bottom.png') 0 100% no-repeat;
 }
 
 div.content div.infotext section.rightpanel div.news section article.news1 div {
 	overflow: hidden;
 	height: 139px;
 	padding: 15px 0 0 20px;
-	background: url(images/news-box-top.png) 0 0 no-repeat;		
+	background: url('images/news-box-top.png') 0 0 no-repeat;		
 }
 
 div.content div.infotext section.rightpanel div.news section article.news1 div p {
@@ -688,14 +696,14 @@ div.content div.infotext section.rightpanel div.news section article.news2 {
 	overflow: hidden;
 	width: 450px;
 	padding-bottom: 14px;
-	background: url(images/news-box-bottom.png) 0 100% no-repeat;
+	background: url('images/news-box-bottom.png') 0 100% no-repeat;
 }
 
 div.content div.infotext section.rightpanel div.news section article.news2 div {
 	overflow: hidden;
 	height: 139px;
 	padding: 15px 0 0 20px;
-	background: url(images/news-box-top.png) 0 0 no-repeat;
+	background: url('images/news-box-top.png') 0 0 no-repeat;
 }
 
 div.content div.infotext section.rightpanel div.news section article.news2 div p {
@@ -703,14 +711,6 @@ div.content div.infotext section.rightpanel div.news section article.news2 div p
 	margin-bottom: 0;
 	padding-top: 5px;
 	text-align: center;
-}
-
-div.content div.infotext section.rightpanel div.news section article.news2 div p img {
-	border-width: 0;
-}
-
-div.content div.infotext section.rightpanel div.news section article.news2 div div {
-	margin-left: 110px;
 }
 
 div.content div.infotext section.rightpanel div.news section article.news2 div div h2 {
@@ -807,6 +807,7 @@ div.under p {
 }
 
 /************ About-page ************/
+
 body.about div.container-content section.text {
 	text-align  : right;
 	padding 	: 0 20px;
@@ -825,8 +826,81 @@ body.about div.container-content section.text p {
 	padding-left: 5px; 
 }
 
-/*.................about.................*/
+body.about div.container-content div.fade {
+	background:url('images/fade-1.png') repeat-x;
+}
 
+body.about  {
+	font-family: 'Nazanin', Arial, sans-serif;
+	-webkit-font-smoothing : antialiased;
+	-moz-font-smoothing : antialiased;
+	-o-font-smoothing : antialiased;
+	-ms-font-smoothing : antialiased;
+	background:url('images/noise.png') repeat left top,url('images/backimg.png') repeat-y,url('images/bg1.jpg') no-repeat;
+}
+
+body.about div.container-title {
+	min-height: 100px;
+}
+
+body.about div.container-title section.title {
+	width: 972px;
+	border-radius: 5px;
+	margin: 10px auto 0px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-moz-border-radius: 5px;
+	background-color: #0F2431;
+	-webkit-border-radius: 5px;
+}
+
+body.about div.container-title section.title h1 {
+	color: white;
+	height: 55px;
+	text-align: right;
+	line-height: 55px;
+	padding: 0px 680px 0px 0px;
+	background: url('images/contact.jpg') no-repeat,url('images/contact1.png') no-repeat;
+}
+
+
+/*.................about.................*/
+/*.................services.............*/
+
+body.services div.container-content section.text {
+	text-align  : right;
+	padding 	: 0 20px;
+	color 		: #111;
+	margin-top: 20px;
+}
+
+body.services div.container-content section.text h2 {
+	font-size 		: 25px;
+	margin-bottom 	: 10px;
+	line-height		: 30px;
+	font-weight		: bold;  
+}
+
+body.services div.container-content section.text p {
+	font-size 	: 17px;
+	padding-left: 5px; 
+}
+
+body.services div.container-content div.fade {
+	background:url('images/fade-1.png') repeat-x;
+}
+
+
+body.services {
+	font-family: 'Nazanin', Arial, sans-serif;
+	-webkit-font-smoothing : antialiased;
+	-moz-font-smoothing : antialiased;
+	-o-font-smoothing : antialiased;
+	-ms-font-smoothing : antialiased;
+	background:url('images/noise.png') repeat left top,url('images/backimg.png') repeat-y,url('images/bg4.jpg') no-repeat;
+}
+
+/*................services................*/
 
 /*.................gallery.................*/
 /*.................language.................*/
@@ -886,7 +960,14 @@ body.gallery {
 	-moz-font-smoothing : antialiased;
 	-o-font-smoothing : antialiased;
 	-ms-font-smoothing : antialiased;
-	background:url('images/noise.png') repeat left top,url('images/bg.jpg') repeat-x left top;
+	background:url('images/noise.png') repeat left top,url('images/backimg.png') repeat-y,url('images/bg2.jpg') repeat-x left top;
+}
+body.gallery div.container-content div.fade {
+	background:url('images/fade-1.png') repeat-x;
+}
+
+body.galleery div.fade {
+	background:url('images/fade-1.png') repeat-x;
 }
 
 /*........................logo........................*/
@@ -1046,3 +1127,295 @@ body.gallery .noise {
 	z-index            :-1;
 }
 /*.................gallery.................*/
+
+/*.................executive.................*/
+
+/*.................language.................*/
+body.executive div.language {
+	margin-left: 120px;
+}
+
+body.executive div.lan div {
+	background-color: white;
+	opacity: 0.9;
+	border: 1px solid white;
+	border-radius: 25px;
+	margin-left: 3px;
+}
+
+body.executive div.lan div a {
+	color          : blue;
+	display        : block;
+	padding        : 7px 5px 3px;
+	font-size      : 14px;
+	letter-spacing : -1px;
+	text-transform : capitalize;
+	text-decoration: none;
+	white-space    : nowrap;
+	direction      : rtl;
+}
+
+body.executive div.lan div :hover {
+	color          : darkorange;
+}
+
+/*...................font..............*/
+
+body.executive @font-face {
+	font-family: 'Nazanin';
+	src        : url('fonts/BNazanin.eot');
+	src        : url('fonts/BNazanin.eot?#iefix') format('embedded-opentype'),
+	url('fonts/BNazanin.woff') format('woff'),
+	url('fonts/BNazanin.ttf') format('truetype');
+	font-weight: normal;
+	font-style : normal;
+}
+
+body.executive @font-face {
+	font-family: 'davat';
+	src        : url('fonts/BDavat.eot');
+	src        : url('fonts/BDavat.eot?#iefix') format('embedded-opentype'),
+	url('fonts/BDavat.woff') format('woff'),
+	url('fonts/BDavat.ttf') format('truetype');
+	font-weight: normal;
+	font-style : normal;
+}
+
+body.executive  {
+	font-family: 'Nazanin', Arial, sans-serif;
+	-webkit-font-smoothing : antialiased;
+	-moz-font-smoothing : antialiased;
+	-o-font-smoothing : antialiased;
+	-ms-font-smoothing : antialiased;
+	background:url('images/noise.png') repeat left top,url('images/backimg.png') repeat-y,url('images/bg3.jpg') repeat-x left top;
+}
+
+/*........................logo........................*/
+
+body.executive header div.logo {
+	background-image : url('images/logo20.png');
+	background-repeat: no-repeat;
+	width            : 198px;
+	height           : 153px;
+}
+
+/*..................menu...................*/
+
+body.executive header  nav menu {
+	margin-top: 45px;
+	z-index: 5;
+}
+
+body.executive header nav li {
+	float             : right;
+	position          : relative;
+	-webkit-transition: all 300ms;
+	-moz-transition   : top 200ms;
+	-ms-transition    : top 200ms;
+	-o-transition     : top 200ms;
+	transition        : top 200ms;
+	z-index: 5;
+}
+
+body.executive nav li:first-child {
+	margin-left : none;
+}
+
+body.executive nav li:hover {
+	text-shadow: 1px 0px 1px #78c8dc;
+}
+
+body.executive header nav menu li a {
+	display:block;
+	color:black;
+	font-size:18px;
+	padding:7px 10px;
+	border-radius:20px;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	-o-border-radius:20px;
+	-ms-border-radius:20px;
+	text-decoration:none;
+	font-family: Yekan, Arial, Helvetica, sans-serif;
+	transition:all 300ms;
+	-webkit-transition:all 300ms;	
+	-moz-transition:all 300ms;	
+	-o-transition:all 300ms;	
+	-ms-transition:all 300ms;
+}
+
+body.executive header nav menu li a:hover {
+	background-color:white;	
+}
+
+
+body.executive nav li:hover menu {
+	display   : block;
+}
+
+body.executive nav li li {
+	float     : none;
+	background: #5F9FCB;
+	border    : none;
+	border-top: 1px dashed white;
+	min-width : 100px;
+	min-height: 30px;
+	opacity   : 0.8;
+}
+/*................content....................*/
+
+/*content..........................................................*/
+
+body.executive div.container-content {
+	min-height: 850px;
+}
+
+/*....................copyright...................*/
+
+body.executive footer {
+	border-top: 1px solid #EDEDED;
+	margin-bottom: 10px;
+}
+
+body.executive footer p.copy {
+	color          : darkblue;
+	font-size      : 18px;
+	letter-spacing : 1px;
+	text-transform : capitalize;
+	text-decoration: none;
+	white-space    : nowrap;
+	direction      :rtl;
+	text-align     : center;
+	font-family    : 'davat', Arial, sans-serif;
+	margin-right: 70px;
+}
+
+body.executive footer div.follow {
+	margin-left:490px;	
+	width:auto;
+	height:50px;
+}
+
+body.executive div.under p {
+	color: white;
+	opacity: .4;
+}
+
+body.executive  hr {
+	opacity: .4;
+}
+
+body.executive .noise {
+	background-image   : url('images/noise.png');
+	background-repeat  : repeat;
+	background-position: left top;
+	bottom             : 0;
+	top                : 0;
+	right              : 0;
+	left               : 0;
+	position           : fixed;
+	z-index            :-1;
+}
+
+/*.......................................... slideshow...........................*/
+
+body.executive section.slideshow {
+	width: 450px;
+}
+
+body.executive section.slideshow ul.train > li {
+	width: 450px;
+	height: 300px;
+	position:absolute;
+	z-index: 1;
+	left:0;
+	top:0;
+	border-radius: 5px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+body.executive section.slideshow menu {
+	position:absolute;
+	left: 8px;
+	bottom: 8px;
+	z-index: 3;
+}
+
+body.executive section.slideshow menu li {
+	float:left;
+	width:12px;
+	height:12px;
+	border-radius: 6px;
+	background-color: #333;
+	opacity: 0.7;
+	margin-right: 3px;
+	cursor: pointer;
+	-webkit-transition: all 500ms;
+}
+
+body.executive section.slideshow menu li:hover {
+	background-color: #CCE;
+	opacity: 1;
+}
+
+body.executive section.slideshow .train > li {
+	opacity:0;
+	-webkit-transform: scale(0.95);
+	-webkit-transition: all 800ms ease-out;
+}
+
+
+body.executive .step1 section.slideshow .train > li.pic1 {
+	-webkit-transform: scale(1);
+	opacity:1;
+}
+
+body.executive .step2 section.slideshow .train > li.pic2 {
+	-webkit-transform: scale(1);
+	opacity:1;
+}
+
+body.executive .step3 section.slideshow .train > li.pic3 {
+	-webkit-transform: scale(1);
+	opacity:1;
+}
+
+body.executive .step4 section.slideshow .train > li.pic4 {
+	-webkit-transform: scale(1);
+	opacity:1;
+}
+
+body.executive .step5 section.slideshow .train > li.pic5 {
+	-webkit-transform: scale(1);
+	opacity:1;
+}
+
+body.executive div.container-content div.project {
+	min-height: 600px;
+	width: 600px;
+	float: right;
+}
+
+body.executive div.container-content div.project h2 {
+	margin-bottom: 20px;
+	color: black;
+	float: right;
+}
+
+body.executive div.container-content div.project ul {
+	padding:7px 10px;
+	margin-top: 45px;
+	float: right;
+}
+
+body.executive div.container-content div.project ul li {
+	color:black;
+	font-size:18px;
+	color: darkblue;
+	float: right;
+	margin-right: 143px;
+}
+
+/*......................executive....................*/
