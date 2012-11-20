@@ -376,7 +376,6 @@ body.question form textarea {
 
 body.question div.info-con {
 	overflow: hidden;
-	width: 100%;
 	margin-bottom: 40px;
 	padding-bottom: 1px;
 	border-bottom: 1px solid #E2E2E2;
@@ -386,7 +385,7 @@ body.question div.info-con h2.header-a {
 	margin-bottom: 10px;
 	color: #172934;
 	font-size: 26px;
-	float: left;
 	text-transform: uppercase;
 	margin-left: 180px;
+	text-align: right;
 }
