@@ -377,7 +377,6 @@ body.contact form textarea {
 
 body.contact div.info-con {
 	overflow: hidden;
-	width: 100%;
 	margin-bottom: 40px;
 	padding-bottom: 1px;
 	border-bottom: 1px solid #E2E2E2;
@@ -387,7 +386,8 @@ body.contact div.info-con h2.header-a {
 	margin-bottom: 10px;
 	color: #172934;
 	font-size: 26px;
-	float: left;
+	float: right;
+	text-align : right; 
 	text-transform: uppercase;
 	margin-left: 180px;
 }
