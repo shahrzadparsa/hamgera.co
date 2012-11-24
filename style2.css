@@ -70,6 +70,11 @@ header div.logo {
 }
 
 /*..................menu...................*/
+div.container-top {
+	background: url('images/top-brd.png');
+	background-repeat: no-repeat;
+	background-position: 49% 63%;
+}
 
 header  nav menu {
 	margin-top: 45px;
@@ -483,9 +488,6 @@ div.content div.infotext section.leftpanel section.backimg div a.view {
 	text-transform: none;
 	color: #54301A;
 	text-decoration: none;
-	background-image: url('images/strike.png');
-	background-repeat: no-repeat;
-	background-position: 30px;
 }
 
 div.content div.infotext section.leftpanel section.backimg article {

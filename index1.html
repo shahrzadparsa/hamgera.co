@@ -11,8 +11,8 @@
 	<link  type="text/css" rel="stylesheet" href="scripts/reset.css"/>
 </head>
 <body>
-	<div class="w24 mlra container-top">
-		<header class="cover">
+	<div class="w24 cover mlra container-top">
+		<header class="mlra cover">
 			<h1>
 				<a href="index1.html">
 					<div class="left w4 cover logo"></div>
@@ -39,13 +39,13 @@
 	</div>
     <div class="contain-slider">
     	  <menu class="nav-slider">
-				<li class="btn1" onclick = " document.getElementById('anihelper').className = 'step1' "></li>
-				<li class="btn2" onclick = " document.getElementById('anihelper').className = 'step2' "></li>
-				<li class="btn3" onclick = " document.getElementById('anihelper').className = 'step3' "></li>
-				<li class="btn4" onclick = " document.getElementById('anihelper').className = 'step4' "></li>
-				<li class="btn5" onclick = " document.getElementById('anihelper').className = 'step5' "></li>
-				<li class="btn6" onclick = " document.getElementById('anihelper').className = 'step6' "></li>
-				<li class="btn7" onclick = " document.getElementById('anihelper').className = 'step7' "></li>
+				<li class="btn1" onclick = " document.body.style.backgroundColor='';autoSlide(0); "></li>
+				<li class="btn2" onclick = " document.body.style.backgroundColor='url(images/slider-item-1.png)'; autoSlide(1); "></li>
+				<li class="btn3" onclick = " document.body.style.backgroundColor='url(images/slider-item-1.png)'; autoSlide(2); "></li>
+				<li class="btn4" onclick = " document.body.style.backgroundColor='url(images/slider-item-1.png)'; autoSlide(3);"></li>
+				<li class="btn5" onclick = " document.body.style.backgroundColor='url(images/slider-item-1.png)';autoSlide(4); "></li>
+				<li class="btn6" onclick = " document.body.style.backgroundColor='url(images/slider-item-1.png)'; autoSlide(5);"></li>
+				<li class="btn7" onclick = " document.body.style.backgroundImage='url(images/slider-item-1.png)'; autoSlide(6);"></li>
 			</menu>
         <div class="arrow pre">
             <div class="contain-pre-nav">
