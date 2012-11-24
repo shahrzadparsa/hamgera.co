@@ -49,7 +49,7 @@ body.contact @font-face {
 	font-style : normal;
 }
 
-body.contact  {
+body.contact {
 	font-family: 'Nazanin', Arial, sans-serif;
 	-webkit-font-smoothing : antialiased;
 	-moz-font-smoothing : antialiased;
@@ -325,23 +325,23 @@ body.contact div.container-content form div.right input.textnameicon {
 	width: 260px;
 	margin-right: 80px;
 	margin-left: 100px;
-	min-height: 20px;
+	min-height: 26px;
 }
 
 body.contact div.container-content form div.right input.textmailicon {
 	width: 260px;
-	min-height: 20px;
+	min-height: 26px;
 }
 
 body.contact div.container-content form div.left input.texturlicon {
 	width: 260px;
-	min-height: 20px;
+	min-height: 26px;
 	margin-left: 100px;
 }
 
 body.contact div.container-content form div.left input.texttexticon {
 	width: 260px;
-	min-height: 20px;
+	min-height: 26px;
 	margin-left: 39px;
 }
 
@@ -375,6 +375,21 @@ body.contact form textarea {
 	margin-left: 290px;
 }
 
+body.contact form button {
+	cursor					: pointer;
+	width					: 160px;
+	min-height				: 40px;
+	display					: block;
+	border 					: none;
+	background-position		: 0 -26px;
+	margin-left				: 150px;
+	margin-right: 310px;
+}
+
+body.contact form button:hover{
+	cursor: pointer;
+}
+
 body.contact div.info-con {
 	overflow: hidden;
 	margin-bottom: 40px;
@@ -383,9 +398,19 @@ body.contact div.info-con {
 }
 
 body.contact div.info-con h2.header-a {
-	margin-bottom: 10px;
+	margin-bottom: 25px;
 	color: #172934;
 	font-size: 26px;
+	float: right;
+	text-align : right; 
+	text-transform: uppercase;
+	margin-left: 180px;
+}
+
+body.contact div.info-con p {
+	margin-bottom: 10px;
+	color: #172934;
+	font-size: 20px;
 	float: right;
 	text-align : right; 
 	text-transform: uppercase;

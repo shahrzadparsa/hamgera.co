@@ -159,18 +159,18 @@ body.product div.container-title section.title h1 {
 /*................content....................*/
 
 
-body.product menu.linkmenu li:hover {
+body.suzuki menu.linkmenu li:hover {
 	list-style-type		: none;
 	background-position	: 0 0;
 	width				: 276px;
 }
 
-body.product menu.linkmenu {
+body.suzuki menu.linkmenu {
 	padding-left: 140px;
 	padding-top: 50px;
 }
 
-body.product menu.linkmenu li a {
+body.suzuki menu.linkmenu li a {
 	display				: block;
 	color				:darkblue;
 	text-decoration		: none;
@@ -180,7 +180,7 @@ body.product menu.linkmenu li a {
 	font-size			: 20px;
 }
 
-body.product menu.linkmenu li {
+body.suzuki menu.linkmenu li {
 	height 				: 40px;
 	line-height			: 30px;
 	width				: 215px;
@@ -189,52 +189,52 @@ body.product menu.linkmenu li {
 	border-bottom: 1px solid #E2E2E2;
 }
 
-body.product menu.linkmenu li:hover a {
+body.suzuki menu.linkmenu li:hover a {
 	color				: darkorange;
 	display				: block;
 }
 
-body.product menu.linkmenu a:visited li {
+body.suzuki menu.linkmenu a:visited li {
 	background-position	: 0 0;
 }
 
 
 /*content..........................................................*/
 
-body.product div.container-content {
+body.suzuki div.container-content {
 	min-height: 650px;
 }
 
-body.product div.container-content div.pro {
+body.suzuki div.container-content div.pro {
 	width: 700px;
 }
 
-body.product div.container-content div.pro li {
+body.suzuki div.container-content div.pro li {
 	float: left;
 	margin-right: 15px;
 }
 
-body.product div.container-content div.pro li a {
+body.suzuki div.container-content div.pro li a {
 	display: block;
 	border: 8px solid #FAFAFA;
 	border-bottom-width: 30px;
 	border-radius: 2px;
 }
 
-body.product div.container-content {
+body.suzuki div.container-content {
 	width: 200px;
 	margin-bottom: 30px;
 	margin-right: 30px;
 }
 
-body.product div.container-content figure {
+body.suzuki div.container-content figure {
 	width: 200px;
 	height: 114px;
 	overflow: hidden;
 	position: relative;
 }
 
-body.product div.container-content figure figcaption {
+body.suzuki div.container-content figure figcaption {
 	position: absolute;
 	display: block;
 	width: 160px;
@@ -253,7 +253,7 @@ body.product div.container-content figure figcaption {
 	transition: bottom .5s;
 }
 
-body.product div.container-content figure:hover figcaption {
+body.suzuki div.container-content figure:hover figcaption {
 	bottom: 0px;
 }
 
@@ -312,7 +312,7 @@ body.product div.fade {
 
 /* lighbox 2.51 */
 
-body.product  #lightboxOverlay {
+body.suzuki #lightboxOverlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -323,7 +323,7 @@ body.product  #lightboxOverlay {
   display: none;
 }
 
-body.product  #lightbox {
+body.suzuki #lightbox {
   position: absolute;
   left: 0;
   width: 100%;
@@ -334,16 +334,16 @@ body.product  #lightbox {
   font-weight: normal;
 }
 
-body.product  #lightbox img {
+body.suzuki #lightbox img {
   width: auto;
   height: auto;
 }
 
-body.product  #lightbox a img {
+body.suzuki #lightbox a img {
   border: none;
 }
 
-body.product  .lb-outerContainer {
+body.suzuki .lb-outerContainer {
   position: relative;
   background-color: white;
   *zoom: 1;
@@ -357,17 +357,17 @@ body.product  .lb-outerContainer {
   border-radius: 4px;
 }
 
-body.product  .lb-outerContainer:after {
+body.suzuki .lb-outerContainer:after {
   content: "";
   display: table;
   clear: both;
 }
 
-body.product  .lb-container {
+body.suzuki .lb-container {
   padding: 10px;
 }
 
-body.product  .lb-loader {
+body.suzuki .lb-loader {
   position: absolute;
   top: 40%;
   left: 0%;
@@ -377,7 +377,7 @@ body.product  .lb-loader {
   line-height: 0;
 }
 
-body.product  .lb-nav {
+body.suzuki .lb-nav {
   position: absolute;
   top: 0;
   left: 0;
@@ -386,15 +386,15 @@ body.product  .lb-nav {
   z-index: 10;
 }
 
-body.product  .lb-container > .nav {
+body.suzuki .lb-container > .nav {
   left: 0;
 }
 
-body.product  .lb-nav a {
+body.suzuki .lb-nav a {
   outline: none;
 }
 
-body.product  .lb-prev, .lb-next {
+body.suzuki .lb-prev, .lb-next {
   cursor:pointer;
   width: 25%;
   height: 60%;
@@ -403,25 +403,25 @@ body.product  .lb-prev, .lb-next {
   display: block;
 }
 
-body.product  .lb-prev {
+body.suzuki .lb-prev {
   left: 0;
   float: left;
 }
 
-body.product  .lb-next {
+body.suzuki .lb-next {
   right: 0;
   float: right;
 }
 
-body.product  .lb-prev:hover {
+body.suzuki .lb-prev:hover {
   background: url('images/lightbox/prev.png') left 48% no-repeat;
 }
 
-body.product  .lb-next:hover {
+body.suzuki .lb-next:hover {
   background: url('images/lightbox/next.png') right 48% no-repeat;
 }
 
-body.product  .lb-dataContainer {
+body.suzuki .lb-dataContainer {
   margin: 0 auto;
   padding-top: 5px;
   *zoom: 1;
@@ -438,60 +438,60 @@ body.product  .lb-dataContainer {
   border-bottom-right-radius: 4px;
 }
 
-body.product  .lb-dataContainer:after {
+body.suzuki .lb-dataContainer:after {
   content: "";
   display: table;
   clear: both;
 }
 
-body.product  .lb-data {
+body.suzuki .lb-data {
   padding: 0 10px;
   color: #bbbbbb;
 }
 
-body.product  .lb-data .lb-details {
+body.suzuki .lb-data .lb-details {
   width: 85%;
   float: left;
   text-align: left;
   line-height: 1.1em;
 }
 
-body.product  .lb-data .lb-caption {
+body.suzuki .lb-data .lb-caption {
   font-size: 13px;
   font-weight: bold;
   line-height: 1em;
 }
 
-body.product  .lb-data .lb-number {
+body.suzuki .lb-data .lb-number {
   display: block;
   clear: left;
   padding-bottom: 1em;
   font-size: 11px;
 }
 
-body.product  .lb-data .lb-close {
+body.suzuki .lb-data .lb-close {
   width: 35px;
   float: right;
   padding-bottom: 0.7em;
   outline: none;
 }
 
-body.product  .lb-data .lb-close:hover {
+body.suzuki .lb-data .lb-close:hover {
   cursor: pointer;
 }
 
-body.product .gallery {
+body.suzuki .gallery {
 	width: 550px;
 	float: left;
 }
 
-body.product .gallery li {
+body.suzuki .gallery li {
 	float: left;
 	margin-right: 30px;
 	margin-bottom: 25px;
 }
 
-body.product .gallery li a {
+body.suzuki .gallery li a {
 	display: block;
 	border: 8px solid #FAFAFA;
 	border-bottom-width: 30px;

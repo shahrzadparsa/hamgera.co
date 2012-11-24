@@ -130,6 +130,29 @@ body.services nav li li {
 	opacity   : 0.8;
 }
 /*................content....................*/
+body.services div.container-title {
+	min-height: 100px;
+}
+
+body.services div.container-title section.title {
+	width: 972px;
+	border-radius: 5px;
+	margin: 10px auto 0px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-moz-border-radius: 5px;
+	background-color: #0F2431;
+	-webkit-border-radius: 5px;
+}
+
+body.services div.container-title section.title h1 {
+	color: white;
+	height: 55px;
+	text-align: right;
+	line-height: 55px;
+	padding: 0px 680px 0px 0px;
+	background: url('images/contact.jpg') no-repeat,url('images/contact1.png') no-repeat;
+}
 
 /*content..........................................................*/
 
@@ -138,7 +161,7 @@ body.services div.container-content {
 }
 
 body.services div.container-content img {
-	border: 5px solid darkblue;
+	border: 1px solid darkblue;
 	border-radius: 5px;
 	margin-left: 90px;
 }

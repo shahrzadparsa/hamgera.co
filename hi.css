@@ -183,6 +183,14 @@ body.hi div.container-title section.title div.tab div.tab-inner p.s1 {
 	background: url('images/slider-1.png') 0 0 no-repeat;
 }
 
+body.hi div.container-title section.title div.tab div.tab-inner ul li.say a:hover {
+	margin-bottom: 0;
+	width: 243px;
+	height: 71px;
+	background: url('images/slider-1.png') 0 0 no-repeat;
+	position: absolute;
+}
+
 body.hi div.container-title section.title div.tab div.tab-inner p.p1 {
 	cursor: url('images/cursor-drag-1.png'), w-resize;
 }
@@ -360,7 +368,7 @@ body.hi div.info-con h2.header-a {
 	margin-bottom: 10px;
 	color: #172934;
 	font-size: 26px;
-	float: left;
+	float: right;
 	text-transform: uppercase;
 	margin-left: 180px;
 }
