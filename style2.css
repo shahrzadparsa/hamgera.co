@@ -1,4 +1,7 @@
 /*.................language.................*/
+body,html{
+	direction: rtl;
+}
 div.language {
 	margin-left  : 180px;
 	margin-right : 60px;
@@ -6,10 +9,10 @@ div.language {
 
 div.lan div {
 	background-color: white;
-	opacity: 0.9;
-	border: 1px solid white;
-	border-radius: 25px;
-	margin-left: 3px;
+	opacity         : 0.9;
+	border          : 1px solid white;
+	border-radius   : 25px;
+	margin-left     : 3px;
 }
 
 div.lan div a {
@@ -70,11 +73,6 @@ header div.logo {
 }
 
 /*..................menu...................*/
-div.container-top {
-	background: url('images/top-brd.png');
-	background-repeat: no-repeat;
-	background-position: 49% 63%;
-}
 
 header  nav menu {
 	margin-top: 45px;
@@ -454,59 +452,65 @@ div.boxes ul li a h2 {
 
 /* Under Develope Page */
 
- div.content div.infotext section.leftpanel section.backimg div {
+div.infotext section.leftpanel section.backimg {
+	position: relative;
+	width: 470px;
+	height: 112px;
+}
+
+ div.infotext section.leftpanel section.backimg > div {
 	position : absolute;
-	width: 950px;
+	width: 500px;
 	height: 398px;
-	margin-right: 50px;
 	top      : 0;
 	right    :0;
-	bottom   :0;
-	padding: 80px 100px 0 40px;
+	padding: 70px 0 0 240px;
 	z-index  :-2;
-	background-position :500px 0;
+	background-position :435px 0;
 	background-repeat   :no-repeat;
 } 
 
-div.content div.infotext section.leftpanel section.backimg div h2 {
+ div.infotext section.leftpanel section.backimg > div h2 {
 	color: #CC0D1C;
 	font-weight: normal;
 	text-transform: uppercase;
 	font-size: 22px;
 }
 
-div.content div.infotext section.leftpanel section.backimg div p {
+ div.infotext section.leftpanel section.backimg > div p {
 	margin-top: 15px;
 	color: #8D7E6F;
 	font-size: 20px;
 }
 
-div.content div.infotext section.leftpanel section.backimg div a.view {
+ div.infotext section.leftpanel section.backimg > div a.view {
 	font-weight: normal;
 	display: block;
 	margin-top: 25px;
 	text-transform: none;
 	color: #54301A;
 	text-decoration: none;
+	padding: 130px 0 0 21px;
 }
 
-div.content div.infotext section.leftpanel section.backimg article {
-	float:left;
+ div.infotext section.leftpanel section.backimg article {
+	float:right;
 	margin-top: 40px;
+	width: 410px;
 }
 
-div.content div.infotext section.leftpanel section.backimg article div {
-	float: left;
+ div.infotext section.leftpanel section.backimg article div {
+	float: right;
 	margin-top: 60px;
-	margin-right: 800px;
+
 }
 
-div.content div.infotext section.leftpanel section.backimg div a.view:hover {
+div.infotext section.leftpanel section.backimg div a.view:hover {
 	color: #CC0D1C;
 	text-decoration: none;
 }
 
-div.content div.infotext section.leftpanel section.backimg div a span{
+ div.infotext section.leftpanel section.backimg div a span{
 	color: #CC0D1C;
 	cursor: pointer;
 	font-weight: normal;
@@ -525,11 +529,6 @@ div.content div.infotext section.leftpanel {
 	float: left;
 	width: 493px;
 	min-height: 200px;
-}
-
-div.content div.infotext section.leftpanel div {
-	overflow: hidden;
-	`width: 100%;
 }
 
 div.content div.infotext section.rightpanel div.news {
@@ -1191,6 +1190,7 @@ body.executive div.container-content div.project ul li {
 /*......................executive....................*/
 
 /*....................contact........................*/
+
 body.contact {
 	font-family: 'Nazanin', Arial, sans-serif;
 	-webkit-font-smoothing : antialiased;
@@ -3829,3 +3829,512 @@ body.brucket .gallery li a {
 	border-bottom-width: 30px;
 	border-radius: 2px;
 }
+
+/*.........................coopration...............*/
+
+body.indexpage section.container div.hollinks{
+		position 			: relative;
+		width 				: 100%;
+		height 				: 740px;
+		background 			: url('images/box-l-bg.png');
+		background-repeat	: no-repeat;
+		margin-top			: 50px;
+		margin-left			: 200px;
+	}
+	section.container div.hollinks ol.lists{
+		position 			: relative;
+		z-index				: 2;
+		list-style 			: none;
+	}
+	section.container div.hollinks ol li{
+		position 			: absolute;
+		width 				: 205px;
+		min-height 			: 160px;
+		counter-increment	: section;
+	}
+
+	li.list1{
+		opacity 			: 1;
+		display 			: block;
+		top 				: 15px;
+	}
+	li.list2{
+		opacity 			: 1;
+		display 			: block;
+		/*top 				: 65px;
+		left 				: 408px;*/
+	}
+	li.list3{
+		opacity 			: 1;
+		display 			: block;
+		/*top 				: 232px;
+		right  				: 940px; */
+	}
+	li.list4{
+		opacity 			: 1;
+		display 			: block;
+		/*top 				: 287px;
+		right  				: 595px; */
+	}
+	li.list5{
+		opacity 			: 1;
+		display 			: block;
+		/*top 				: 345px;
+		right  				: 215px;*/ 
+	}
+	li.list6{
+		opacity 			: 1;
+		display 			: block;
+		/*top 				: 510px;
+		right  				: 435px;*/ 
+	}
+	li.list7{
+		opacity 			: 1;
+		display 			: block;
+		/*top 				: 538px;
+		right  				: 840px; */
+	}
+	a:hover{
+		text-decoration		: none;
+	}
+	section.container div.hollinks ol li::before{
+		position 			: absolute;
+		z-index				: 10;
+		left 				: 12px;
+		top  				: 16px;
+		color 				:#fff;
+		content				:counter(section, decimal) " ";
+		font-size			: 16px;
+		font-weight			: bold;
+
+	}
+	
+	section.container div.hollinks ol li.list1 > div{
+		display 			: block;
+		width 				: 205px;
+		height 				: 49px;
+		background 			: #1e62bf;
+		border-radius 		: 3px;
+
+	}
+	section.container div.hollinks ol li.list2 > div{
+		display 			: block;
+		width 				: 205px;
+		height 				: 49px;
+		background 			: #61c1ff;
+		border-radius 		: 3px;
+	}
+	section.container div.hollinks ol li.list3 > div{
+		display 			: block;
+		width 				: 205px;
+		height 				: 49px;
+		background 			: #0eb916;
+		border-radius 		: 3px;
+	}
+	section.container div.hollinks ol li.list4 > div{
+		display 			: block;
+		width 				: 205px;
+		height 				: 49px;
+		background 			: #a7df11;
+		border-radius 		: 3px;
+	}
+	section.container div.hollinks ol li.list5 > div{
+		display 			: block;
+		width 				: 205px;
+		height 				: 49px;
+		background 			: #e8bf00;
+		border-radius 		: 3px;
+	}
+	section.container div.hollinks ol li.list6 > div{
+		display 			: block;
+		width 				: 205px;
+		height 				: 49px;
+		background 			: #e67c00;
+		border-radius 		: 3px;
+	}
+	section.container div.hollinks ol li.list7 > div{
+		display 			: block;
+		width 				: 205px;
+		height 				: 49px;
+		background 			: #e63100;
+		border-radius 		: 3px;
+	}
+	div.hollinks ol li.list1 div div,
+	div.hollinks ol li.list2 div div,
+	div.hollinks ol li.list3 div div,
+	div.hollinks ol li.list4 div div,
+	div.hollinks ol li.list5 div div,
+	div.hollinks ol li.list6 div div,
+	div.hollinks ol li.list7 div div
+
+	{
+		float				: right;
+		width 				: 158px;
+		height 				: 39px;
+		margin-top 			: 5px;
+		padding-top			: 7px;
+		padding-right		: 10px;
+		padding-bottom		: 3px;
+		border-radius 		: 3px;
+		box-shadow			: 0px 0px 3px #000;
+		right 				:-7px;
+	}
+	ol li.list1 div.item1,
+	ol li.list2 div.item2,
+	ol li.list3 div.item3,
+	ol li.list4 div.item4,
+	ol li.list5 div.item5,
+	ol li.list6 div.item6,
+	ol li.list7 div.item7
+	{
+		position 			: relative;
+	}
+	div.hollinks ol li.list1 div div.list1item1,
+	div.hollinks ol li.list2 div div.list2item2,
+	div.hollinks ol li.list3 div div.list3item3,
+	div.hollinks ol li.list4 div div.list4item4,
+	div.hollinks ol li.list5 div div.list5item5,
+	div.hollinks ol li.list6 div div.list6item6,
+	div.hollinks ol li.list7 div div.list7item7
+	{
+		padding-left		: 10px;
+		background-color	: #fff;
+		position 			: absolute;
+
+	}
+	ol li.list1 div.item1:hover div.list1item1,
+	ol li.list2 div.item2:hover div.list2item2,
+	ol li.list3 div.item3:hover div.list3item3,
+	ol li.list4 div.item4:hover div.list4item4,
+	ol li.list5 div.item5:hover div.list5item5,
+	ol li.list6 div.item6:hover div.list6item6,
+	ol li.list7 div.item7:hover div.list7item7
+	{
+		padding-left		: 37px;
+		background-color	:#f8f8f8;
+	}
+	div.hollinks ol a.alist1,
+	div.hollinks ol a.alist2,
+	div.hollinks ol a.alist3,
+	div.hollinks ol a.alist4,
+	div.hollinks ol a.alist5,
+	div.hollinks ol a.alist6,
+	div.hollinks ol a.alist7
+	{
+		display				: block;
+		width 				: 205px;
+		min-height			: 91px;
+		position 			: absolute;
+	}
+	body.indexpage div.hollinks ol a.alist2{
+		left 				: 408px;
+		top 				:67px;
+	}
+	body.indexpage div.hollinks ol a.alist3{
+		left 				: -200px;
+		top 				:233px;
+
+	}
+	body.indexpage div.hollinks ol a.alist4{
+		left 				:159px;
+		top 				:282px;
+	}
+	body.indexpage div.hollinks ol a.alist5{
+		right 				:210px;
+		top 				:340px;
+	}
+	body.indexpage div.hollinks ol a.alist6{
+		left 				:300px;
+		top 				:510px;
+	}
+	body.indexpage div.hollinks ol a.alist7{
+		right 				:920px;
+		top 				:525px;
+	}
+	body.biopage div.hollinks ol a.alist1{
+		left 				: 50px;
+		top 				:-7px;
+	}
+	body.biopage div.hollinks ol a.alist2{
+		left 				:50px;
+		top 				:70px;
+	}
+	body.biopage div.hollinks ol a.alist3{
+		left 				:50px;
+		top 				:133px;
+
+	}
+	body.biopage div.hollinks ol a.alist4{
+		left 				:50px;
+		top 				:196px;
+	}
+	body.biopage div.hollinks ol a.alist5{
+		left 				:50px;
+		top 				:260px;
+	}
+	body.biopage div.hollinks ol a.alist6{
+		left 				:50px;
+		top 				:323px;
+	}
+	body.biopage div.hollinks ol a.alist7{
+		left 				:50px;
+		top 				:387px;
+	}
+	/*body.biopage div.hollinks ol li.list1{
+		background: url('images/summary-box-arrows.png');
+		background-repeat: no-repeat;
+		width: ;
+		height:;
+	}*/
+	div.hollinks ol li h4{
+		color 				:#000;
+		font-weight			: normal;
+		font-size			: 14px;
+		text-transform		: capitalize;
+		margin-top			: 9px;
+	}
+	div.hollinks ol li p{
+		color 				:#657883;
+		font-weight			: normal;
+		font-size			: 0.9em;
+		margin-top			: 18px;
+		margin-left			: 22px;
+		line-height			: 1.5;
+	}
+	div.hollinks ol li.list1 span.bullet{
+		background-position : 0 -100px;
+	}
+	div.hollinks ol li.list2 span.bullet{
+		background-position : -20px -100px;
+	}
+	div.hollinks ol li.list3 span.bullet{
+		background-position : -40px -100px;
+	}
+	div.hollinks ol li.list4 span.bullet{
+		background-position : -60px -100px;
+	}
+	div.hollinks ol li.list5 span.bullet{
+		background-position : -80px -100px;
+	}
+	div.hollinks ol li.list6 span.bullet{
+		background-position : -100px -100px;
+	}
+	div.hollinks ol li.list7 span.bullet{
+		background-position : -120px -100px;
+	}
+	div.hollinks ol a span.bullet{
+		z-index				: 20;
+		width 				: 20px;
+		height 				: 19px;
+		position 			: absolute;
+		top 				: 20px;
+		background 			: url('images/sprites-set-2.png');
+		opacity				: 0;
+		left:-20px;
+		transition 			:all 500ms;
+        -moz-transition		:all 500ms; /* Firefox 4 */
+        -webkit-transition	:all 500ms; /* Safari and Chrome */
+        -o-transition		:all 500ms; /* Opera */
+	}
+	div.hollinks ol a div.item1:hover span.bullet,
+	div.hollinks ol a div.item2:hover span.bullet,
+	div.hollinks ol a div.item3:hover span.bullet,
+	div.hollinks ol a div.item4:hover span.bullet,
+	div.hollinks ol a div.item5:hover span.bullet,
+	div.hollinks ol a div.item6:hover span.bullet,
+	div.hollinks ol a div.item7:hover span.bullet
+	{
+		opacity 			: 1;
+		display 			: block;
+		transition 			:all 500ms;
+        -moz-transition		:all 500ms; /* Firefox 4 */
+        -webkit-transition	:all 500ms; /* Safari and Chrome */
+        -o-transition		:all 500ms; /* Opera */
+		transform 			:translate(35px,0px);
+		-ms-transform		:translate(35px,0px); /* Internet Explorer */
+		-moz-transform		:translate(35px,0px); /* Firefox */
+		-webkit-transform	:translate(35px,0px); /* Safari and Chrome */
+		-o-transform		:translate(35px,0px); /* Opera */
+	}
+/* ~~ ><> ~~ <>< <>< ~~ ~~~~ ~~ ~<>< index flch ><> ~~~ ~ <>< ~~ ><> ~~ ><>*/	
+
+	section.container div.hollinks ol > div{
+		width 				: 15px;
+		height 				: 15px;
+		background-repeat	: no-repeat;
+		background-position : 0px 0px;
+		position 			: absolute; 
+	}
+	section.container div.hollinks div.blueflch{
+		background 			: url('images/blue.png');
+		left				: 331px;
+		top					: 5px;
+	}
+	section.container div.hollinks div.lightblueflch{
+		background 			: url('images/lightblue.png');
+		left				: 235px;
+		top					: 171px;
+	}
+	section.container div.hollinks div.greenflch{
+		background 			: url('images/green.png');
+		left				: 69px;
+		top					: 288px;
+	}
+	section.container div.hollinks div.lightgreenflch{
+		background 			: url('images/lightgreen.png');
+		left				: 527px;
+		top					: 276px;
+	}
+	section.container div.hollinks div.lightorangeflch{
+		background 			: url('images/lightorange.png');
+		left				: 446px;
+		top					: 416px;
+	}
+	section.container div.hollinks div.orangeflch{
+		background 			: url('images/orange.png');
+		left				: 185px;
+		top					: 497px;
+	}
+	/*div.hollinks li.list1:hover div.blueflch{
+		transform 			:rotate(30deg);
+		-ms-transform		:rotate(30deg); /* IE 9 */
+		/*-moz-transform		:rotate(30deg); /* Firefox */
+		/*-webkit-transform	:rotate(30deg); /* Safari and Chrome */
+		/*-o-transform		:rotate(30deg); /* Opera */
+		/*transition 			:all 100ms;
+        -moz-transition		:all 100ms; /* Firefox 4 */
+        /*-webkit-transition	:all 100ms; /* Safari and Chrome */
+        /*-o-transition		:all 100ms; /* Opera */
+	/*}
+/* ~~ ><> ~~ <>< <>< ~~ ~~~~ ~~ ~<>< bio ><> ~~~ ~ <>< ~~ ><> ~~ ><>*/	
+	body.biopage div.biocontent div.lcontent{
+		border 				 : 1px solid #bcc8c9;
+		border-radius 		 : 3px;
+		-webkit-border-radius:3px;
+		-moz-border-radius	 :3px;
+		-o-border-radius	 :3px;
+		-ms-border-radius	 :3px;
+		min-height			 : 800px;
+		box-shadow			 : 0px 0px 5px 0px rgba(0, 0, 0, 0.28);
+		margin-bottom 		 : 110px;
+
+	}
+	body.biopage div.lcontent section.slideshow{
+		height: 600px;
+	}
+	body.biopage div.lcontent section.slideshow ul.train{
+		position 			 : relative;
+		-webkit-transition	 : top 800ms ease-out;
+	}
+	body.biopage div.lcontent section.slideshow ul.train > li{
+		width 				 : 670px;
+		min-height 			 : 650px;
+		margin 				 :5px 0px;
+	}
+	body.biopage div.lcontent li div.topheader{
+		border 				 : 1px solid #bcc8c9;
+		border-radius 		 : 3px;
+		-webkit-border-radius:3px;
+		-moz-border-radius	 :3px;
+		-o-border-radius	 :3px;
+		-ms-border-radius	 :3px;
+		box-shadow			 : 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+		margin 				 : 1px 3px;
+	}
+	body.biopage li div.topheader div.num1 p,
+	body.biopage li div.topheader div.num2 p,
+	body.biopage li div.topheader div.num3 p,
+	body.biopage li div.topheader div.num4 p,
+	body.biopage li div.topheader div.num5 p,
+	body.biopage li div.topheader div.num6 p,
+	body.biopage li div.topheader div.num7 p
+	{
+		color 				 : #fff;
+		font-size 			 : 20px;
+		font-weight			 : bold;
+		margin 				 : 16px 14px;
+	}
+	body.biopage li  h3.bheader,
+	body.biopage li  h3.pubheader,
+	body.biopage li  h3.attheader,
+	body.biopage li  h3.resheader,
+	body.biopage li  h3.profheader,
+	body.biopage li  h3.canheader,
+	body.biopage li  h3.dlheader
+	{
+		margin-left			 : 50px;
+		text-transform		 : uppercase;
+		margin-top			 : 17px;
+		font-weight			 : bold;
+		font-size			 : 17px;
+	}
+	body.biopage li div.cantext h3.canheader,
+	body.biopage li div.proftext h3.profheader,
+	body.biopage li div.restext h3.resheader,
+	body.biopage li div.atttext h3.attheader,
+	body.biopage li div.pubtext h3.pubheader,
+	body.biopage li div.biotext h3
+	{
+		border-left			 : 2px solid #b5c8c9;
+		padding-left		 : 15px;
+	}
+	body.biopage li div ul.restext2{
+		margin-left			 :95px;   
+		line-height			 :30px;
+		list-style-type		 :disc;
+	}
+	body.biopage li div.atttext h3.attheader1,
+	body.biopage li div.proftext h3.profheader1,
+	body.biopage li div.cantext h3.canheader1,
+	body.biopage li div.dltext h3.dlheader
+	{
+		font-weight			 : bold;
+		margin-top			 : 30px;
+		margin-left			 : 30px;
+	}
+	body.biopage li div.atttext p{
+		margin-top			 :30px;
+		margin-left			 :40px; 
+		margin-right		 :5px; 
+		text-indent			 :30px; 
+		line-height			 :30px;
+	}
+	body.biopage li div.topheader div.num1{
+		background-color	 : #1e61bd;
+		width 				 : 40px;
+	}
+	body.biopage li div.topheader div.num2{
+		background-color	 : #5ebaf6;
+		width 				 : 40px;
+	}
+	body.biopage li div.topheader div.num3{
+		background-color	 : #0eb716;
+		width 				 : 40px;
+	}
+	body.biopage li div.topheader div.num4{
+		background-color	 : #a7df11;
+		width 				 : 40px;
+	}
+	body.biopage li div.topheader div.num5{
+		background-color 	 : #e8bf00;
+		width 				 : 40px;
+	}
+	body.biopage li div.topheader div.num6{
+		background-color	 : #e67c00;
+		width 				 : 40px;
+	}
+	body.biopage li div.topheader div.num7{
+		background-color 	 : #e63100;
+		width 				 : 40px;
+	}
+	body.biopage li div.biotext p{
+		margin-left			: 70px;
+		line-height			: 30px;
+	}
+	/*body.biopage section.slideshow li div.pubtexts p p.jafang{
+		margin-top:30px;
+		margin-left:40px;
+		margin-right:5px;
+		text-indent:30px
+	}*/
+
