@@ -922,7 +922,7 @@ body.services {
 	-o-font-smoothing : antialiased;
 	-ms-font-smoothing : antialiased;
 	background:url('images/noise.png') repeat left top,
-		url('images/fade-1.png') repeat-x 0 45%,
+		url('images/fade-1.png') repeat-x 0 63%,
 		url('images/backimg.png') 0 60px no-repeat,
 		url('images/bg4.jpg') no-repeat;
 }
@@ -963,7 +963,7 @@ body.gallery {
 	-o-font-smoothing : antialiased;
 	-ms-font-smoothing : antialiased;
 	background:url('images/noise.png') repeat left top,
-		url('images/fade-1.png') repeat-x 0 45%,
+		url('images/fade-1.png') repeat-x 0 50%,
 		url('images/backimg.png') 0 60px no-repeat,
 		url('images/bg2.jpg') repeat-x left top;
 }
@@ -1042,7 +1042,7 @@ body.executive {
 	-o-font-smoothing : antialiased;
 	-ms-font-smoothing : antialiased;
 	background:url('images/noise.png') repeat left top,
-		url('images/fade-1.png') repeat-x 0 45%,
+		url('images/fade-1.png') repeat-x 0 50%,
 		url('images/backimg.png') 0 60px no-repeat,
 		url('images/about.jpg') repeat-x left top;
 }
