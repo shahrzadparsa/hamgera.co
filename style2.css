@@ -65,7 +65,7 @@ body {
 /*........................logo........................*/
 
 header div.logo {
-	background-image : url('images/logo20.png');
+	background-image : url('images/logo3.png');
 	background-repeat: no-repeat;
 	width            : 198px;
 	height           : 153px;
@@ -809,7 +809,7 @@ div.under p {
 	right              : 0;
 	left               : 0;
 	position           : fixed;
-	z-index            :-1;
+	z-index            :40;
 }
 
 /************ About-page ************/
@@ -823,6 +823,8 @@ body.about div.container-content section.text {
 	text-align  : right;
 	padding 	: 0 20px;
 	color 		: #111;
+	width: 670px;
+	margin-top: -120px;
 }
 
 body.about div.container-content section.text h2 {
@@ -847,7 +849,10 @@ body.about  {
 	-moz-font-smoothing : antialiased;
 	-o-font-smoothing : antialiased;
 	-ms-font-smoothing : antialiased;
-	background:url('images/noise.png') repeat left top,url('images/backimg.png') repeat-y,url('images/bg1.jpg') no-repeat;
+	background:url('images/noise.png') repeat left top,
+		url('images/fade-1.png') repeat-x 0 104%,
+		url('images/backimg.png') 0 60px no-repeat,
+		url('images/bg1.jpg') no-repeat;
 }
 
 body.about div.container-title {
@@ -870,7 +875,7 @@ body.about div.container-title section.title h1 {
 	height: 55px;
 	text-align: right;
 	line-height: 55px;
-	padding: 0px 680px 0px 0px;
+	padding: 0px 345px 0px 0px;
 	background: url('images/contact.jpg') no-repeat,url('images/contact1.png') no-repeat;
 }
 
@@ -916,7 +921,10 @@ body.services {
 	-moz-font-smoothing : antialiased;
 	-o-font-smoothing : antialiased;
 	-ms-font-smoothing : antialiased;
-	background:url('images/noise.png') repeat left top,url('images/backimg.png') repeat-y,url('images/bg4.jpg') no-repeat;
+	background:url('images/noise.png') repeat left top,
+		url('images/fade-1.png') repeat-x 0 45%,
+		url('images/backimg.png') 0 60px no-repeat,
+		url('images/bg4.jpg') no-repeat;
 }
 
 body.services div.container-title {
@@ -939,7 +947,7 @@ body.services div.container-title section.title h1 {
 	height: 55px;
 	text-align: right;
 	line-height: 55px;
-	padding: 0px 680px 0px 0px;
+	padding: 0px 345px 0px 0px;
 	background: url('images/contact.jpg') no-repeat,url('images/contact1.png') no-repeat;
 }
 
@@ -954,7 +962,10 @@ body.gallery {
 	-moz-font-smoothing : antialiased;
 	-o-font-smoothing : antialiased;
 	-ms-font-smoothing : antialiased;
-	background:url('images/noise.png') repeat left top,url('images/backimg.png') repeat-y,url('images/bg2.jpg') repeat-x left top;
+	background:url('images/noise.png') repeat left top,
+		url('images/fade-1.png') repeat-x 0 45%,
+		url('images/backimg.png') 0 60px no-repeat,
+		url('images/bg2.jpg') repeat-x left top;
 }
 
 /*................content....................*/
@@ -978,7 +989,7 @@ body.gallery div.container-title section.title h1 {
 	height: 55px;
 	text-align: right;
 	line-height: 55px;
-	padding: 0px 680px 0px 0px;
+	padding: 0px 345px 0px 0px;
 	background: url('images/contact.jpg') no-repeat,url('images/contact1.png') no-repeat;
 }
 /*content..........................................................*/
@@ -1030,7 +1041,10 @@ body.executive {
 	-moz-font-smoothing : antialiased;
 	-o-font-smoothing : antialiased;
 	-ms-font-smoothing : antialiased;
-	background:url('images/noise.png') repeat left top,url('images/backimg.png') repeat-y,url('images/about.jpg') repeat-x left top;
+	background:url('images/noise.png') repeat left top,
+		url('images/fade-1.png') repeat-x 0 45%,
+		url('images/backimg.png') 0 60px no-repeat,
+		url('images/about.jpg') repeat-x left top;
 }
 
 body.executive div.container-title {
@@ -1053,7 +1067,7 @@ body.executive div.container-title section.title h1 {
 	height: 55px;
 	text-align: right;
 	line-height: 55px;
-	padding: 0px 680px 0px 0px;
+	padding: 0px 345px 0px 0px;
 	background: url('images/contact.jpg') no-repeat,url('images/contact1.png') no-repeat;
 }
 /*content..........................................................*/
@@ -1118,6 +1132,11 @@ body.executive section.slideshow .train > li {
 	-ms-transition: all 800ms ease-out;
 }
 
+body.executive .step1  {
+	width: 450px;
+	float: left;
+}
+
 body.executive .step1 section.slideshow .train > li.pic1 {
 	-webkit-transform: scale(1);
 	-moz-transform: scale(1);
@@ -1158,14 +1177,14 @@ body.executive .step5 section.slideshow .train > li.pic5 {
 	opacity:1;
 }
 body.executive div.container-content div.project {
-	min-height: 600px;
-	width: 600px;
+	min-height: 650px;
+	width: 495px;
 	float: right;
 }
 
 body.executive div.container-content div.project h2 {
 	margin-bottom: 10px;
-	margin-right: 140px;
+	margin-right: 115px;
 	text-align: right;
 	font-size: 22px;
 	font-weight: bold;
@@ -1184,7 +1203,7 @@ body.executive div.container-content div.project ul li {
 	line-height: 20px;
 	color: darkblue;
 	float: right;
-	margin-right: 143px;
+	margin-right: 100px;
 }
 
 /*......................executive....................*/
@@ -1197,7 +1216,10 @@ body.contact {
 	-moz-font-smoothing : antialiased;
 	-o-font-smoothing : antialiased;
 	-ms-font-smoothing : antialiased;
-	background:url('images/noise.png') repeat left top,url('images/backimg.png') repeat-y,url('images/bg5.jpg') repeat-x left top;
+	background : url('images/noise.png') repeat left top,
+		url('images/fade-1.png') repeat-x 0 45%,
+		url('images/backimg.png') 0 60px no-repeat,
+		url('images/bg5.jpg') 50% 0 no-repeat;
 }
 
 body.contact div.container-title {
@@ -1221,7 +1243,6 @@ body.contact div.container-title section.title h1 {
 	text-align: right;
 	line-height: 55px;
 	padding: 0px 680px 0px 0px;
-	background: url('images/contact.jpg') no-repeat,url('images/contact1.png') no-repeat;
 }
 
 body.contact div.container-title section.title div.tab {
@@ -1329,9 +1350,9 @@ body.contact div.container-content {
 }
 
 body.contact div.container-content form div.left {
-	margin-left: 200px;
+	margin-left: 205px;
 	width: auto;
-	margin-top: 40px;
+	margin-top: 15px;
 }
 
 body.contact div.container-content form div.right {
@@ -1386,11 +1407,10 @@ body.contact input:-ms-placeholder {
 body.contact form textarea {
 	color					: black;
 	font-size				: 18px;
-	border 					: 1px solid black;
-	width					: 500px;
-	min-height				: 250px;
-	margin-top: 70px;
-	margin-left: 290px;
+	width					: 620px;
+	min-height				: 160px;
+	margin-top: 20px;
+	margin-left: 245px;
 }
 
 body.contact form button {
@@ -1426,15 +1446,19 @@ body.contact div.info-con h2.header-a {
 }
 
 body.contact div.info-con p {
-	margin-bottom: 10px;
+	margin-top: 40px;
 	color: #172934;
 	font-size: 20px;
-	float: right;
 	text-align : right; 
-	text-transform: uppercase;
 	margin-left: 180px;
 }
 
+body.contact div.info-con p.extra {
+	margin-bottom: 10px;
+	color: #172934;
+	font-size: 20px;
+	text-align : right; 
+}
 /*...................question......................*/
 body.question {
 	font-family: 'Nazanin', Arial, sans-serif;
@@ -1442,7 +1466,10 @@ body.question {
 	-moz-font-smoothing : antialiased;
 	-o-font-smoothing : antialiased;
 	-ms-font-smoothing : antialiased;
-	background:url('images/noise.png') repeat left top,url('images/backimg.png') repeat-y,url('images/bg5.jpg') repeat-x left top;
+	background:url('images/noise.png') repeat left top,
+		url('images/fade-1.png') repeat-x 0 45%,
+		url('images/backimg.png') 0 60px no-repeat,
+		url('images/bg5.jpg') repeat-x left top;
 }
 
 body.question div.container-title {
@@ -1466,7 +1493,6 @@ body.question div.container-title section.title h1 {
 	text-align: right;
 	line-height: 55px;
 	padding: 0px 680px 0px 0px;
-	background: url('images/contact.jpg') no-repeat,url('images/contact1.png') no-repeat;
 }
 
 body.question div.container-title section.title div.tab {
@@ -1661,7 +1687,10 @@ body.hi {
 	-moz-font-smoothing : antialiased;
 	-o-font-smoothing : antialiased;
 	-ms-font-smoothing : antialiased;
-	background:url('images/noise.png') repeat left top,url('images/backimg.png') repeat-y,url('images/bg5.jpg') repeat-x left top;
+	background:url('images/noise.png') repeat left top,
+		url('images/fade-1.png') repeat-x 0 45%,
+		url('images/backimg.png') 0 60px no-repeat,
+		url('images/bg5.jpg') repeat-x left top;
 }
 
 body.hi div.container-title {
@@ -1685,7 +1714,6 @@ body.hi div.container-title section.title h1 {
 	text-align: right;
 	line-height: 55px;
 	padding: 0px 680px 0px 0px;
-	background: url('images/contact.jpg') no-repeat,url('images/contact1.png') no-repeat;
 }
 
 body.hi div.container-title section.title div.tab {
@@ -1863,7 +1891,10 @@ body.product {
 	-moz-font-smoothing : antialiased;
 	-o-font-smoothing : antialiased;
 	-ms-font-smoothing : antialiased;
-	background:url('images/noise.png') repeat left top,url('images/backimg.png') repeat-y,url('images/bg3.jpg') repeat-x left top;
+	background:url('images/noise.png') repeat left top,
+		url('images/fade-1.png') repeat-x 0 54%,
+		url('images/backimg.png') 0 60px no-repeat,
+		url('images/bg3.jpg') repeat-x left top;
 }
 
 body.product header  nav menu {
@@ -1948,7 +1979,7 @@ body.product div.container-title section.title h1 {
 	height: 55px;
 	text-align: right;
 	line-height: 55px;
-	padding: 0px 680px 0px 0px;
+	padding: 0px 345px 0px 0px;
 	background: url('images/contact.jpg') no-repeat,url('images/contact1.png') no-repeat;
 }
 
@@ -1958,7 +1989,6 @@ body.product div.container-title section.title h1 {
 body.product menu.linkmenu li:hover {
 	list-style-type		: none;
 	background-position	: 0 0;
-	width				: 276px;
 }
 
 body.product menu.linkmenu {
@@ -2260,7 +2290,7 @@ body.suzuki div.container-title section.title h1 {
 	height: 55px;
 	text-align: right;
 	line-height: 55px;
-	padding: 0px 680px 0px 0px;
+	padding: 0px 345px 0px 0px;
 	background: url('images/contact.jpg') no-repeat,url('images/contact1.png') no-repeat;
 }
 
@@ -2270,7 +2300,10 @@ body.suzuki {
 	-moz-font-smoothing : antialiased;
 	-o-font-smoothing : antialiased;
 	-ms-font-smoothing : antialiased;
-	background:url('images/noise.png') repeat left top,url('images/backimg.png') repeat-y,url('images/bg3.jpg') repeat-x left top;
+	background:url('images/noise.png') repeat left top,
+		url('images/fade-1.png') repeat-x 0 54%,
+		url('images/backimg.png') 0 60px no-repeat,
+		url('images/bg3.jpg') repeat-x left top;
 }
 
 body.suzuki menu.linkmenu li:hover {
@@ -2578,7 +2611,7 @@ body.ebm div.container-title section.title h1 {
 	height: 55px;
 	text-align: right;
 	line-height: 55px;
-	padding: 0px 680px 0px 0px;
+	padding: 0px 345px 0px 0px;
 	background: url('images/contact.jpg') no-repeat,url('images/contact1.png') no-repeat;
 }
 
@@ -2588,7 +2621,10 @@ body.ebm {
 	-moz-font-smoothing : antialiased;
 	-o-font-smoothing : antialiased;
 	-ms-font-smoothing : antialiased;
-	background:url('images/noise.png') repeat left top,url('images/backimg.png') repeat-y,url('images/bg3.jpg') repeat-x left top;
+	background:url('images/noise.png') repeat left top,
+		url('images/fade-1.png') repeat-x 0 54%,
+		url('images/backimg.png') 0 60px no-repeat,
+		url('images/bg3.jpg') repeat-x left top;
 }
 
 body.ebm menu.linkmenu li:hover {
@@ -2896,7 +2932,7 @@ body.lg div.container-title section.title h1 {
 	height: 55px;
 	text-align: right;
 	line-height: 55px;
-	padding: 0px 680px 0px 0px;
+	padding: 0px 345px 0px 0px;
 	background: url('images/contact.jpg') no-repeat,url('images/contact1.png') no-repeat;
 }
 
@@ -2906,7 +2942,10 @@ body.lg {
 	-moz-font-smoothing : antialiased;
 	-o-font-smoothing : antialiased;
 	-ms-font-smoothing : antialiased;
-	background:url('images/noise.png') repeat left top,url('images/backimg.png') repeat-y,url('images/bg3.jpg') repeat-x left top;
+	background:url('images/noise.png') repeat left top,
+		url('images/fade-1.png') repeat-x 0 54%,
+		url('images/backimg.png') 0 60px no-repeat,
+		url('images/bg3.jpg') repeat-x left top;
 }
 
 body.lg menu.linkmenu li:hover {
@@ -3214,7 +3253,7 @@ body.lens div.container-title section.title h1 {
 	height: 55px;
 	text-align: right;
 	line-height: 55px;
-	padding: 0px 680px 0px 0px;
+	padding: 0px 345px 0px 0px;
 	background: url('images/contact.jpg') no-repeat,url('images/contact1.png') no-repeat;
 }
 
@@ -3224,7 +3263,10 @@ body.lens {
 	-moz-font-smoothing : antialiased;
 	-o-font-smoothing : antialiased;
 	-ms-font-smoothing : antialiased;
-	background:url('images/noise.png') repeat left top,url('images/backimg.png') repeat-y,url('images/bg3.jpg') repeat-x left top;
+	background:url('images/noise.png') repeat left top,
+		url('images/fade-1.png') repeat-x 0 54%,
+		url('images/backimg.png') 0 60px no-repeat,
+		url('images/bg3.jpg') repeat-x left top;
 }
 
 body.lens menu.linkmenu li:hover {
@@ -3532,7 +3574,7 @@ body.bruket div.container-title section.title h1 {
 	height: 55px;
 	text-align: right;
 	line-height: 55px;
-	padding: 0px 680px 0px 0px;
+	padding: 0px 345px 0px 0px;
 	background: url('images/contact.jpg') no-repeat,url('images/contact1.png') no-repeat;
 }
 
@@ -3542,7 +3584,10 @@ body.brucket {
 	-moz-font-smoothing : antialiased;
 	-o-font-smoothing : antialiased;
 	-ms-font-smoothing : antialiased;
-	background:url('images/noise.png') repeat left top,url('images/backimg.png') repeat-y,url('images/bg3.jpg') repeat-x left top;
+	background:url('images/noise.png') repeat left top,
+		url('images/fade-1.png') repeat-x 0 54%,
+		url('images/backimg.png') 0 60px no-repeat,
+		url('images/bg3.jpg') repeat-x left top;
 }
 
 body.brucket menu.linkmenu li:hover {
