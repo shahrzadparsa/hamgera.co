@@ -109,12 +109,13 @@ header nav menu li a {
 	-o-border-radius:20px;
 	-ms-border-radius:20px;
 	text-decoration:none;
-	font-family: Yekan, Arial, Helvetica, sans-serif;
+	font-weight: bold;
 	transition:all 300ms;
 	-webkit-transition:all 300ms;	
 	-moz-transition:all 300ms;	
 	-o-transition:all 300ms;	
 	-ms-transition:all 300ms;
+	font-family: 'Nazanin', Arial, sans-serif;
 }
 
 header nav menu li a:hover {
@@ -246,7 +247,7 @@ div.contain-slider > div.next div.contain-next-nav {
 div.contain-slider menu.nav-slider {
 	position       : absolute;
 	z-index        : 3;
-	left           : 100px;
+	left           : 220px;
 	list-style-type: none;
 	margin-top     : 40px;
 	z-index: 5;
@@ -452,13 +453,52 @@ div.boxes ul li a h2 {
 
 /* Under Develope Page */
 
-div.infotext section.leftpanel section.backimg {
-	position: relative;
+div.container-content {
+   height: auto;
+   width : auto;
+}
+   
+div.container-content div.content { 
+    width :950px;
+    margin: 0 auto;
+}
+
+div.container-content div.content div.textinfo {
+    margin-top: 40px;
+    min-height: 300px;
+    margin-bottom: 25px;
+}
+
+div.container-content div.content div.textinfo div.left {
+    width: 450px;
+    margin-left: 20px;
+    border-radius: 10px;
+    -o-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 0px 2px 20px darkorange;
+    border-radius: 10px;
+    -o-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    transition: all 500ms;
+    -o-transition: all 500ms;
+    -ms-transition: all 500ms;
+    -moz-transition: all 500ms;
+    -webkit-transition: all 500ms;
+    background-color: rgba(255, 230, 230, 0.5);
+    min-height: 271px;
+}
+
+div.container-content div.content div.textinfo div.left section.backimg {
+    position: relative;
 	width: 470px;
 	height: 112px;
 }
 
- div.infotext section.leftpanel section.backimg > div {
+div.container-content div.content div.textinfo div.left section.backimg > div {
 	position : absolute;
 	width: 500px;
 	height: 398px;
@@ -470,20 +510,22 @@ div.infotext section.leftpanel section.backimg {
 	background-repeat   :no-repeat;
 } 
 
- div.infotext section.leftpanel section.backimg > div h2 {
-	color: #CC0D1C;
+div.container-content div.content div.textinfo div.left section.backimg > div h2 {
+	color: black;
 	font-weight: normal;
 	text-transform: uppercase;
-	font-size: 22px;
-}
-
- div.infotext section.leftpanel section.backimg > div p {
-	margin-top: 15px;
-	color: #8D7E6F;
 	font-size: 20px;
+	text-align: center;
 }
 
- div.infotext section.leftpanel section.backimg > div a.view {
+ div.container-content div.content div.textinfo div.left section.backimg > div p {
+	margin-top: 15px;
+	color: black;
+	font-size: 16px;
+	text-align: justify;
+}
+
+div.container-content div.content div.textinfo div.left section.backimg > div a.view {
 	font-weight: normal;
 	display: block;
 	margin-top: 25px;
@@ -493,241 +535,52 @@ div.infotext section.leftpanel section.backimg {
 	padding: 130px 0 0 21px;
 }
 
- div.infotext section.leftpanel section.backimg article {
+ div.container-content div.content div.textinfo div.left section.backimg article {
 	float:right;
 	margin-top: 40px;
 	width: 410px;
 }
 
- div.infotext section.leftpanel section.backimg article div {
+ div.container-content div.content  div.textinfo div.left section.backimg article div {
 	float: right;
 	margin-top: 60px;
 
 }
 
-div.infotext section.leftpanel section.backimg div a.view:hover {
-	color: #CC0D1C;
+div.container-content div.content div.textinfo div.left section.backimg div a.view:hover {
+	color: darkorange;
 	text-decoration: none;
 }
 
- div.infotext section.leftpanel section.backimg div a span{
-	color: #CC0D1C;
-	cursor: pointer;
-	font-weight: normal;
-	text-transform: none;
+div.container-content div.content  div.textinfo div.right {
+    width: 400px;
+    margin-left: 20px;
+    border-radius: 10px;
+    -o-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 0px 2px 10px darkorange;
+    border-radius: 10px;
+    -o-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    transition: all 500ms;
+    -o-transition: all 500ms;
+    -ms-transition: all 500ms;
+    -moz-transition: all 500ms;
+    -webkit-transition: all 500ms;
+    background-color: rgba(255, 230, 230, 0.5);
 }
 
-/*.............................textpanel........................*/
-
-
-div.content .infotext {
-	width: 974px;
-	margin: 0 auto;
-}
-
-div.content div.infotext section.leftpanel {
-	float: left;
-	width: 493px;
-	min-height: 200px;
-}
-
-div.content div.infotext section.rightpanel div.news {
-	overflow: hidden;
-	width: 100%;
-}
-
-div.content div.infotext section.rightpanel div.news h1 {
-	margin-bottom: 20px;
-	color: #172934;
-	letter-spacing: -0.02em;
-	text-transform: uppercase;
-	margin-bottom: 5px;
-	float: left;
-<<<<<<< HEAD
-}
-
-div.content div.infotext section.rightpanel div.news h1 p.pre {
-	margin: 2px 0 0 0;	
-	float: left;
-	overflow: hidden;
-	width: 13px;
-	height: 13px;
-	background: url('images/sprites-set-2.png') 0 -50px no-repeat;
-	text-indent: -10001px;
-	cursor: pointer;
-}
-
-div.content div.infotext section.rightpanel div.news h1 p #navi {
-	margin-left: 16px;
-}
-
-div.content div.infotext section.rightpanel div.news ul {
-	float: left;
-	list-style: none;
-	margin: 0;
-	padding: 2px 6px 0 6px;
-}
-
-div.content div.infotext section.rightpanel div.news ul li {
-	float: left;
-}
-
-div.content div.infotext section.rightpanel div.news ul li a {
-	display: block;
-	overflow: hidden;
-	width: 13px;
-	height: 13px;
-	background: url('images/sprites-set-2.png') -63px -47px no-repeat;
-	text-indent: -10001px
-}
-
-div.content div.infotext section.rightpanel div.news p.next {
-	margin: 2px 0 0 0;
-	float: left;
-	overflow: hidden;
-	width: 13px;
-	height: 13px;
-	background: url('images/sprites-set-2.png') 0 -50px no-repeat;
-	text-indent: -10001px;
-	cursor: pointer;
-}
-
-div.content div.infotext section.rightpanel div.news p #nav {
-	background-position: -13px -50px;
-}
-
-div.content div.infotext section.rightpanel div.news section {
-	position: relative;
-	overflow: hidden;
-	width: 100%;
-	height: 168px;
-}
-
-div.content div.infotext section.rightpanel div.news section article.news1 {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	z-index: 2;
-	opacity: 1;
-	display: block;
-	overflow: hidden;
-	width: 450px;
-	padding-bottom: 14px;
-	background: url('images/news-box-bottom.png') 0 100% no-repeat;
-}
-
-div.content div.infotext section.rightpanel div.news section p.news1  {
-	overflow: hidden;
-	height: 400px;
+div.container-content div.content  div.textinfo div.right p.news1 {
+    overflow: hidden;
 	padding: 15px 0 0 20px;
 	float: left;
-	font-size: 12px;
-	color: darkblue;
-}
-
-div.content div.infotext section.rightpanel div.news p.next {
-	margin: 2px 0 0 0;
-	float: left;
-	overflow: hidden;
-	width: 13px;
-	height: 13px;
-	background: url('images/sprites-set-2.png') 0 -50px no-repeat;
-	text-indent: -10001px;
-	cursor: pointer;
-}
-
-div.content div.infotext section.rightpanel div.news p #nav {
-	background-position: -13px -50px;
-}
-
-div.content div.infotext section.rightpanel div.news section {
-	position: relative;
-	overflow: hidden;
-	width: 100%;
-	height: 168px;
-}
-
-div.content div.infotext section.rightpanel div.news section article.news1 {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	z-index: 2;
-	opacity: 1;
-	display: block;
-	overflow: hidden;
-	width: 450px;
-	padding-bottom: 14px;
-	background: url('images/news-box-bottom.png') 0 100% no-repeat;
-}
-
-div.content div.infotext section.rightpanel div.news section article.news1 div {
-	overflow: hidden;
-	height: 139px;
-	padding: 15px 0 0 20px;
-	background: url('images/news-box-top.png') 0 0 no-repeat;		
-}
-
-div.content div.infotext section.rightpanel div.news section article.news1 div p {
-	float: left;
-	margin-bottom: 0;
-	padding-top: 5px;
-	text-align: center;
-}
-
-div.content div.infotext section.rightpanel div.news section article.news1 div p img {
-	border-width: 0;
-}
-
-div.content div.infotext section.rightpanel div.news section article.news1 div div {
-	margin-left: 110px;
-}
-
-div.content div.infotext section.rightpanel div.news section article.news1 div div h2 {
-	margin-bottom: 1px;
-	color: #172934;
-	font: normal 1.3em
-}
-
-div.content div.infotext section.rightpanel div.news section article.news1 div div p {
-	line-height: 1.38;	
-}
-
->>>>>>> Master/master
-div.content div.infotext section.rightpanel div.news section article.news2 {
-	top: 0px;
-	left: 0px;
-	z-index: 1;
-	position: absolute;
-	display: none;
-	opacity: 0;
-	overflow: hidden;
-	width: 450px;
-	padding-bottom: 14px;
-	background: url('images/news-box-bottom.png') 0 100% no-repeat;
-}
-
-div.content div.infotext section.rightpanel div.news section article.news2 div {
-	overflow: hidden;
-	height: 139px;
-	padding: 15px 0 0 20px;
-	background: url('images/news-box-top.png') 0 0 no-repeat;
-}
-
-div.content div.infotext section.rightpanel div.news section article.news2 div p {
-	float: left;
-	margin-bottom: 0;
-	padding-top: 5px;
-	text-align: center;
-}
-
-div.content div.infotext section.rightpanel div.news section article.news2 div div h2 {
-	margin-bottom: 1px;
-	color: #172934;
-	font: normal 1.3em;
-}
-
-div.content div.infotext section.rightpanel div.news section article.news2 div div p{
-	line-height: 1.38;
+	font-size: 16px;
+	color: black;
+	text-align: justify;
 }
 
 
@@ -817,14 +670,18 @@ body.about div.container-content img {
 	margin-right: auto;
 	margin-left: auto;
 	border: 2px solid black;
+	margin-top: 50px;
+	margin-left: 60px;
+	margin-right: auto;
 }
 
 body.about div.container-content section.text {
 	text-align  : right;
 	padding 	: 0 20px;
 	color 		: #111;
-	width: 670px;
-	margin-top: -120px;
+	width: 550px;
+	margin-top: -265px;
+	margin-right: 50px;
 }
 
 body.about div.container-content section.text h2 {
@@ -837,10 +694,7 @@ body.about div.container-content section.text h2 {
 body.about div.container-content section.text p {
 	font-size 	: 17px;
 	padding-left: 5px; 
-}
-
-body.about div.container-content div.fade {
-	background:url('images/fade-1.png') repeat-x;
+	text-align: justify;
 }
 
 body.about  {
@@ -850,7 +704,7 @@ body.about  {
 	-o-font-smoothing : antialiased;
 	-ms-font-smoothing : antialiased;
 	background:url('images/noise.png') repeat left top,
-		url('images/fade-1.png') repeat-x 0 104%,
+		url('images/fade-1.png') repeat-x 0 100%,
 		url('images/backimg.png') 0 60px no-repeat,
 		url('images/bg1.jpg') no-repeat;
 }
@@ -875,7 +729,7 @@ body.about div.container-title section.title h1 {
 	height: 55px;
 	text-align: right;
 	line-height: 55px;
-	padding: 0px 345px 0px 0px;
+	padding: 0px 805px 0px 0px;
 	background: url('images/contact.jpg') no-repeat,url('images/contact1.png') no-repeat;
 }
 
@@ -883,13 +737,6 @@ body.about div.container-title section.title h1 {
 /*.................about.................*/
 /*.................services.............*/
 
-body.services div.container-content img {
-	border: 2px solid black;
-	border-radius: 5px;
-	margin-left: 90px;
-	margin-left: auto;
-	margin-right: auto;
-}
 
 body.services div.container-content section.text {
 	text-align  : right;
@@ -910,11 +757,6 @@ body.services div.container-content section.text p {
 	padding-left: 5px; 
 }
 
-body.services div.container-content div.fade {
-	background:url('images/fade-1.png') repeat-x;
-}
-
-
 body.services {
 	font-family: 'Nazanin', Arial, sans-serif;
 	-webkit-font-smoothing : antialiased;
@@ -922,7 +764,7 @@ body.services {
 	-o-font-smoothing : antialiased;
 	-ms-font-smoothing : antialiased;
 	background:url('images/noise.png') repeat left top,
-		url('images/fade-1.png') repeat-x 0 63%,
+		url('images/fade-1.png') repeat-x 0 85%,
 		url('images/backimg.png') 0 60px no-repeat,
 		url('images/bg4.jpg') no-repeat;
 }
@@ -947,7 +789,7 @@ body.services div.container-title section.title h1 {
 	height: 55px;
 	text-align: right;
 	line-height: 55px;
-	padding: 0px 345px 0px 0px;
+	padding: 0px 805px 0px 0px;
 	background: url('images/contact.jpg') no-repeat,url('images/contact1.png') no-repeat;
 }
 
@@ -963,7 +805,7 @@ body.gallery {
 	-o-font-smoothing : antialiased;
 	-ms-font-smoothing : antialiased;
 	background:url('images/noise.png') repeat left top,
-		url('images/fade-1.png') repeat-x 0 50%,
+		url('images/fade-1.png') repeat-x 0 69%,
 		url('images/backimg.png') 0 60px no-repeat,
 		url('images/bg2.jpg') repeat-x left top;
 }
@@ -989,32 +831,141 @@ body.gallery div.container-title section.title h1 {
 	height: 55px;
 	text-align: right;
 	line-height: 55px;
-	padding: 0px 345px 0px 0px;
+	padding: 0px 805px 0px 0px;
 	background: url('images/contact.jpg') no-repeat,url('images/contact1.png') no-repeat;
 }
 /*content..........................................................*/
-
 body.gallery div.container-content {
-	min-height: auto;
+	min-height: 500px
 }
 
-
-body.gallery .gallery {
-	width: 860px;
-}
-
-body.gallery .gallery li {
+body.gallery #outer_container {
+	position:fixed;
+	bottom:-160px;	/*-160px to hide*/
+	margin:0px 380px 10px 0px;
+	height:322px;
+	padding:0;
 	float: left;
-	margin-right: 15px;
-	margin-bottom: 10px;
-	margin-left: 130px;
+	-webkit-box-reflect:
+		below 5px -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(transparent),
+			color-stop(0.6, transparent),
+			to(rgb(18, 18, 18))
+		);
 }
 
-body.gallery .gallery li a {
-	display: block;
-	border: 8px solid #FAFAFA;
-	border-bottom-width: 30px;
-	border-radius: 2px;
+body.gallery #thumbScroller {
+	position:relative;
+	overflow:hidden;
+	margin-left: 230px;
+}
+
+body.gallery #thumbScroller .containers {
+	position:relative;
+	left:0;
+}
+
+body.gallery #thumbScroller .contents {
+	float:left;
+	margin: 0 auto;
+}
+
+body.gallery #thumbScroller .contents div {
+	margin:2px;
+	height:100%;
+}
+
+#thumbScroller img,
+body.gallery img.clone {
+	border:5px solid #fff;
+	height:120px;
+}
+
+body.gallery #thumbScroller a {
+	padding:2px;
+	outline:none;
+}
+
+body.gallery .fp_overlay {
+	width:50%; 
+	height:100%;
+	position:fixed;
+	top:0px;
+	left:0px;
+}
+
+body.gallery .fp_loading {
+	display:none;
+	position:fixed;
+	top:50%;
+	left:50%;
+	margin:-35px 0px 0px -35px;
+	background:#000 url('images/icons/loader.gif') no-repeat center center;
+	width:70px;
+	height:70px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	z-index:999;
+	opacity:0.7;
+}
+
+.fp_next,
+body.gallery .fp_prev {
+	width:50px;
+	height:50px;
+	position:fixed;
+	top:50%;
+	margin-top:-15px;
+	cursor:pointer;
+	opacity:0.5;
+}
+
+.fp_next:hover,
+body.gallery .fp_prev:hover {
+	opacity:0.9;
+}
+
+body.gallery .fp_next {
+	background:#000 url('images/icons/next.png') no-repeat center center;
+	right:-50px;
+}
+
+body.gallery .fp_prev {
+	background:#000 url('images/icons/prev.png') no-repeat center center;
+	left:-50px;
+}
+
+body.gallery .fp_thumbtoggle {
+	height:50px;
+	background:#000;
+	width:200px;
+	text-align:center;
+	letter-spacing:1px;
+	text-shadow:1px 1px 1px #000;
+	position:fixed;
+	left:50%;
+	margin-left:-100px;
+	bottom:-50px;
+	line-height:50px;
+	cursor:pointer;
+	opacity:0.8;
+}
+
+body.gallery .fp_thumbtoggle:hover {
+	opacity:1.0;
+}
+
+body.gallery img.fp_preview {
+	margin-left: 350px;
+	left:0px;
+	top:0px;
+	width:50%;
+	border: 2px solid darkgray;
+	border-radius: 10px;
 }
 
 /*....................copyright...................*/
@@ -1067,7 +1018,7 @@ body.executive div.container-title section.title h1 {
 	height: 55px;
 	text-align: right;
 	line-height: 55px;
-	padding: 0px 345px 0px 0px;
+	padding: 0px 805px 0px 0px;
 	background: url('images/contact.jpg') no-repeat,url('images/contact1.png') no-repeat;
 }
 /*content..........................................................*/
@@ -1276,7 +1227,7 @@ body.contact div.container-title section.title div.tab div.tab-inner p.s1 {
 
 body.contact div.container-title section.title div.tab div.tab-inner ul li.con a:hover {
 	margin-bottom: 0;
-	width: 243px;
+    width: 215px;
 	height: 71px;
 	position: absolute;
 }
@@ -1319,7 +1270,6 @@ body.contact div.container-title section.title div.tab div.tab-inner ul li {
 }
 
 body.contact div.container-title section.title div.tab div.tab-inner ul li a {
-	background-position: 16px -89px;
 	padding-left: 40px;
 	position: relative;
 	z-index: 10;
@@ -1346,24 +1296,20 @@ body.contact div.container-title section.title div.tab div.tab-inner ul li a spa
 
 /*content..........................................................*/
 body.contact div.container-content {
-	min-height: 650px;
+	min-height: 500px;
 }
 
 body.contact div.container-content form div.left {
-	margin-left: 205px;
 	width: auto;
 	margin-top: 15px;
 }
 
 body.contact div.container-content form div.right {
 	width:auto;
-	margin-left:200px;	
 }
 
 body.contact div.container-content form div.right input.textnameicon {
 	width: 260px;
-	margin-right: 80px;
-	margin-left: 100px;
 	min-height: 26px;
 }
 
@@ -1375,13 +1321,11 @@ body.contact div.container-content form div.right input.textmailicon {
 body.contact div.container-content form div.left input.texturlicon {
 	width: 260px;
 	min-height: 26px;
-	margin-left: 100px;
 }
 
 body.contact div.container-content form div.left input.texttexticon {
 	width: 260px;
 	min-height: 26px;
-	margin-left: 39px;
 }
 
 body.contact form {
@@ -1407,7 +1351,7 @@ body.contact input:-ms-placeholder {
 body.contact form textarea {
 	color					: black;
 	font-size				: 18px;
-	width					: 620px;
+	width					: 522px;
 	min-height				: 160px;
 	margin-top: 20px;
 	margin-left: 245px;
@@ -1979,7 +1923,7 @@ body.product div.container-title section.title h1 {
 	height: 55px;
 	text-align: right;
 	line-height: 55px;
-	padding: 0px 345px 0px 0px;
+	padding: 0px 805px 0px 0px;
 	background: url('images/contact.jpg') no-repeat,url('images/contact1.png') no-repeat;
 }
 
@@ -1992,8 +1936,9 @@ body.product menu.linkmenu li:hover {
 }
 
 body.product menu.linkmenu {
-	padding-left: 140px;
+	padding-left: 190px;
 	padding-top: 50px;
+	width: 135px;
 }
 
 body.product menu.linkmenu li a {
@@ -2009,15 +1954,17 @@ body.product menu.linkmenu li a {
 body.product menu.linkmenu li {
 	height 				: 40px;
 	line-height			: 30px;
-	width				: 215px;
+	width				: 150px;
 	background-repeat	: no-repeat;
 	background-position	: 0 39px;
 	border-bottom: 1px solid #E2E2E2;
+	margin-bottom: 10px;
 }
 
 body.product menu.linkmenu li:hover a {
 	color				: darkorange;
 	display				: block;
+	font-weight: bold;
 }
 
 body.product menu.linkmenu a:visited li {
@@ -2031,6 +1978,61 @@ body.product div.container-content {
 	min-height: 650px;
 }
 
+body.product div.container-content div.content {
+	display: inline;
+	float: left;
+	width: 750px;
+	margin: 4px 0 0 20px;
+}
+
+body.product div.container-content div.content h3 {
+	margin: 6px 0 0 2px;
+	font-size: 18px;
+	color: black;
+}
+
+
+body.product div.container-content div.content menu.productlist li:hover {
+	list-style-type		: none;
+	background-position	: 0 0;
+}
+
+body.product div.container-content div.content menu.productlist {
+	overflow: hidden;
+	width: 880px;
+	margin-top: 20px;
+	padding: 2px 0 0 36px;
+	color: #6A6D7E;
+	font-family: "Verdana";
+	background: url('images/products_list.gif') no-repeat 13px top;
+}
+
+body.product div.container-content div.content menu.productlist li a {
+	display				: block;
+	color				:darkblue;
+	text-decoration		: none;
+	text-align			: center;
+	font-weight			: normal;
+	vertical-align		: baseline;
+	font-size			: 14px;
+}
+
+body.product div.container-content div.content menu.productlist li {
+	margin-bottom: 10px;
+	float: left;
+	padding: 0 12px;
+	background: url('images/list_block.gif') no-repeat 1px 4px;
+}
+
+body.product div.container-content div.content menu.productlist li:hover a {
+	color				: darkorange;
+	display				: block;
+}
+
+body.product div.container-content div.content menu.productlist a:visited li {
+	background-position	: 0 0;
+}
+
 body.product div.container-content div.pro {
 	width: 700px;
 }
@@ -2042,15 +2044,31 @@ body.product div.container-content div.pro li {
 
 body.product div.container-content div.pro li a {
 	display: block;
-	border: 8px solid #FAFAFA;
 	border-bottom-width: 30px;
-	border-radius: 2px;
 }
 
 body.product div.container-content {
 	width: 200px;
 	margin-bottom: 30px;
 	margin-right: 30px;
+}
+
+body.product div.container-content div.gallery ul.prolist {
+	overflow: hidden;
+	width: 760px;
+	margin: 20px 0 0 0;
+	padding-left: 0px;
+	font-family: "Trebuchet MS",sans-serif;
+}
+
+body.product div.container-content div.gallery ul.prolist li {
+	display: block;
+	position: relative;
+	float: left;
+	width: 182px;
+	height: 260px;
+	margin: 0 30px 0 0;
+	text-align: center;
 }
 
 body.product div.container-content figure {
@@ -2290,7 +2308,7 @@ body.suzuki div.container-title section.title h1 {
 	height: 55px;
 	text-align: right;
 	line-height: 55px;
-	padding: 0px 345px 0px 0px;
+	padding: 0px 805px 0px 0px;
 	background: url('images/contact.jpg') no-repeat,url('images/contact1.png') no-repeat;
 }
 
@@ -2611,7 +2629,7 @@ body.ebm div.container-title section.title h1 {
 	height: 55px;
 	text-align: right;
 	line-height: 55px;
-	padding: 0px 345px 0px 0px;
+	padding: 0px 805px 0px 0px;
 	background: url('images/contact.jpg') no-repeat,url('images/contact1.png') no-repeat;
 }
 
@@ -2932,7 +2950,7 @@ body.lg div.container-title section.title h1 {
 	height: 55px;
 	text-align: right;
 	line-height: 55px;
-	padding: 0px 345px 0px 0px;
+	padding: 0px 805px 0px 0px;
 	background: url('images/contact.jpg') no-repeat,url('images/contact1.png') no-repeat;
 }
 
@@ -2951,7 +2969,6 @@ body.lg {
 body.lg menu.linkmenu li:hover {
 	list-style-type		: none;
 	background-position	: 0 0;
-	width				: 276px;
 }
 
 body.lg menu.linkmenu {
@@ -3253,7 +3270,7 @@ body.lens div.container-title section.title h1 {
 	height: 55px;
 	text-align: right;
 	line-height: 55px;
-	padding: 0px 345px 0px 0px;
+	padding: 0px 805px 0px 0px;
 	background: url('images/contact.jpg') no-repeat,url('images/contact1.png') no-repeat;
 }
 
@@ -3574,7 +3591,7 @@ body.bruket div.container-title section.title h1 {
 	height: 55px;
 	text-align: right;
 	line-height: 55px;
-	padding: 0px 345px 0px 0px;
+	padding: 0px 805px 0px 0px;
 	background: url('images/contact.jpg') no-repeat,url('images/contact1.png') no-repeat;
 }
 
