@@ -682,6 +682,7 @@ body.about div.container-content section.text {
 	padding 	: 0 20px;
 	color 		: #111;
 	width: 550px;
+	margin-top: -265px;
 	margin-right: 50px;
 }
 
@@ -1026,10 +1027,12 @@ body.executive div.container-title section.title h1 {
 
 body.executive div.container-content {
 	min-height: 550px;
+	width: 950px;
 }
 
 body.executive section.slideshow {
 	width: 450px;
+	float: left;
 }
 
 body.executive section.slideshow ul.train > li {
@@ -1084,11 +1087,6 @@ body.executive section.slideshow .train > li {
 	-ms-transition: all 800ms ease-out;
 }
 
-body.executive .step1  {
-	width: 450px;
-	float: left;
-}
-
 body.executive .step1 section.slideshow .train > li.pic1 {
 	-webkit-transform: scale(1);
 	-moz-transform: scale(1);
@@ -1131,7 +1129,7 @@ body.executive .step5 section.slideshow .train > li.pic5 {
 body.executive div.container-content div.project {
 	min-height: 650px;
 	width: 495px;
-	float: right;
+	margin-left: 500px;
 }
 
 body.executive div.container-content div.project h2 {
@@ -1140,13 +1138,11 @@ body.executive div.container-content div.project h2 {
 	text-align: right;
 	font-size: 22px;
 	font-weight: bold;
-
 }
 
 body.executive div.container-content div.project ul {
 	padding:7px 10px;
 	margin-top: 5px;
-	float: right;
 }
 
 body.executive div.container-content div.project ul li {
@@ -1154,8 +1150,8 @@ body.executive div.container-content div.project ul li {
 	font-size:18px;
 	line-height: 20px;
 	color: darkblue;
-	float: right;
 	margin-right: 100px;
+	text-align: right;
 }
 
 /*......................executive....................*/
